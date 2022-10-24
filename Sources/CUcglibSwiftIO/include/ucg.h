@@ -741,13 +741,16 @@ uint8_t ucg_GetFontCapitalAHeight(ucg_t *ucg) UCG_NOINLINE;
 uint8_t ucg_IsGlyph(ucg_t *ucg, uint8_t requested_encoding);
 int8_t ucg_GetGlyphWidth(ucg_t *ucg, uint8_t requested_encoding);
 
-ucg_int_t ucg_GetFontAscent(ucg_t *ucg) {
+/*ucg_int_t ucg_GetFontAscent(ucg_t *ucg) {
     return ucg->font_ref_ascent;
 }
 
 ucg_int_t ucg_GetFontDescent(ucg_t *ucg) {
     return ucg->font_ref_descent;
-}
+}*/
+
+ucg_int_t ucg_GetFontAscent(ucg_t *ucg);
+ucg_int_t ucg_GetFontDescent(ucg_t *ucg);
 
 //#define ucg_GetFontAscent(ucg)	((ucg)->font_ref_ascent)
 //#define ucg_GetFontDescent(ucg)	((ucg)->font_ref_descent)
