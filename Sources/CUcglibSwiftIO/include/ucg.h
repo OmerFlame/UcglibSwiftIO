@@ -432,13 +432,16 @@ struct _ucg_t
   
 };
 
-ucg_int_t ucg_GetWidth(ucg_t *ucg) {
+/*ucg_int_t ucg_GetWidth(ucg_t *ucg) {
     return ucg->dimension.w;
 }
 
 ucg_int_t ucg_GetHeight(ucg_t *ucg) {
     return ucg->dimension.h;
-}
+}*/
+
+ucg_int_t ucg_GetWidth(ucg_t *ucg);
+ucg_int_t ucg_GetHeight(ucg_t *ucg);
 
 //#define ucg_GetWidth(ucg) ((ucg)->dimension.w)
 //#define ucg_GetHeight(ucg) ((ucg)->dimension.h)
