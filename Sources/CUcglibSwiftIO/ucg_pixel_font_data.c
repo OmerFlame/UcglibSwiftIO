@@ -5,7 +5,7 @@
   Glyphs: 96/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_hf[902] UCG_FONT_SECTION("ucg_font_04b_03b_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_hf[902]  = {
   96,1,3,3,3,3,1,1,4,5,6,0,255,5,255,5,
   0,1,35,2,98,32,6,115,123,68,0,33,8,114,138,72,
   90,12,0,34,8,116,140,72,118,52,0,35,12,118,158,164,
@@ -69,7 +69,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_hf[902] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 18/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_hn[179] UCG_FONT_SECTION("ucg_font_04b_03b_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_hn[179]  = {
   18,1,3,3,3,3,1,1,4,5,6,0,255,5,255,5,
   0,0,0,0,0,32,6,115,123,68,0,42,9,116,140,72,
   40,37,14,6,43,8,116,220,208,40,14,3,44,7,115,123,
@@ -88,7 +88,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_hn[179] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 95/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_hr[896] UCG_FONT_SECTION("ucg_font_04b_03b_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_hr[896]  = {
   95,1,3,3,3,3,1,1,4,5,6,0,255,5,255,5,
   0,1,35,2,98,32,6,115,123,68,0,33,8,114,138,72,
   90,12,0,34,8,116,140,72,118,52,0,35,12,118,158,164,
@@ -152,7 +152,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_hr[896] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 96/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_tf[732] UCG_FONT_SECTION("ucg_font_04b_03b_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_tf[732]  = {
   96,0,2,3,3,3,1,3,4,5,6,0,255,5,255,5,
   0,0,248,1,247,32,4,64,46,33,6,105,42,83,0,34,
   6,211,51,145,20,35,9,109,122,169,42,85,165,0,36,9,
@@ -205,7 +205,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_tf[732] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 18/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_tn[143] UCG_FONT_SECTION("ucg_font_04b_03b_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_tn[143]  = {
   18,0,3,3,3,3,1,3,4,5,6,0,255,5,255,5,
   0,0,0,0,0,32,4,64,46,42,6,91,51,34,57,43,
   8,219,114,34,147,8,0,44,6,210,109,36,0,45,5,75,
@@ -221,7 +221,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_tn[143] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 95/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03b_tr[728] UCG_FONT_SECTION("ucg_font_04b_03b_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03b_tr[728]  = {
   95,0,2,3,3,3,1,3,4,5,6,0,255,5,255,5,
   0,0,248,1,247,32,4,64,46,33,6,105,42,83,0,34,
   6,211,51,145,20,35,9,109,122,169,42,85,165,0,36,9,
@@ -274,7 +274,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03b_tr[728] UCG_FONT_SECTION("ucg_font_04b
   Glyphs: 96/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_hf[898] UCG_FONT_SECTION("ucg_font_04b_03_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_hf[898]  = {
   96,1,3,2,3,3,1,2,4,5,7,0,254,5,254,5,
   0,1,20,2,77,32,5,124,248,28,33,7,122,20,73,45,
   5,34,7,124,24,73,59,3,35,12,126,60,165,65,74,162,
@@ -338,7 +338,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_hf[898] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 18/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_hn[168] UCG_FONT_SECTION("ucg_font_04b_03_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_hn[168]  = {
   18,1,3,2,3,3,1,1,4,5,6,0,255,5,254,5,
   0,0,0,0,0,32,6,116,124,54,0,42,9,116,140,36,
   170,228,48,0,43,8,116,220,104,202,49,0,44,7,115,123,
@@ -356,7 +356,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_hn[168] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 95/97
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_hr[893] UCG_FONT_SECTION("ucg_font_04b_03_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_hr[893]  = {
   95,1,3,2,3,3,1,2,4,5,7,0,254,5,254,5,
   0,1,20,2,77,32,5,124,248,28,33,7,122,20,73,45,
   5,34,7,124,24,73,59,3,35,12,126,60,165,65,74,162,
@@ -419,7 +419,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_hr[893] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 96/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_tf[765] UCG_FONT_SECTION("ucg_font_04b_03_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_tf[765]  = {
   96,0,2,2,3,3,1,3,4,5,7,0,254,5,254,5,
   0,0,251,1,247,32,4,64,50,33,5,105,42,43,34,6,
   211,51,73,5,35,10,109,122,213,80,213,80,21,0,36,10,
@@ -474,7 +474,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_tf[765] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 18/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_tn[158] UCG_FONT_SECTION("ucg_font_04b_03_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_tn[158]  = {
   18,0,2,2,3,3,1,3,4,5,6,0,255,5,254,5,
   0,0,0,0,0,32,4,64,50,42,6,91,51,169,3,43,
   7,219,114,105,37,0,44,5,210,109,10,45,5,75,51,3,
@@ -491,7 +491,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_tn[158] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 95/97
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_03_tr[761] UCG_FONT_SECTION("ucg_font_04b_03_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_03_tr[761]  = {
   95,0,2,2,3,3,1,3,4,5,7,0,254,5,254,5,
   0,0,251,1,247,32,4,64,50,33,5,105,42,43,34,6,
   211,51,73,5,35,10,109,122,213,80,213,80,21,0,36,10,
@@ -546,7 +546,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_03_tr[761] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 102/106
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_hf[824] UCG_FONT_SECTION("ucg_font_04b_24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_hf[824]  = {
   102,1,3,2,3,3,1,1,4,5,6,0,255,5,0,5,
   0,0,251,1,247,32,5,114,122,20,33,7,114,138,164,150,
   1,34,7,116,140,164,157,6,35,8,116,156,104,138,166,24,
@@ -605,7 +605,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_hf[824] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 18/106
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_hn[158] UCG_FONT_SECTION("ucg_font_04b_24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_hn[158]  = {
   18,1,3,2,3,3,1,1,4,3,6,0,255,5,0,5,
   0,0,0,0,0,32,5,114,122,20,42,9,116,140,36,170,
   228,48,0,43,8,116,220,104,202,49,0,44,7,115,123,56,
@@ -622,7 +622,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_hn[158] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 95/106
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_hr[768] UCG_FONT_SECTION("ucg_font_04b_24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_hr[768]  = {
   95,1,3,2,3,3,1,1,4,5,6,0,255,5,0,5,
   0,0,251,1,247,32,5,114,122,20,33,7,114,138,164,150,
   1,34,7,116,140,164,157,6,35,8,116,156,104,138,166,24,
@@ -678,7 +678,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_hr[768] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 102/106
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_tf[759] UCG_FONT_SECTION("ucg_font_04b_24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_tf[759]  = {
   102,0,2,2,3,3,1,4,4,5,6,0,255,5,0,5,
   0,0,230,1,207,32,4,64,84,33,6,105,84,86,0,34,
   6,211,101,146,10,35,8,107,228,210,74,43,1,36,8,107,
@@ -733,7 +733,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_tf[759] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 18/106
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_tn[133] UCG_FONT_SECTION("ucg_font_04b_24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_tn[133]  = {
   18,0,2,3,2,3,1,3,4,3,6,0,255,5,0,5,
   0,0,0,0,0,32,4,32,21,42,6,175,153,40,7,43,
   7,111,185,104,138,0,44,6,234,54,9,0,45,5,167,153,
@@ -749,7 +749,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_tn[133] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 95/106
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_04b_24_tr[707] UCG_FONT_SECTION("ucg_font_04b_24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_04b_24_tr[707]  = {
   95,0,2,2,3,3,1,4,4,5,6,0,255,5,0,5,
   0,0,230,1,207,32,4,64,84,33,6,105,84,86,0,34,
   6,211,101,146,10,35,8,107,228,210,74,43,1,36,8,107,
@@ -801,7 +801,7 @@ const ucg_fntpgm_uint8_t ucg_font_04b_24_tr[707] UCG_FONT_SECTION("ucg_font_04b_
   Glyphs: 249/5205
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_67_75[4131] UCG_FONT_SECTION("ucg_font_10x20_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_67_75[4131]  = {
   249,0,3,3,4,5,5,5,5,10,20,0,252,16,252,16,
   252,4,31,6,130,0,29,218,32,212,57,68,68,34,146,136,
   36,34,137,72,34,146,136,36,34,137,72,34,146,136,164,114,
@@ -1067,7 +1067,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_67_75[4131] UCG_FONT_SECTION("ucg_font_1
   Glyphs: 136/5205
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_78_79[2449] UCG_FONT_SECTION("ucg_font_10x20_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_78_79[2449]  = {
   136,0,3,3,4,4,4,4,5,10,14,0,255,16,252,16,
   252,0,0,0,0,1,20,138,200,122,114,64,40,28,138,3,
   196,18,97,232,16,138,8,229,0,2,27,202,136,58,114,64,
@@ -1228,7 +1228,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_78_79[2449] UCG_FONT_SECTION("ucg_font_1
   Glyphs: 191/5205
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_mf[4198] UCG_FONT_SECTION("ucg_font_10x20_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_mf[4198]  = {
   191,2,4,2,4,5,1,3,5,10,20,0,252,13,252,13,
   0,2,124,5,71,32,8,74,67,63,255,175,0,33,13,74,
   67,63,145,208,127,143,17,234,201,1,34,15,74,67,63,137,
@@ -1498,7 +1498,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_mf[4198] UCG_FONT_SECTION("ucg_font_10x2
   Glyphs: 95/5205
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_mr[1961] UCG_FONT_SECTION("ucg_font_10x20_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_mr[1961]  = {
   95,2,4,2,4,5,1,3,5,10,20,0,252,13,252,13,
   0,2,124,5,71,32,8,74,67,63,255,175,0,33,13,74,
   67,63,145,208,127,143,17,234,201,1,34,15,74,67,63,137,
@@ -1628,7 +1628,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_mr[1961] UCG_FONT_SECTION("ucg_font_10x2
   Glyphs: 191/5205
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_tf[3058] UCG_FONT_SECTION("ucg_font_10x20_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_tf[3058]  = {
   191,0,3,3,4,5,4,6,5,10,20,0,252,13,252,13,
   0,1,243,3,214,32,6,0,16,214,0,33,8,210,24,212,
   120,48,17,34,11,70,52,213,16,49,73,66,17,0,35,26,
@@ -1827,7 +1827,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_tf[3058] UCG_FONT_SECTION("ucg_font_10x2
   Glyphs: 95/5205
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_10x20_tr[1417] UCG_FONT_SECTION("ucg_font_10x20_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_10x20_tr[1417]  = {
   95,0,3,3,4,4,4,6,5,10,20,0,252,13,252,13,
   0,1,240,3,208,32,5,0,8,107,33,8,210,12,106,60,
   152,8,34,11,70,154,106,136,152,36,161,8,0,35,25,185,
@@ -1923,7 +1923,7 @@ const ucg_fntpgm_uint8_t ucg_font_10x20_tr[1417] UCG_FONT_SECTION("ucg_font_10x2
   Glyphs: 191/919
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_4x6_mf[1593] UCG_FONT_SECTION("ucg_font_4x6_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_4x6_mf[1593]  = {
   191,2,3,2,3,3,1,1,4,4,6,0,255,5,255,5,
   255,1,6,2,9,32,6,116,124,54,0,33,8,116,156,172,
   14,196,0,34,7,116,140,164,157,6,35,11,116,140,36,25,
@@ -2030,7 +2030,7 @@ const ucg_fntpgm_uint8_t ucg_font_4x6_mf[1593] UCG_FONT_SECTION("ucg_font_4x6_mf
   Glyphs: 95/919
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_4x6_mr[786] UCG_FONT_SECTION("ucg_font_4x6_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_4x6_mr[786]  = {
   95,2,3,2,3,3,1,1,4,4,6,0,255,5,255,5,
   255,1,6,2,9,32,6,116,124,54,0,33,8,116,156,172,
   14,196,0,34,7,116,140,164,157,6,35,11,116,140,36,25,
@@ -2087,7 +2087,7 @@ const ucg_fntpgm_uint8_t ucg_font_4x6_mr[786] UCG_FONT_SECTION("ucg_font_4x6_mr"
   Glyphs: 191/919
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_4x6_tf[1469] UCG_FONT_SECTION("ucg_font_4x6_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_4x6_tf[1469]  = {
   191,0,2,2,3,3,2,4,4,4,6,0,255,5,255,5,
   255,0,238,1,220,32,5,128,205,0,33,6,233,200,172,0,
   34,6,147,203,36,21,35,10,172,200,164,52,84,26,42,1,
@@ -2186,7 +2186,7 @@ const ucg_fntpgm_uint8_t ucg_font_4x6_tf[1469] UCG_FONT_SECTION("ucg_font_4x6_tf
   Glyphs: 95/919
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_4x6_tr[726] UCG_FONT_SECTION("ucg_font_4x6_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_4x6_tr[726]  = {
   95,0,2,2,3,3,2,4,4,4,6,0,255,5,255,5,
   255,0,238,1,220,32,5,128,205,0,33,6,233,200,172,0,
   34,6,147,203,36,21,35,10,172,200,164,52,84,26,42,1,
@@ -2239,7 +2239,7 @@ const ucg_fntpgm_uint8_t ucg_font_4x6_tr[726] UCG_FONT_SECTION("ucg_font_4x6_tr"
   Glyphs: 191/1848
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_8f[2233] UCG_FONT_SECTION("ucg_font_5x7_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_8f[2233]  = {
   191,3,4,2,4,4,1,1,5,8,8,0,255,6,255,6,
   0,1,92,2,222,32,6,136,225,231,8,33,9,136,97,205,
   181,7,164,1,34,11,136,225,76,164,18,169,68,158,12,35,
@@ -2386,7 +2386,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_8f[2233] UCG_FONT_SECTION("ucg_font_5x7_8f
   Glyphs: 95/1848
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_8r[1085] UCG_FONT_SECTION("ucg_font_5x7_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_8r[1085]  = {
   95,3,4,2,4,4,1,1,5,8,8,0,255,6,255,6,
   0,1,92,2,222,32,6,136,225,231,8,33,9,136,97,205,
   181,7,164,1,34,11,136,225,76,164,18,169,68,158,12,35,
@@ -2461,7 +2461,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_8r[1085] UCG_FONT_SECTION("ucg_font_5x7_8r
   Glyphs: 191/1848
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_mf[1910] UCG_FONT_SECTION("ucg_font_5x7_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_mf[1910]  = {
   191,2,3,2,3,3,1,1,4,5,7,0,255,6,255,6,
   0,1,43,2,115,32,5,125,125,30,33,8,125,173,176,29,
   202,1,34,9,125,157,82,18,37,57,3,35,11,125,237,36,
@@ -2588,7 +2588,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_mf[1910] UCG_FONT_SECTION("ucg_font_5x7_mf
   Glyphs: 95/1848
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_mr[937] UCG_FONT_SECTION("ucg_font_5x7_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_mr[937]  = {
   95,2,3,2,3,3,1,1,4,5,7,0,255,6,255,6,
   0,1,43,2,115,32,5,125,125,30,33,8,125,173,176,29,
   202,1,34,9,125,157,82,18,37,57,3,35,11,125,237,36,
@@ -2654,7 +2654,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_mr[937] UCG_FONT_SECTION("ucg_font_5x7_mr"
   Glyphs: 191/1848
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_tf[1669] UCG_FONT_SECTION("ucg_font_5x7_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_tf[1669]  = {
   191,0,2,2,3,3,3,4,4,5,7,0,255,6,255,6,
   0,1,18,2,47,32,5,0,189,1,33,6,177,177,25,41,
   34,7,91,183,73,86,0,35,10,45,177,171,134,170,134,170,
@@ -2766,7 +2766,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_tf[1669] UCG_FONT_SECTION("ucg_font_5x7_tf
   Glyphs: 95/1848
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_5x7_tr[833] UCG_FONT_SECTION("ucg_font_5x7_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_5x7_tr[833]  = {
   95,0,2,2,3,3,3,4,4,5,7,0,255,6,255,6,
   0,1,18,2,47,32,5,0,189,1,33,6,177,177,25,41,
   34,7,91,183,73,86,0,35,10,45,177,171,134,170,134,170,
@@ -2826,7 +2826,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x7_tr[833] UCG_FONT_SECTION("ucg_font_5x7_tr"
   Glyphs: 191/1426
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_8f[2279] UCG_FONT_SECTION("ucg_font_5x8_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_8f[2279]  = {
   191,3,4,2,4,4,1,1,5,8,8,0,255,6,255,6,
   0,1,106,2,237,32,6,136,225,231,8,33,9,136,97,205,
   181,7,164,1,34,11,136,225,76,164,18,169,68,158,12,35,
@@ -2976,7 +2976,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_8f[2279] UCG_FONT_SECTION("ucg_font_5x8_8f
   Glyphs: 95/1426
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_8r[1102] UCG_FONT_SECTION("ucg_font_5x8_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_8r[1102]  = {
   95,3,4,2,4,4,1,1,5,8,8,0,255,6,255,6,
   0,1,106,2,237,32,6,136,225,231,8,33,9,136,97,205,
   181,7,164,1,34,11,136,225,76,164,18,169,68,158,12,35,
@@ -3052,7 +3052,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_8r[1102] UCG_FONT_SECTION("ucg_font_5x8_8r
   Glyphs: 191/1426
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_mf[2007] UCG_FONT_SECTION("ucg_font_5x8_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_mf[2007]  = {
   191,2,3,2,3,4,1,1,4,5,8,0,255,6,255,6,
   0,1,71,2,151,32,6,197,250,188,2,33,9,197,250,64,
   216,14,229,0,34,10,197,218,73,148,68,73,206,0,35,13,
@@ -3185,7 +3185,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_mf[2007] UCG_FONT_SECTION("ucg_font_5x8_mf
   Glyphs: 95/1426
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_mr[987] UCG_FONT_SECTION("ucg_font_5x8_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_mr[987]  = {
   95,2,3,2,3,4,1,1,4,5,8,0,255,6,255,6,
   0,1,71,2,151,32,6,197,250,188,2,33,9,197,250,64,
   216,14,229,0,34,10,197,218,73,148,68,73,206,0,35,13,
@@ -3254,7 +3254,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_mr[987] UCG_FONT_SECTION("ucg_font_5x8_mr"
   Glyphs: 191/1426
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_tf[1778] UCG_FONT_SECTION("ucg_font_5x8_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_tf[1778]  = {
   191,0,2,2,3,4,3,4,4,5,8,0,255,6,255,6,
   0,1,38,2,77,32,5,0,126,3,33,7,49,99,51,82,
   0,34,7,155,110,147,172,0,35,13,61,98,87,166,52,84,
@@ -3373,7 +3373,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_tf[1778] UCG_FONT_SECTION("ucg_font_5x8_tf
   Glyphs: 95/1426
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_5x8_tr[877] UCG_FONT_SECTION("ucg_font_5x8_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_5x8_tr[877]  = {
   95,0,2,2,3,4,3,4,4,5,8,0,255,6,255,6,
   0,1,38,2,77,32,5,0,126,3,33,7,49,99,51,82,
   0,34,7,155,110,147,172,0,35,13,61,98,87,166,52,84,
@@ -3435,7 +3435,7 @@ const ucg_fntpgm_uint8_t ucg_font_5x8_tr[877] UCG_FONT_SECTION("ucg_font_5x8_tr"
   Glyphs: 191/1597
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x10_mf[2414] UCG_FONT_SECTION("ucg_font_6x10_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x10_mf[2414]  = {
   191,2,3,2,3,4,1,2,4,6,10,0,254,7,254,7,
   0,1,126,3,8,32,7,214,248,249,35,0,33,10,214,248,
   145,180,59,152,83,0,34,11,214,248,129,36,75,178,36,231,
@@ -3593,7 +3593,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x10_mf[2414] UCG_FONT_SECTION("ucg_font_6x10_
   Glyphs: 95/1597
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x10_mr[1162] UCG_FONT_SECTION("ucg_font_6x10_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x10_mr[1162]  = {
   95,2,3,2,3,4,1,2,4,5,10,0,254,7,254,7,
   0,1,126,3,8,32,7,214,248,249,35,0,33,10,214,248,
   145,180,59,152,83,0,34,11,214,248,129,36,75,178,36,231,
@@ -3673,7 +3673,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x10_mr[1162] UCG_FONT_SECTION("ucg_font_6x10_
   Glyphs: 191/1597
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x10_tf[2009] UCG_FONT_SECTION("ucg_font_6x10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x10_tf[2009]  = {
   191,0,3,2,3,4,3,5,4,6,10,0,254,7,254,7,
   0,1,66,2,136,32,5,0,98,7,33,7,57,67,199,160,
   4,34,7,155,82,71,98,9,35,14,61,66,79,41,73,6,
@@ -3806,7 +3806,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x10_tf[2009] UCG_FONT_SECTION("ucg_font_6x10_
   Glyphs: 95/1597
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x10_tr[971] UCG_FONT_SECTION("ucg_font_6x10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x10_tr[971]  = {
   95,0,3,2,3,4,3,5,4,5,10,0,254,7,254,7,
   0,1,66,2,136,32,5,0,98,7,33,7,57,67,199,160,
   4,34,7,155,82,71,98,9,35,14,61,66,79,41,73,6,
@@ -3874,7 +3874,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x10_tr[971] UCG_FONT_SECTION("ucg_font_6x10_t
   Glyphs: 249/4531
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_67_75[2747] UCG_FONT_SECTION("ucg_font_6x12_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_67_75[2747]  = {
   249,0,3,2,3,4,4,5,4,6,12,0,254,10,254,10,
   254,2,144,4,38,0,14,61,132,158,165,162,36,74,162,36,
   74,101,1,1,15,61,132,142,33,201,134,68,73,134,68,27,
@@ -4053,7 +4053,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_67_75[2747] UCG_FONT_SECTION("ucg_font_6x
   Glyphs: 48/4531
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_75[490] UCG_FONT_SECTION("ucg_font_6x12_75") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_75[490]  = {
   48,0,3,2,3,4,2,3,4,6,10,0,255,10,254,10,
   254,1,52,0,0,32,7,45,233,248,15,1,33,8,45,233,
   184,217,134,1,34,9,45,233,89,50,91,178,0,35,9,45,
@@ -4091,7 +4091,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_75[490] UCG_FONT_SECTION("ucg_font_6x12_7
   Glyphs: 234/4531
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_78_79[2780] UCG_FONT_SECTION("ucg_font_6x12_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_78_79[2780]  = {
   234,0,3,2,3,4,3,4,4,6,12,0,254,10,254,10,
   254,2,189,3,181,1,11,46,166,35,138,134,41,76,53,0,
   2,11,46,166,67,155,50,73,74,180,0,3,11,46,166,71,
@@ -4272,7 +4272,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_78_79[2780] UCG_FONT_SECTION("ucg_font_6x
   Glyphs: 191/4531
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_mf[2501] UCG_FONT_SECTION("ucg_font_6x12_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_mf[2501]  = {
   191,2,3,2,3,4,1,2,4,6,12,0,254,7,254,8,
   255,1,124,3,23,32,7,230,248,249,79,0,33,10,230,248,
   201,105,119,48,167,0,34,12,230,248,225,36,75,178,36,231,
@@ -4436,7 +4436,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_mf[2501] UCG_FONT_SECTION("ucg_font_6x12_
   Glyphs: 95/4531
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_mr[1185] UCG_FONT_SECTION("ucg_font_6x12_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_mr[1185]  = {
   95,2,3,2,3,4,1,2,4,5,12,0,254,7,254,8,
   255,1,124,3,23,32,7,230,248,249,79,0,33,10,230,248,
   201,105,119,48,167,0,34,12,230,248,225,36,75,178,36,231,
@@ -4518,7 +4518,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_mr[1185] UCG_FONT_SECTION("ucg_font_6x12_
   Glyphs: 191/4531
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_tf[2017] UCG_FONT_SECTION("ucg_font_6x12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_tf[2017]  = {
   191,0,3,2,3,4,3,5,4,6,12,0,254,7,254,8,
   255,1,66,2,134,32,5,0,106,7,33,7,57,67,199,160,
   4,34,7,155,86,71,98,9,35,13,53,66,79,101,80,74,
@@ -4652,7 +4652,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_tf[2017] UCG_FONT_SECTION("ucg_font_6x12_
   Glyphs: 95/4531
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x12_tr[963] UCG_FONT_SECTION("ucg_font_6x12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x12_tr[963]  = {
   95,0,3,2,3,4,3,5,4,5,12,0,254,7,254,8,
   255,1,66,2,134,32,5,0,106,7,33,7,57,67,199,160,
   4,34,7,155,86,71,98,9,35,13,53,66,79,101,80,74,
@@ -4720,7 +4720,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x12_tr[963] UCG_FONT_SECTION("ucg_font_6x12_t
   Glyphs: 244/4121
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_67_75[2762] UCG_FONT_SECTION("ucg_font_6x13_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_67_75[2762]  = {
   244,0,3,2,3,4,4,5,4,6,13,0,254,11,254,11,
   254,2,107,4,17,0,17,77,132,158,165,162,36,74,162,36,
   74,162,36,74,101,1,1,18,77,132,142,33,201,134,68,73,
@@ -4900,7 +4900,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_67_75[2762] UCG_FONT_SECTION("ucg_font_6x
   Glyphs: 150/4121
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_78_79[1924] UCG_FONT_SECTION("ucg_font_6x13_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_78_79[1924]  = {
   150,0,3,3,3,4,3,4,4,6,13,0,254,11,254,11,
   254,0,0,3,60,1,14,54,162,43,24,9,166,132,34,148,
   80,4,0,2,15,62,162,39,24,9,69,36,193,152,36,83,
@@ -5028,7 +5028,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_78_79[1924] UCG_FONT_SECTION("ucg_font_6x
   Glyphs: 191/1282
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13B_tf[2250] UCG_FONT_SECTION("ucg_font_6x13B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13B_tf[2250]  = {
   191,0,3,3,3,4,3,5,4,6,13,0,254,9,254,10,
   255,1,101,2,192,32,5,0,110,7,33,7,74,67,199,147,
   0,34,8,29,90,135,132,69,0,35,12,62,70,15,137,98,
@@ -5176,7 +5176,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13B_tf[2250] UCG_FONT_SECTION("ucg_font_6x13
   Glyphs: 95/1282
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13B_tr[1058] UCG_FONT_SECTION("ucg_font_6x13B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13B_tr[1058]  = {
   95,0,3,3,3,4,3,5,4,6,13,0,254,9,254,10,
   255,1,101,2,192,32,5,0,110,7,33,7,74,67,199,147,
   0,34,8,29,90,135,132,69,0,35,12,62,70,15,137,98,
@@ -5250,7 +5250,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13B_tr[1058] UCG_FONT_SECTION("ucg_font_6x13
   Glyphs: 191/4121
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_mf[2735] UCG_FONT_SECTION("ucg_font_6x13_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_mf[2735]  = {
   191,2,3,2,3,4,1,2,4,5,13,0,254,9,254,10,
   255,1,171,3,114,32,7,238,248,249,95,0,33,10,238,248,
   9,105,223,193,156,2,34,12,238,248,225,36,75,178,36,231,
@@ -5428,7 +5428,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_mf[2735] UCG_FONT_SECTION("ucg_font_6x13_
   Glyphs: 95/4121
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_mr[1299] UCG_FONT_SECTION("ucg_font_6x13_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_mr[1299]  = {
   95,2,3,2,3,4,1,2,4,5,13,0,254,9,254,10,
   255,1,171,3,114,32,7,238,248,249,95,0,33,10,238,248,
   9,105,223,193,156,2,34,12,238,248,225,36,75,178,36,231,
@@ -5517,7 +5517,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_mr[1299] UCG_FONT_SECTION("ucg_font_6x13_
   Glyphs: 191/770
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13O_tf[2523] UCG_FONT_SECTION("ucg_font_6x13O_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13O_tf[2523]  = {
   191,0,3,2,3,4,3,5,4,6,13,0,254,9,254,10,
   255,1,130,3,49,32,5,0,110,7,33,9,74,67,79,139,
   82,75,0,34,8,28,91,79,139,146,0,35,16,62,70,87,
@@ -5682,7 +5682,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13O_tf[2523] UCG_FONT_SECTION("ucg_font_6x13
   Glyphs: 95/770
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13O_tr[1211] UCG_FONT_SECTION("ucg_font_6x13O_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13O_tr[1211]  = {
   95,0,3,2,3,4,3,5,4,6,13,0,254,9,254,10,
   255,1,130,3,49,32,5,0,110,7,33,9,74,67,79,139,
   82,75,0,34,8,28,91,79,139,146,0,35,16,62,70,87,
@@ -5765,7 +5765,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13O_tr[1211] UCG_FONT_SECTION("ucg_font_6x13
   Glyphs: 191/4121
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_tf[2169] UCG_FONT_SECTION("ucg_font_6x13_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_tf[2169]  = {
   191,0,3,2,3,4,3,5,4,5,13,0,254,9,254,10,
   255,1,95,2,196,32,5,0,110,7,33,7,73,67,199,33,
   9,34,7,155,90,71,98,9,35,14,61,70,79,41,73,6,
@@ -5908,7 +5908,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_tf[2169] UCG_FONT_SECTION("ucg_font_6x13_
   Glyphs: 95/4121
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_6x13_tr[1048] UCG_FONT_SECTION("ucg_font_6x13_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_6x13_tr[1048]  = {
   95,0,3,2,3,4,3,5,4,5,13,0,254,9,254,10,
   255,1,95,2,196,32,5,0,110,7,33,7,73,67,199,33,
   9,34,7,155,90,71,98,9,35,14,61,70,79,41,73,6,
@@ -5981,7 +5981,7 @@ const ucg_fntpgm_uint8_t ucg_font_6x13_tr[1048] UCG_FONT_SECTION("ucg_font_6x13_
   Glyphs: 224/3226
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_67_75[2790] UCG_FONT_SECTION("ucg_font_7x13_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_67_75[2790]  = {
   224,0,3,3,3,4,4,5,4,7,13,0,254,11,254,11,
   254,2,147,4,97,0,20,79,132,159,74,40,36,10,137,66,
   162,144,40,36,10,137,82,42,0,1,16,78,132,143,74,144,
@@ -6163,7 +6163,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_67_75[2790] UCG_FONT_SECTION("ucg_font_7x
   Glyphs: 17/3226
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_78_79[271] UCG_FONT_SECTION("ucg_font_7x13_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_78_79[271]  = {
   17,0,3,2,3,4,2,3,4,7,11,0,255,11,254,11,
   254,0,0,0,0,230,20,221,247,184,68,73,148,68,73,148,
   68,73,148,68,73,148,68,131,0,231,20,221,247,24,164,36,
@@ -6187,7 +6187,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_78_79[271] UCG_FONT_SECTION("ucg_font_7x1
   Glyphs: 191/1003
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13B_tf[2253] UCG_FONT_SECTION("ucg_font_7x13B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13B_tf[2253]  = {
   191,0,3,3,3,4,3,5,4,6,13,0,254,9,254,9,
   0,1,125,2,216,32,5,0,238,7,33,7,74,195,199,161,
   68,34,8,157,218,135,132,69,0,35,16,205,194,79,82,36,
@@ -6335,7 +6335,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13B_tf[2253] UCG_FONT_SECTION("ucg_font_7x13
   Glyphs: 95/1003
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13B_tr[1075] UCG_FONT_SECTION("ucg_font_7x13B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13B_tr[1075]  = {
   95,0,3,3,3,4,3,5,4,6,13,0,254,9,254,9,
   0,1,125,2,216,32,5,0,238,7,33,7,74,195,199,161,
   68,34,8,157,218,135,132,69,0,35,16,205,194,79,82,36,
@@ -6410,7 +6410,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13B_tr[1075] UCG_FONT_SECTION("ucg_font_7x13
   Glyphs: 191/3226
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_mf[2994] UCG_FONT_SECTION("ucg_font_7x13_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_mf[2994]  = {
   191,2,3,2,3,4,1,2,4,6,13,0,254,9,254,9,
   0,1,198,3,191,32,6,239,252,249,127,33,10,239,252,105,
   113,223,225,156,6,34,12,239,252,73,73,152,132,73,206,159,
@@ -6605,7 +6605,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_mf[2994] UCG_FONT_SECTION("ucg_font_7x13_
   Glyphs: 95/3226
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_mr[1414] UCG_FONT_SECTION("ucg_font_7x13_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_mr[1414]  = {
   95,2,3,2,3,4,1,2,4,6,13,0,254,9,254,9,
   0,1,198,3,191,32,6,239,252,249,127,33,10,239,252,105,
   113,223,225,156,6,34,12,239,252,73,73,152,132,73,206,159,
@@ -6701,7 +6701,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_mr[1414] UCG_FONT_SECTION("ucg_font_7x13_
   Glyphs: 191/831
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13O_tf[2687] UCG_FONT_SECTION("ucg_font_7x13O_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13O_tf[2687]  = {
   191,0,3,2,3,4,3,5,4,7,13,0,254,9,254,9,
   0,1,130,3,81,32,5,0,238,7,33,9,74,195,79,139,
   82,75,0,34,7,27,219,71,98,9,35,16,62,198,87,146,
@@ -6876,7 +6876,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13O_tf[2687] UCG_FONT_SECTION("ucg_font_7x13
   Glyphs: 95/831
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13O_tr[1259] UCG_FONT_SECTION("ucg_font_7x13O_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13O_tr[1259]  = {
   95,0,3,2,3,4,3,5,4,7,13,0,254,9,254,9,
   0,1,130,3,81,32,5,0,238,7,33,9,74,195,79,139,
   82,75,0,34,7,27,219,71,98,9,35,16,62,198,87,146,
@@ -6962,7 +6962,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13O_tr[1259] UCG_FONT_SECTION("ucg_font_7x13
   Glyphs: 191/3226
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_tf[2331] UCG_FONT_SECTION("ucg_font_7x13_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_tf[2331]  = {
   191,0,3,2,3,4,3,5,4,6,13,0,254,9,254,9,
   0,1,112,2,228,32,5,0,238,7,33,7,201,195,199,33,
   9,34,7,27,219,71,98,9,35,14,189,198,79,41,73,6,
@@ -7115,7 +7115,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_tf[2331] UCG_FONT_SECTION("ucg_font_7x13_
   Glyphs: 95/3226
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x13_tr[1103] UCG_FONT_SECTION("ucg_font_7x13_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x13_tr[1103]  = {
   95,0,3,2,3,4,3,5,4,6,13,0,254,9,254,9,
   0,1,112,2,228,32,5,0,238,7,33,7,201,195,199,33,
   9,34,7,27,219,71,98,9,35,14,189,198,79,41,73,6,
@@ -7191,7 +7191,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x13_tr[1103] UCG_FONT_SECTION("ucg_font_7x13_
   Glyphs: 191/1009
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14B_mf[3124] UCG_FONT_SECTION("ucg_font_7x14B_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14B_mf[3124]  = {
   191,2,3,2,3,4,1,2,4,7,14,0,254,10,254,11,
   254,1,217,3,231,32,7,247,252,249,255,0,33,10,247,252,
   73,170,223,81,59,13,34,13,247,252,17,147,34,41,146,162,
@@ -7394,7 +7394,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14B_mf[3124] UCG_FONT_SECTION("ucg_font_7x14
   Glyphs: 95/1009
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14B_mr[1469] UCG_FONT_SECTION("ucg_font_7x14B_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14B_mr[1469]  = {
   95,2,3,2,3,4,1,2,4,6,14,0,254,10,254,11,
   254,1,217,3,231,32,7,247,252,249,255,0,33,10,247,252,
   73,170,223,81,59,13,34,13,247,252,17,147,34,41,146,162,
@@ -7493,7 +7493,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14B_mr[1469] UCG_FONT_SECTION("ucg_font_7x14
   Glyphs: 191/1009
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14B_tf[2317] UCG_FONT_SECTION("ucg_font_7x14B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14B_tf[2317]  = {
   191,0,3,3,3,4,3,5,4,7,14,0,254,10,254,11,
   254,1,112,2,220,32,5,0,242,7,33,7,82,195,199,19,
   1,34,8,165,222,135,132,139,0,35,13,86,194,15,137,197,
@@ -7645,7 +7645,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14B_tf[2317] UCG_FONT_SECTION("ucg_font_7x14
   Glyphs: 95/1009
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14B_tr[1085] UCG_FONT_SECTION("ucg_font_7x14B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14B_tr[1085]  = {
   95,0,3,3,3,4,3,5,4,6,14,0,254,10,254,11,
   254,1,112,2,220,32,5,0,242,7,33,7,82,195,199,19,
   1,34,8,165,222,135,132,139,0,35,13,86,194,15,137,197,
@@ -7720,7 +7720,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14B_tr[1085] UCG_FONT_SECTION("ucg_font_7x14
   Glyphs: 191/2576
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14_mf[3201] UCG_FONT_SECTION("ucg_font_7x14_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14_mf[3201]  = {
   191,2,3,2,3,4,1,2,4,7,14,0,254,10,254,11,
   254,1,236,4,10,32,7,247,252,249,255,0,33,10,247,252,
   105,113,223,225,58,13,34,13,247,252,161,36,76,194,36,76,
@@ -7928,7 +7928,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14_mf[3201] UCG_FONT_SECTION("ucg_font_7x14_
   Glyphs: 95/2576
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14_mr[1522] UCG_FONT_SECTION("ucg_font_7x14_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14_mr[1522]  = {
   95,2,3,2,3,4,1,2,4,7,14,0,254,10,254,11,
   254,1,236,4,10,32,7,247,252,249,255,0,33,10,247,252,
   105,113,223,225,58,13,34,13,247,252,161,36,76,194,36,76,
@@ -8031,7 +8031,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14_mr[1522] UCG_FONT_SECTION("ucg_font_7x14_
   Glyphs: 191/2576
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14_tf[2428] UCG_FONT_SECTION("ucg_font_7x14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14_tf[2428]  = {
   191,0,3,2,3,4,3,5,4,7,14,0,254,10,254,11,
   254,1,131,3,0,32,5,0,242,7,33,7,209,195,199,33,
   17,34,7,35,223,71,226,18,35,19,213,194,79,41,137,146,
@@ -8190,7 +8190,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14_tf[2428] UCG_FONT_SECTION("ucg_font_7x14_
   Glyphs: 95/2576
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_7x14_tr[1146] UCG_FONT_SECTION("ucg_font_7x14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_7x14_tr[1146]  = {
   95,0,3,2,3,4,3,5,4,7,14,0,254,10,254,11,
   254,1,131,3,0,32,5,0,242,7,33,7,209,195,199,33,
   17,34,7,35,223,71,226,18,35,19,213,194,79,41,137,146,
@@ -8269,7 +8269,7 @@ const ucg_fntpgm_uint8_t ucg_font_7x14_tr[1146] UCG_FONT_SECTION("ucg_font_7x14_
   Glyphs: 244/3703
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13_67_75[3274] UCG_FONT_SECTION("ucg_font_8x13_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13_67_75[3274]  = {
   244,0,3,3,4,4,4,5,5,8,13,0,254,11,254,11,
   254,2,200,4,194,0,20,151,8,113,42,161,144,40,36,10,
   137,66,162,144,40,36,74,169,0,1,17,150,9,49,42,65,
@@ -8481,7 +8481,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13_67_75[3274] UCG_FONT_SECTION("ucg_font_8x
   Glyphs: 191/1141
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13B_mf[3233] UCG_FONT_SECTION("ucg_font_8x13B_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13B_mf[3233]  = {
   191,2,3,2,4,4,1,2,5,7,13,0,254,10,254,10,
   255,1,248,4,26,32,8,216,193,231,255,51,0,33,11,216,
   193,7,101,191,19,100,157,10,34,14,216,193,135,20,77,209,
@@ -8691,7 +8691,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13B_mf[3233] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 95/1141
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13B_mr[1551] UCG_FONT_SECTION("ucg_font_8x13B_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13B_mr[1551]  = {
   95,2,3,2,4,4,1,2,5,7,13,0,254,10,254,10,
   255,1,248,4,26,32,8,216,193,231,255,51,0,33,11,216,
   193,7,101,191,19,100,157,10,34,14,216,193,135,20,77,209,
@@ -8795,7 +8795,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13B_mr[1551] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 191/1141
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13B_tf[2439] UCG_FONT_SECTION("ucg_font_8x13B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13B_tf[2439]  = {
   191,0,3,3,3,4,3,5,5,7,13,0,254,10,254,10,
   255,1,132,3,7,32,5,0,110,12,33,7,210,67,140,39,
   2,34,8,165,90,12,9,23,1,35,16,79,66,28,37,137,
@@ -8955,7 +8955,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13B_tf[2439] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 95/1141
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13B_tr[1153] UCG_FONT_SECTION("ucg_font_8x13B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13B_tr[1153]  = {
   95,0,3,3,3,4,3,5,5,7,13,0,254,10,254,10,
   255,1,132,3,7,32,5,0,110,12,33,7,210,67,140,39,
   2,34,8,165,90,12,9,23,1,35,16,79,66,28,37,137,
@@ -9035,7 +9035,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13B_tr[1153] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 191/3703
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13_mf[3153] UCG_FONT_SECTION("ucg_font_8x13_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13_mf[3153]  = {
   191,2,4,2,4,4,1,2,5,8,13,0,254,9,254,9,
   0,1,230,4,14,32,7,216,193,207,231,0,33,11,216,193,
   15,202,245,61,32,143,2,34,13,216,193,143,137,132,34,161,
@@ -9240,7 +9240,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13_mf[3153] UCG_FONT_SECTION("ucg_font_8x13_
   Glyphs: 95/3703
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13_mr[1519] UCG_FONT_SECTION("ucg_font_8x13_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13_mr[1519]  = {
   95,2,4,2,4,4,1,2,5,8,13,0,254,9,254,9,
   0,1,230,4,14,32,7,216,193,207,231,0,33,11,216,193,
   15,202,245,61,32,143,2,34,13,216,193,143,137,132,34,161,
@@ -9342,7 +9342,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13_mr[1519] UCG_FONT_SECTION("ucg_font_8x13_
   Glyphs: 191/1295
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13O_mf[3210] UCG_FONT_SECTION("ucg_font_8x13O_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13O_mf[3210]  = {
   191,2,4,2,4,4,1,2,5,8,13,0,254,9,254,9,
   0,1,237,4,35,32,7,216,193,207,231,0,33,13,216,193,
   143,202,53,203,213,3,242,40,0,34,13,216,193,143,137,132,
@@ -9550,7 +9550,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13O_mf[3210] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 95/1295
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13O_mr[1558] UCG_FONT_SECTION("ucg_font_8x13O_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13O_mr[1558]  = {
   95,2,4,2,4,4,1,2,5,8,13,0,254,9,254,9,
   0,1,237,4,35,32,7,216,193,207,231,0,33,13,216,193,
   143,202,53,203,213,3,242,40,0,34,13,216,193,143,137,132,
@@ -9655,7 +9655,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13O_mr[1558] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 191/1295
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13O_tf[2738] UCG_FONT_SECTION("ucg_font_8x13O_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13O_tf[2738]  = {
   191,0,3,2,4,4,3,5,5,8,13,0,254,9,254,9,
   0,1,141,3,103,32,5,0,220,24,33,9,146,135,56,45,
   74,45,1,34,7,52,182,24,145,41,35,14,119,140,88,181,
@@ -9834,7 +9834,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13O_tf[2738] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 95/1295
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13O_tr[1292] UCG_FONT_SECTION("ucg_font_8x13O_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13O_tr[1292]  = {
   95,0,3,2,4,4,3,5,5,8,13,0,254,9,254,9,
   0,1,141,3,103,32,5,0,220,24,33,9,146,135,56,45,
   74,45,1,34,7,52,182,24,145,41,35,14,119,140,88,181,
@@ -9922,7 +9922,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13O_tr[1292] UCG_FONT_SECTION("ucg_font_8x13
   Glyphs: 191/3703
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13_tf[2387] UCG_FONT_SECTION("ucg_font_8x13_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13_tf[2387]  = {
   191,0,3,2,3,4,3,5,5,8,13,0,254,9,254,9,
   0,1,114,2,243,32,5,0,110,12,33,7,201,67,140,67,
   18,34,7,28,91,140,200,20,35,14,190,70,156,168,101,88,
@@ -10079,7 +10079,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13_tf[2387] UCG_FONT_SECTION("ucg_font_8x13_
   Glyphs: 95/3703
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_8x13_tr[1126] UCG_FONT_SECTION("ucg_font_8x13_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_8x13_tr[1126]  = {
   95,0,3,2,3,4,3,5,5,8,13,0,254,9,254,9,
   0,1,114,2,243,32,5,0,110,12,33,7,201,67,140,67,
   18,34,7,28,91,140,200,20,35,14,190,70,156,168,101,88,
@@ -10157,7 +10157,7 @@ const ucg_fntpgm_uint8_t ucg_font_8x13_tr[1126] UCG_FONT_SECTION("ucg_font_8x13_
   Glyphs: 244/4777
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_67_75[3483] UCG_FONT_SECTION("ucg_font_9x15_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_67_75[3483]  = {
   244,0,3,3,4,4,5,5,5,9,15,0,253,12,253,12,
   253,3,22,5,40,0,22,167,17,230,84,66,33,81,72,20,
   18,133,68,33,81,72,20,18,165,84,0,1,22,167,17,102,
@@ -10382,7 +10382,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_67_75[3483] UCG_FONT_SECTION("ucg_font_9x
   Glyphs: 207/4777
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_78_79[3637] UCG_FONT_SECTION("ucg_font_9x15_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_78_79[3637]  = {
   207,0,3,3,4,4,4,4,5,9,14,0,254,12,253,12,
   253,0,0,5,89,1,18,137,152,121,226,80,52,20,22,73,
   68,162,208,44,148,38,6,2,22,153,136,57,226,80,52,20,
@@ -10617,7 +10617,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_78_79[3637] UCG_FONT_SECTION("ucg_font_9x
   Glyphs: 191/1688
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15B_mf[3559] UCG_FONT_SECTION("ucg_font_9x15B_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15B_mf[3559]  = {
   191,2,4,2,4,4,1,3,5,9,15,0,253,10,253,11,
   255,2,26,4,107,32,6,249,147,159,127,33,12,249,147,31,
   166,243,247,8,61,5,0,34,13,249,147,31,165,16,41,68,
@@ -10847,7 +10847,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15B_mf[3559] UCG_FONT_SECTION("ucg_font_9x15
   Glyphs: 95/1688
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15B_mr[1665] UCG_FONT_SECTION("ucg_font_9x15B_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15B_mr[1665]  = {
   95,2,4,2,4,4,1,3,5,8,15,0,253,10,253,11,
   255,2,26,4,107,32,6,249,147,159,127,33,12,249,147,31,
   166,243,247,8,61,5,0,34,13,249,147,31,165,16,41,68,
@@ -10959,7 +10959,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15B_mr[1665] UCG_FONT_SECTION("ucg_font_9x15
   Glyphs: 191/1688
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15B_tf[2749] UCG_FONT_SECTION("ucg_font_9x15B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15B_tf[2749]  = {
   191,0,3,3,4,4,4,5,5,9,15,0,253,10,253,11,
   255,1,185,3,93,32,5,0,200,51,33,8,162,11,51,30,
   68,2,34,8,53,122,51,36,44,2,35,16,135,25,115,148,
@@ -11138,7 +11138,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15B_tf[2749] UCG_FONT_SECTION("ucg_font_9x15
   Glyphs: 95/1688
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15B_tr[1271] UCG_FONT_SECTION("ucg_font_9x15B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15B_tr[1271]  = {
   95,0,3,3,4,4,3,5,5,8,15,0,253,10,253,11,
   255,1,181,3,83,32,5,0,228,25,33,8,162,135,25,15,
   34,1,34,8,53,190,25,18,22,1,35,16,135,141,57,74,
@@ -11225,7 +11225,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15B_tr[1271] UCG_FONT_SECTION("ucg_font_9x15
   Glyphs: 191/4777
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_mf[3546] UCG_FONT_SECTION("ucg_font_9x15_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_mf[3546]  = {
   191,2,4,2,4,4,1,3,5,9,15,0,253,10,253,11,
   255,2,20,4,99,32,6,249,147,159,127,33,11,249,147,59,
   216,247,216,96,158,2,34,13,249,147,31,22,73,69,82,145,
@@ -11454,7 +11454,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_mf[3546] UCG_FONT_SECTION("ucg_font_9x15_
   Glyphs: 95/4777
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_mr[1674] UCG_FONT_SECTION("ucg_font_9x15_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_mr[1674]  = {
   95,2,4,2,4,4,1,3,5,9,15,0,253,10,253,11,
   255,2,20,4,99,32,6,249,147,159,127,33,11,249,147,59,
   216,247,216,96,158,2,34,13,249,147,31,22,73,69,82,145,
@@ -11566,7 +11566,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_mr[1674] UCG_FONT_SECTION("ucg_font_9x15_
   Glyphs: 191/4777
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_tf[2649] UCG_FONT_SECTION("ucg_font_9x15_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_tf[2649]  = {
   191,0,3,2,4,4,4,5,5,9,15,0,253,10,253,11,
   255,1,148,3,60,32,5,0,200,51,33,8,177,12,51,14,
   145,0,34,8,52,123,51,34,83,0,35,14,134,25,115,162,
@@ -11739,7 +11739,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_tf[2649] UCG_FONT_SECTION("ucg_font_9x15_
   Glyphs: 95/4777
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x15_tr[1242] UCG_FONT_SECTION("ucg_font_9x15_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x15_tr[1242]  = {
   95,0,3,2,4,4,4,5,5,9,15,0,253,10,253,11,
   255,1,148,3,60,32,5,0,200,51,33,8,177,12,51,14,
   145,0,34,8,52,123,51,34,83,0,35,14,134,25,115,162,
@@ -11824,7 +11824,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x15_tr[1242] UCG_FONT_SECTION("ucg_font_9x15_
   Glyphs: 244/4766
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_67_75[3534] UCG_FONT_SECTION("ucg_font_9x18_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_67_75[3534]  = {
   244,0,3,3,4,5,5,5,5,9,18,0,252,14,252,14,
   252,3,31,5,50,0,21,167,34,204,154,69,50,133,68,33,
   81,72,20,18,133,68,41,217,70,0,1,23,167,34,204,168,
@@ -12052,7 +12052,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_67_75[3534] UCG_FONT_SECTION("ucg_font_9x
   Glyphs: 177/4766
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_78_79[3138] UCG_FONT_SECTION("ucg_font_9x18_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_78_79[3138]  = {
   177,0,3,3,4,4,4,4,5,9,13,0,255,14,252,14,
   252,0,0,5,89,1,18,137,152,121,226,80,52,20,22,73,
   68,162,208,44,148,38,6,2,22,153,136,57,226,80,52,20,
@@ -12256,7 +12256,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_78_79[3138] UCG_FONT_SECTION("ucg_font_9x
   Glyphs: 191/762
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18B_mf[3602] UCG_FONT_SECTION("ucg_font_9x18B_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18B_mf[3602]  = {
   191,2,4,2,4,5,1,3,5,9,18,0,252,10,253,11,
   255,2,34,4,125,32,8,41,35,63,255,49,0,33,13,41,
   35,63,129,206,239,161,58,61,41,0,34,15,41,35,63,92,
@@ -12489,7 +12489,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18B_mf[3602] UCG_FONT_SECTION("ucg_font_9x18
   Glyphs: 95/762
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18B_mr[1661] UCG_FONT_SECTION("ucg_font_9x18B_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18B_mr[1661]  = {
   95,2,4,2,4,5,1,3,5,9,17,0,253,10,253,11,
   255,2,26,4,111,32,8,25,39,63,255,13,0,33,13,25,
   39,63,129,206,239,161,58,61,5,0,34,15,25,39,63,92,
@@ -12600,7 +12600,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18B_mr[1661] UCG_FONT_SECTION("ucg_font_9x18
   Glyphs: 191/762
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18B_tf[2613] UCG_FONT_SECTION("ucg_font_9x18B_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18B_tf[2613]  = {
   191,0,3,3,4,4,4,5,5,9,18,0,252,10,253,11,
   255,1,153,3,51,32,5,0,232,51,33,7,178,11,51,30,
   9,34,8,69,122,51,36,92,4,35,20,167,9,115,148,36,
@@ -12771,7 +12771,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18B_tf[2613] UCG_FONT_SECTION("ucg_font_9x18
   Glyphs: 95/762
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18B_tr[1203] UCG_FONT_SECTION("ucg_font_9x18B_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18B_tr[1203]  = {
   95,0,3,3,4,4,3,5,5,9,17,0,253,10,253,11,
   255,1,147,3,41,32,5,0,244,25,33,7,178,135,25,143,
   4,34,8,69,190,25,18,46,2,35,19,167,133,57,74,18,
@@ -12854,7 +12854,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18B_tr[1203] UCG_FONT_SECTION("ucg_font_9x18
   Glyphs: 191/4766
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_mf[3616] UCG_FONT_SECTION("ucg_font_9x18_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_mf[3616]  = {
   191,2,4,2,4,5,1,3,5,9,17,0,253,10,253,11,
   255,2,18,4,100,32,8,25,39,63,255,13,0,33,13,25,
   39,63,69,176,239,177,193,60,5,0,34,15,25,39,63,65,
@@ -13088,7 +13088,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_mf[3616] UCG_FONT_SECTION("ucg_font_9x18_
   Glyphs: 95/4766
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_mr[1666] UCG_FONT_SECTION("ucg_font_9x18_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_mr[1666]  = {
   95,2,4,2,4,5,1,3,5,9,17,0,253,10,253,11,
   255,2,18,4,100,32,8,25,39,63,255,13,0,33,13,25,
   39,63,69,176,239,177,193,60,5,0,34,15,25,39,63,65,
@@ -13200,7 +13200,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_mr[1666] UCG_FONT_SECTION("ucg_font_9x18_
   Glyphs: 191/4766
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_tf[2690] UCG_FONT_SECTION("ucg_font_9x18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_tf[2690]  = {
   191,0,3,2,4,4,4,5,5,9,17,0,253,10,253,11,
   255,1,158,3,75,32,5,0,232,51,33,8,177,12,51,14,
   145,0,34,8,68,123,51,34,167,0,35,21,168,8,179,138,
@@ -13376,7 +13376,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_tf[2690] UCG_FONT_SECTION("ucg_font_9x18_
   Glyphs: 95/4766
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_9x18_tr[1250] UCG_FONT_SECTION("ucg_font_9x18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_9x18_tr[1250]  = {
   95,0,3,2,4,4,4,5,5,9,17,0,253,10,253,11,
   255,1,158,3,75,32,5,0,232,51,33,8,177,12,51,14,
   145,0,34,8,68,123,51,34,167,0,35,21,168,8,179,138,
@@ -13462,7 +13462,7 @@ const ucg_fntpgm_uint8_t ucg_font_9x18_tr[1250] UCG_FONT_SECTION("ucg_font_9x18_
   Glyphs: 190/196
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8f[2465] UCG_FONT_SECTION("ucg_font_amstrad_cpc_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8f[2465]  = {
   190,3,4,3,5,4,1,1,6,8,8,0,0,8,0,8,
   1,1,143,3,62,32,7,8,71,31,71,0,33,9,8,71,
   71,76,231,178,0,34,12,8,71,67,141,132,140,132,60,98,
@@ -13624,7 +13624,7 @@ const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8f[2465] UCG_FONT_SECTION("ucg_fon
   Glyphs: 95/196
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8r[1222] UCG_FONT_SECTION("ucg_font_amstrad_cpc_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8r[1222]  = {
   95,3,4,3,5,4,1,1,6,8,8,0,0,8,0,8,
   1,1,143,3,62,32,7,8,71,31,71,0,33,9,8,71,
   71,76,231,178,0,34,12,8,71,67,141,132,140,132,60,98,
@@ -13708,7 +13708,7 @@ const ucg_fntpgm_uint8_t ucg_font_amstrad_cpc_8r[1222] UCG_FONT_SECTION("ucg_fon
   Glyphs: 190/207
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_hf[2171] UCG_FONT_SECTION("ucg_font_baby_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_hf[2171]  = {
   190,1,3,2,4,4,1,2,5,10,10,255,254,5,254,6,
   255,1,71,2,174,32,6,162,145,39,3,33,8,163,153,7,
   162,214,28,34,8,164,161,76,122,103,4,35,14,166,177,167,
@@ -13851,7 +13851,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_hf[2171] UCG_FONT_SECTION("ucg_font_baby_
   Glyphs: 18/207
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_hn[178] UCG_FONT_SECTION("ucg_font_baby_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_hn[178]  = {
   18,1,3,2,3,4,1,2,4,4,8,0,254,5,254,6,
   255,0,0,0,0,32,6,194,232,73,0,42,8,196,48,146,
   168,146,51,43,9,197,244,209,108,203,105,0,44,8,195,236,
@@ -13870,7 +13870,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_hn[178] UCG_FONT_SECTION("ucg_font_baby_h
   Glyphs: 95/207
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_hr[974] UCG_FONT_SECTION("ucg_font_baby_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_hr[974]  = {
   95,1,4,2,3,4,1,2,4,6,9,255,254,5,254,6,
   255,1,50,2,131,32,6,202,232,99,0,33,8,203,44,69,
   90,229,0,34,8,204,48,36,122,15,5,35,14,206,120,39,
@@ -13938,7 +13938,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_hr[974] UCG_FONT_SECTION("ucg_font_baby_h
   Glyphs: 190/207
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_tf[1776] UCG_FONT_SECTION("ucg_font_baby_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_tf[1776]  = {
   190,0,2,2,4,4,2,4,5,10,10,255,254,5,254,6,
   255,1,15,2,44,32,5,0,162,4,33,7,97,227,100,164,
   0,34,7,51,50,37,89,1,35,10,85,162,173,26,170,26,
@@ -14057,7 +14057,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_tf[1776] UCG_FONT_SECTION("ucg_font_baby_
   Glyphs: 18/207
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_tn[152] UCG_FONT_SECTION("ucg_font_baby_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_tn[152]  = {
   18,0,2,2,3,3,2,3,4,4,8,0,254,5,254,6,
   255,0,0,0,0,32,4,128,84,42,6,155,103,82,7,43,
   7,219,237,210,74,0,44,6,154,90,148,2,45,5,139,102,
@@ -14074,7 +14074,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_tn[152] UCG_FONT_SECTION("ucg_font_baby_t
   Glyphs: 95/207
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_baby_tr[792] UCG_FONT_SECTION("ucg_font_baby_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_baby_tr[792]  = {
   95,0,2,2,3,3,2,4,4,6,9,255,254,5,254,6,
   255,0,255,2,7,32,5,128,168,0,33,6,241,184,140,20,
   34,6,155,204,36,43,35,10,173,232,85,67,85,67,85,0,
@@ -14131,7 +14131,7 @@ const ucg_fntpgm_uint8_t ucg_font_baby_tr[792] UCG_FONT_SECTION("ucg_font_baby_t
   Glyphs: 77/77
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hf[635] UCG_FONT_SECTION("ucg_font_blipfest_07_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hf[635]  = {
   77,1,3,2,3,3,1,1,4,5,6,0,255,5,255,5,
   255,0,185,1,144,32,5,113,105,0,33,7,114,138,164,150,
   1,34,7,116,140,164,157,6,38,11,117,141,41,137,134,164,
@@ -14178,7 +14178,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hf[635] UCG_FONT_SECTION("ucg_font
   Glyphs: 16/77
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hn[141] UCG_FONT_SECTION("ucg_font_blipfest_07_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hn[141]  = {
   16,1,3,2,3,3,1,1,4,3,5,0,0,5,255,5,
   255,0,0,0,0,32,5,233,89,0,43,7,236,220,104,138,
   1,44,6,234,234,36,1,45,7,236,124,100,135,0,46,6,
@@ -14194,7 +14194,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hn[141] UCG_FONT_SECTION("ucg_font
   Glyphs: 77/77
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hr[635] UCG_FONT_SECTION("ucg_font_blipfest_07_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hr[635]  = {
   77,1,3,2,3,3,1,1,4,5,6,0,255,5,255,5,
   255,0,185,1,144,32,5,113,105,0,33,7,114,138,164,150,
   1,34,7,116,140,164,157,6,38,11,117,141,41,137,134,164,
@@ -14241,7 +14241,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_hr[635] UCG_FONT_SECTION("ucg_font
   Glyphs: 77/77
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tf[533] UCG_FONT_SECTION("ucg_font_blipfest_07_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tf[533]  = {
   77,0,2,3,3,3,1,3,4,5,6,0,255,5,255,5,
   255,0,149,1,81,32,4,64,38,33,6,105,42,83,0,34,
   6,211,51,145,20,38,8,108,54,83,170,138,8,39,5,209,
@@ -14282,7 +14282,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tf[533] UCG_FONT_SECTION("ucg_font
   Glyphs: 16/77
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tn[116] UCG_FONT_SECTION("ucg_font_blipfest_07_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tn[116]  = {
   16,0,2,3,2,3,1,3,4,3,5,0,0,5,255,5,
   255,0,0,0,0,32,4,32,19,43,7,111,185,104,138,0,
   44,5,41,21,1,45,5,167,153,1,46,5,37,149,0,48,
@@ -14297,7 +14297,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tn[116] UCG_FONT_SECTION("ucg_font
   Glyphs: 77/77
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tr[533] UCG_FONT_SECTION("ucg_font_blipfest_07_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tr[533]  = {
   77,0,2,3,3,3,1,3,4,5,6,0,255,5,255,5,
   255,0,149,1,81,32,4,64,38,33,6,105,42,83,0,34,
   6,211,51,145,20,38,8,108,54,83,170,138,8,39,5,209,
@@ -14338,7 +14338,7 @@ const ucg_fntpgm_uint8_t ucg_font_blipfest_07_tr[533] UCG_FONT_SECTION("ucg_font
   Glyphs: 190/260
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_hf[2256] UCG_FONT_SECTION("ucg_font_chikita_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_hf[2256]  = {
   190,1,3,2,4,4,1,2,5,9,10,0,254,5,254,6,
   255,1,86,2,205,32,6,162,145,39,3,33,8,162,145,76,
   186,101,0,34,8,164,161,71,186,51,2,35,14,166,177,167,
@@ -14487,7 +14487,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_hf[2256] UCG_FONT_SECTION("ucg_font_ch
   Glyphs: 18/260
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_hn[185] UCG_FONT_SECTION("ucg_font_chikita_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_hn[185]  = {
   18,1,3,2,3,3,1,1,4,5,6,0,255,5,254,6,
   255,0,0,0,0,32,5,114,122,20,42,9,117,237,36,171,
   228,32,0,43,10,118,174,52,27,180,52,135,0,44,7,115,
@@ -14506,7 +14506,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_hn[185] UCG_FONT_SECTION("ucg_font_chi
   Glyphs: 95/260
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_hr[1023] UCG_FONT_SECTION("ucg_font_chikita_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_hr[1023]  = {
   95,1,3,2,4,4,1,2,5,7,8,0,254,5,254,6,
   255,1,76,2,170,32,6,130,145,39,1,33,8,130,145,72,
   186,101,0,34,8,132,161,72,218,25,1,35,14,134,177,7,
@@ -14577,7 +14577,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_hr[1023] UCG_FONT_SECTION("ucg_font_ch
   Glyphs: 190/260
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_tf[1865] UCG_FONT_SECTION("ucg_font_chikita_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_tf[1865]  = {
   190,0,3,2,4,4,2,4,5,9,10,0,254,5,254,6,
   255,1,32,2,69,32,5,0,162,4,33,7,113,158,196,160,
   4,34,7,35,50,69,162,4,35,11,85,162,77,101,80,42,
@@ -14701,7 +14701,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_tf[1865] UCG_FONT_SECTION("ucg_font_ch
   Glyphs: 18/260
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_tn[166] UCG_FONT_SECTION("ucg_font_chikita_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_tn[166]  = {
   18,0,3,2,3,3,2,3,4,5,6,0,255,5,254,6,
   255,0,0,0,0,32,4,128,84,42,6,219,109,36,29,43,
   10,173,116,133,209,32,133,17,0,44,6,146,219,40,0,45,
@@ -14719,7 +14719,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_tn[166] UCG_FONT_SECTION("ucg_font_chi
   Glyphs: 95/260
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_chikita_tr[854] UCG_FONT_SECTION("ucg_font_chikita_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_chikita_tr[854]  = {
   95,0,3,2,3,3,2,4,5,7,8,0,254,5,254,6,
   255,1,28,2,60,32,5,128,40,1,33,7,185,39,49,40,
   1,34,7,147,76,145,40,1,35,11,173,104,83,25,148,202,
@@ -14780,7 +14780,7 @@ const ucg_fntpgm_uint8_t ucg_font_chikita_tr[854] UCG_FONT_SECTION("ucg_font_chi
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB08_mf[2763] UCG_FONT_SECTION("ucg_font_courB08_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB08_mf[2763]  = {
   191,2,3,2,4,4,1,2,5,8,11,255,254,6,254,7,
   255,1,166,3,106,32,7,184,193,231,255,8,33,10,184,193,
   103,148,221,9,58,3,34,12,184,193,103,76,210,36,77,114,
@@ -14960,7 +14960,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB08_mf[2763] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB08_mr[1242] UCG_FONT_SECTION("ucg_font_courB08_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB08_mr[1242]  = {
   95,2,3,2,3,4,1,2,4,7,10,255,254,6,254,7,
   255,1,139,3,54,32,6,215,252,249,15,33,10,215,252,41,
   170,59,170,19,1,34,11,215,252,41,197,36,76,114,222,0,
@@ -15045,7 +15045,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB08_mr[1242] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB08_tf[2167] UCG_FONT_SECTION("ucg_font_courB08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB08_tf[2167]  = {
   191,0,3,3,3,4,3,4,4,8,11,255,254,6,254,7,
   255,1,61,2,145,32,5,0,166,3,33,7,178,162,227,16,
   18,34,7,155,174,35,162,18,35,16,69,158,39,41,18,169,
@@ -15188,7 +15188,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB08_tf[2167] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB08_tr[986] UCG_FONT_SECTION("ucg_font_courB08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB08_tr[986]  = {
   95,0,3,3,3,4,3,4,4,7,10,255,254,6,254,7,
   255,1,61,2,145,32,5,0,166,3,33,7,178,162,227,16,
   18,34,7,155,174,35,162,18,35,16,69,158,39,41,18,169,
@@ -15257,7 +15257,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB08_tr[986] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB10_mf[3816] UCG_FONT_SECTION("ucg_font_courB10_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB10_mf[3816]  = {
   191,2,4,2,4,5,1,3,5,11,16,255,252,9,253,9,
   254,2,42,4,199,32,8,11,99,63,255,91,0,33,13,11,
   99,63,153,210,203,60,76,169,103,5,34,15,11,99,63,82,
@@ -15503,7 +15503,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB10_mf[3816] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB10_mr[1627] UCG_FONT_SECTION("ucg_font_courB10_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB10_mr[1627]  = {
   95,2,4,3,4,4,1,3,5,10,14,255,253,9,253,9,
   254,2,21,4,88,32,8,234,163,31,255,10,0,33,13,234,
   163,31,80,15,227,129,4,229,81,1,34,15,234,163,89,66,
@@ -15612,7 +15612,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB10_mr[1627] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB10_tf[2954] UCG_FONT_SECTION("ucg_font_courB10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB10_tf[2954]  = {
   191,0,3,3,4,4,3,5,5,11,16,255,252,9,253,9,
   254,1,148,3,147,32,5,0,140,25,33,8,146,135,25,7,
   26,1,34,10,69,182,25,18,22,73,40,0,35,23,183,125,
@@ -15804,7 +15804,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB10_tf[2954] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB10_tr[1355] UCG_FONT_SECTION("ucg_font_courB10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB10_tr[1355]  = {
   95,0,3,3,4,4,3,4,5,10,14,255,253,9,253,9,
   254,1,144,3,139,32,5,0,204,12,33,8,146,199,140,3,
   141,0,34,9,69,246,12,9,139,36,20,35,23,183,189,172,
@@ -15896,7 +15896,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB10_tr[1355] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB12_mf[3953] UCG_FONT_SECTION("ucg_font_courB12_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB12_mf[3953]  = {
   191,2,4,3,4,5,1,3,5,12,17,255,253,10,253,11,
   254,2,100,5,1,32,8,28,135,63,254,95,2,33,14,28,
   135,63,74,81,253,30,78,84,30,53,0,34,19,28,135,63,
@@ -16151,7 +16151,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB12_mf[3953] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB12_mr[1748] UCG_FONT_SECTION("ucg_font_courB12_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB12_mr[1748]  = {
   95,2,4,3,4,4,1,3,5,10,15,0,253,10,253,11,
   254,2,61,4,175,32,7,250,163,31,255,1,33,12,250,163,
   91,80,191,135,17,148,71,5,34,17,250,163,89,68,72,68,
@@ -16268,7 +16268,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB12_mr[1748] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB12_tf[3312] UCG_FONT_SECTION("ucg_font_courB12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB12_tf[3312]  = {
   191,0,3,3,4,4,4,5,5,12,17,255,253,10,253,11,
   254,1,198,3,255,32,5,0,24,53,33,8,178,11,53,30,
   68,4,34,8,86,106,53,68,60,9,35,27,201,248,180,36,
@@ -16483,7 +16483,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB12_tf[3312] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB12_tr[1538] UCG_FONT_SECTION("ucg_font_courB12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB12_tr[1538]  = {
   95,0,3,3,4,4,4,5,5,10,15,0,253,10,253,11,
   254,1,198,3,255,32,5,0,24,53,33,8,178,11,53,30,
   68,4,34,8,86,106,53,68,60,9,35,27,201,248,180,36,
@@ -16587,7 +16587,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB12_tr[1538] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB14_mf[4384] UCG_FONT_SECTION("ucg_font_courB14_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB14_mf[4384]  = {
   191,2,4,3,4,5,1,4,5,12,20,255,251,11,252,12,
   253,2,133,5,101,32,8,76,15,127,252,255,1,33,16,76,
   15,127,164,147,123,41,170,30,78,84,30,103,0,34,21,76,
@@ -16869,7 +16869,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB14_mf[4384] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB14_mr[2003] UCG_FONT_SECTION("ucg_font_courB14_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB14_mr[2003]  = {
   95,2,4,3,4,5,1,3,5,12,17,255,252,11,252,12,
   253,2,115,5,68,32,8,28,131,63,254,95,2,33,16,28,
   131,63,196,228,94,138,170,135,19,149,199,18,0,34,20,28,
@@ -17002,7 +17002,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB14_mr[2003] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB14_tf[3759] UCG_FONT_SECTION("ucg_font_courB14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB14_tf[3759]  = {
   191,0,3,3,4,5,4,5,5,12,20,255,251,11,252,12,
   253,1,247,4,121,32,5,0,48,110,33,11,195,24,110,60,
   88,20,37,18,0,34,12,102,212,110,136,56,205,34,177,8,
@@ -17244,7 +17244,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB14_tf[3759] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB14_tr[1747] UCG_FONT_SECTION("ucg_font_courB14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB14_tr[1747]  = {
   95,0,3,3,4,5,4,5,5,12,17,255,252,11,252,12,
   253,1,247,4,121,32,5,0,48,110,33,11,195,24,110,60,
   88,20,37,18,0,34,12,102,212,110,136,56,205,34,177,8,
@@ -17361,7 +17361,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB14_tr[1747] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_mf[6145] UCG_FONT_SECTION("ucg_font_courB18_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_mf[6145]  = {
   191,2,5,3,5,5,1,4,6,17,26,255,251,15,251,16,
   252,3,108,7,181,32,9,81,159,248,227,255,67,0,33,19,
   81,159,248,163,46,142,26,159,147,167,251,16,228,169,143,5,
@@ -17753,7 +17753,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_mf[6145] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_mn[442] UCG_FONT_SECTION("ucg_font_courB18_mn") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_mn[442]  = {
   18,2,4,3,4,5,1,3,5,13,20,0,253,15,251,16,
   252,0,0,0,0,32,8,79,231,63,254,255,15,42,24,79,
   231,63,152,180,74,17,85,7,115,182,178,150,34,130,35,115,
@@ -17788,7 +17788,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_mn[442] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_mr[2550] UCG_FONT_SECTION("ucg_font_courB18_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_mr[2550]  = {
   95,2,4,3,5,5,1,4,6,16,22,0,251,15,251,16,
   252,3,16,6,223,32,10,208,30,248,241,255,255,59,0,33,
   18,208,30,248,225,164,137,249,90,92,247,8,196,213,227,53,
@@ -17955,7 +17955,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_mr[2550] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_tf[4851] UCG_FONT_SECTION("ucg_font_courB18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_tf[4851]  = {
   191,0,4,3,5,5,4,5,5,17,26,255,251,15,251,16,
   252,2,142,5,232,32,6,0,96,252,0,33,15,4,54,252,
   33,113,240,96,66,68,103,34,42,0,34,16,231,108,254,48,
@@ -18266,7 +18266,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_tf[4851] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_tn[353] UCG_FONT_SECTION("ucg_font_courB18_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_tn[353]  = {
   18,0,4,3,4,5,4,4,5,13,20,0,253,15,251,16,
   252,0,0,0,0,32,5,0,48,63,42,21,186,180,63,9,
   42,18,17,57,40,49,19,51,18,145,25,25,17,146,0,43,
@@ -18296,7 +18296,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_tn[353] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB18_tr[2236] UCG_FONT_SECTION("ucg_font_courB18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB18_tr[2236]  = {
   95,0,4,3,5,5,4,5,5,16,22,0,251,15,251,16,
   252,2,142,5,232,32,6,0,96,252,0,33,15,4,54,252,
   33,113,240,96,66,68,103,34,42,0,34,16,231,108,254,48,
@@ -18443,7 +18443,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB18_tr[2236] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_mf[8013] UCG_FONT_SECTION("ucg_font_courB24_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_mf[8013]  = {
   191,2,5,4,5,6,1,4,6,22,33,255,249,20,249,21,
   251,4,133,9,212,32,10,54,28,246,135,255,255,95,3,33,
   24,54,28,246,135,229,33,75,172,147,99,206,31,13,31,18,
@@ -18951,7 +18951,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_mf[8013] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_mn[564] UCG_FONT_SECTION("ucg_font_courB24_mn") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_mn[564]  = {
   18,2,5,4,5,5,1,4,6,18,28,0,251,20,249,21,
   251,0,0,0,0,32,10,148,31,250,195,255,127,2,0,42,
   35,148,31,250,3,57,226,140,137,49,134,48,37,140,80,76,
@@ -18994,7 +18994,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_mn[564] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_mr[3602] UCG_FONT_SECTION("ucg_font_courB24_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_mr[3602]  = {
   95,2,5,4,5,5,1,4,6,22,30,255,249,20,249,21,
   251,4,114,9,175,32,10,214,15,251,195,255,255,75,0,33,
   23,214,15,251,131,58,100,137,117,114,204,249,163,225,67,98,
@@ -19227,7 +19227,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_mr[3602] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_tf[6661] UCG_FONT_SECTION("ucg_font_courB24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_tf[6661]  = {
   191,0,4,4,5,5,5,6,6,22,33,255,249,20,249,21,
   251,3,114,7,243,32,6,0,192,144,6,33,18,165,94,144,
   142,17,15,84,12,153,191,9,61,162,196,8,0,34,13,73,
@@ -19651,7 +19651,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_tf[6661] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_tn[460] UCG_FONT_SECTION("ucg_font_courB24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_tn[460]  = {
   18,0,4,4,5,5,4,5,6,18,28,0,251,20,249,21,
   251,0,0,0,0,32,6,0,96,164,1,42,28,207,237,165,
   109,240,236,196,140,17,81,98,68,137,70,233,14,158,35,65,
@@ -19687,7 +19687,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_tn[460] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courB24_tr[3015] UCG_FONT_SECTION("ucg_font_courB24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courB24_tr[3015]  = {
   95,0,4,4,5,5,5,6,6,22,30,255,249,20,249,21,
   251,3,114,7,243,32,6,0,192,144,6,33,18,165,94,144,
   142,17,15,84,12,153,191,9,61,162,196,8,0,34,13,73,
@@ -19883,7 +19883,7 @@ const ucg_fntpgm_uint8_t ucg_font_courB24_tr[3015] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR08_mf[2591] UCG_FONT_SECTION("ucg_font_courR08_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR08_mf[2591]  = {
   191,2,3,2,3,4,1,2,4,7,11,0,254,6,254,7,
   254,1,148,3,63,32,6,223,252,249,31,33,10,223,252,73,
   113,119,56,39,2,34,11,223,252,41,197,36,76,114,190,1,
@@ -20052,7 +20052,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR08_mf[2591] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR08_mr[1092] UCG_FONT_SECTION("ucg_font_courR08_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR08_mr[1092]  = {
   95,2,4,2,3,4,1,2,4,6,10,0,254,6,254,7,
   254,1,106,2,218,32,5,214,248,115,33,8,214,56,166,186,
   205,3,34,11,214,248,37,50,137,76,34,79,8,35,19,214,
@@ -20128,7 +20128,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR08_mr[1092] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR08_tf[2064] UCG_FONT_SECTION("ucg_font_courR08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR08_tf[2064]  = {
   191,0,3,2,3,4,3,4,4,7,11,0,254,6,254,7,
   254,1,60,2,141,32,5,0,166,3,33,7,57,163,99,80,
   2,34,7,155,178,35,177,4,35,16,197,158,167,148,36,131,
@@ -20265,7 +20265,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR08_tf[2064] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR08_tr[989] UCG_FONT_SECTION("ucg_font_courR08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR08_tr[989]  = {
   95,0,3,2,3,4,3,4,4,6,10,0,254,6,254,7,
   254,1,60,2,141,32,5,0,166,3,33,7,57,163,99,80,
   2,34,7,155,178,35,177,4,35,16,197,158,167,148,36,131,
@@ -20334,7 +20334,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR08_tr[989] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR10_mf[3474] UCG_FONT_SECTION("ucg_font_courR10_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR10_mf[3474]  = {
   191,2,4,2,4,4,1,3,5,10,15,255,253,9,253,10,
   254,1,245,4,64,32,7,250,163,159,255,0,33,12,250,163,
   159,38,217,123,80,50,79,6,34,15,250,163,31,23,137,69,
@@ -20559,7 +20559,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR10_mf[3474] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR10_mr[1594] UCG_FONT_SECTION("ucg_font_courR10_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR10_mr[1594]  = {
   95,2,4,2,4,4,1,3,5,10,14,255,253,9,253,10,
   254,1,235,4,49,32,7,234,163,159,127,5,33,12,234,163,
   31,152,236,61,40,153,39,3,34,14,234,163,57,18,139,196,
@@ -20666,7 +20666,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR10_mr[1594] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR10_tf[2914] UCG_FONT_SECTION("ucg_font_courR10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR10_tf[2914]  = {
   191,0,3,2,4,4,4,5,5,10,15,255,253,9,253,10,
   254,1,135,3,116,32,5,0,24,51,33,7,145,11,51,46,
   2,34,8,68,106,51,34,167,0,35,19,165,250,114,74,73,
@@ -20856,7 +20856,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR10_tf[2914] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR10_tr[1331] UCG_FONT_SECTION("ucg_font_courR10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR10_tr[1331]  = {
   95,0,3,2,4,4,3,5,5,10,14,255,253,9,253,10,
   254,1,134,3,113,32,5,0,140,25,33,7,145,135,25,23,
   1,34,8,68,182,25,145,83,0,35,19,165,126,57,165,36,
@@ -20947,7 +20947,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR10_tr[1331] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR12_mf[3739] UCG_FONT_SECTION("ucg_font_courR12_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR12_mf[3739]  = {
   191,2,4,2,4,5,1,3,5,10,17,0,253,10,253,11,
   254,2,54,4,182,32,8,26,71,63,255,43,0,33,13,26,
   71,63,81,178,223,131,146,121,42,0,34,17,26,71,63,77,
@@ -21188,7 +21188,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR12_mf[3739] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR12_mr[1704] UCG_FONT_SECTION("ucg_font_courR12_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR12_mr[1704]  = {
   95,2,4,2,4,4,1,3,5,10,15,0,253,10,253,11,
   254,2,32,4,144,32,7,250,163,159,255,0,33,12,250,163,
   61,217,239,65,201,60,21,0,34,16,250,163,59,18,139,196,
@@ -21302,7 +21302,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR12_mr[1704] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR12_tf[3169] UCG_FONT_SECTION("ucg_font_courR12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR12_tf[3169]  = {
   191,0,3,2,4,4,4,5,5,10,17,0,253,10,253,11,
   254,1,187,3,226,32,5,0,24,53,33,8,177,12,53,14,
   138,0,34,8,84,107,53,34,79,1,35,25,199,249,180,146,
@@ -21508,7 +21508,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR12_tf[3169] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR12_tr[1465] UCG_FONT_SECTION("ucg_font_courR12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR12_tr[1465]  = {
   95,0,3,2,4,4,4,5,5,10,15,0,253,10,253,11,
   254,1,187,3,226,32,5,0,24,53,33,8,177,12,53,14,
   138,0,34,8,84,107,53,34,79,1,35,25,199,249,180,146,
@@ -21607,7 +21607,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR12_tr[1465] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR14_mf[4052] UCG_FONT_SECTION("ucg_font_courR14_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR14_mf[4052]  = {
   191,2,4,2,4,5,1,3,5,12,19,255,252,11,252,12,
   254,2,56,4,238,32,8,60,131,63,255,191,1,33,13,60,
   131,63,169,223,214,19,73,245,44,1,34,16,60,131,63,165,
@@ -21868,7 +21868,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR14_mf[4052] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR14_mr[1894] UCG_FONT_SECTION("ucg_font_courR14_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR14_mr[1894]  = {
   95,2,4,2,4,5,1,3,5,11,17,0,252,11,252,12,
   254,2,63,5,10,32,8,27,99,63,255,119,0,33,14,27,
   99,63,64,233,211,122,10,165,158,17,0,34,16,27,99,187,
@@ -21994,7 +21994,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR14_mr[1894] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR14_tf[3644] UCG_FONT_SECTION("ucg_font_courR14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR14_tf[3644]  = {
   191,0,4,2,4,5,4,5,5,12,19,255,252,11,252,12,
   254,1,233,4,98,32,5,0,48,110,33,9,194,24,110,248,
   162,104,16,34,14,86,246,110,144,12,34,131,136,34,147,200,
@@ -22229,7 +22229,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR14_tf[3644] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR14_tr[1674] UCG_FONT_SECTION("ucg_font_courR14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR14_tr[1674]  = {
   95,0,4,2,4,5,4,5,5,11,17,0,252,11,252,12,
   254,1,233,4,98,32,5,0,48,110,33,9,194,24,110,248,
   162,104,16,34,14,86,246,110,144,12,34,131,136,34,147,200,
@@ -22341,7 +22341,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR14_tr[1674] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR18_mf[5425] UCG_FONT_SECTION("ucg_font_courR18_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR18_mf[5425]  = {
   191,2,5,2,5,5,1,4,6,16,24,255,251,14,251,16,
   253,2,234,6,161,32,8,16,31,248,243,127,12,33,16,16,
   31,248,227,202,249,115,121,245,41,200,233,147,6,34,23,16,
@@ -22688,7 +22688,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR18_mf[5425] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR18_mr[2403] UCG_FONT_SECTION("ucg_font_courR18_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR18_mr[2403]  = {
   95,2,4,2,4,5,1,4,5,15,22,0,251,14,251,16,
   253,2,219,6,96,32,8,111,207,127,254,255,63,33,15,111,
   207,127,152,218,95,199,235,153,171,245,188,3,34,21,111,207,
@@ -22846,7 +22846,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR18_mr[2403] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR18_tf[4544] UCG_FONT_SECTION("ucg_font_courR18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR18_tf[4544]  = {
   191,0,4,2,4,5,4,5,5,16,24,255,251,14,251,16,
   253,2,71,5,97,32,5,0,48,126,33,10,2,29,126,248,
   129,162,110,16,34,18,120,54,127,152,12,38,131,201,96,178,
@@ -23138,7 +23138,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR18_tf[4544] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR18_tr[2069] UCG_FONT_SECTION("ucg_font_courR18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR18_tr[2069]  = {
   95,0,4,2,4,5,4,5,5,15,22,0,251,14,251,16,
   253,2,71,5,97,32,5,0,48,126,33,10,2,29,126,248,
   129,162,110,16,34,18,120,54,127,152,12,38,131,201,96,178,
@@ -23275,7 +23275,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR18_tr[2069] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_mf[7105] UCG_FONT_SECTION("ucg_font_courR24_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_mf[7105]  = {
   191,2,5,2,5,6,1,4,6,19,32,0,250,19,250,21,
   252,3,221,8,175,32,10,20,44,244,231,255,255,40,0,33,
   20,20,44,244,103,49,114,241,147,153,253,62,43,131,3,130,
@@ -23727,7 +23727,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_mf[7105] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_mn[520] UCG_FONT_SECTION("ucg_font_courR24_mn") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_mn[520]  = {
   18,2,5,2,5,5,1,3,6,17,26,0,252,19,250,21,
   252,0,0,0,0,32,9,84,7,253,249,255,195,0,42,30,
   84,7,221,51,155,11,169,52,144,144,48,16,54,32,184,152,
@@ -23767,7 +23767,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_mn[520] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_mr[3179] UCG_FONT_SECTION("ucg_font_courR24_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_mr[3179]  = {
   95,2,5,2,5,5,1,4,6,19,28,0,250,19,250,21,
   252,3,195,8,128,32,9,148,23,250,243,255,159,0,33,19,
   148,23,218,71,46,126,50,179,223,103,101,112,64,112,159,35,
@@ -23973,7 +23973,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_mr[3179] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 191/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_tf[6078] UCG_FONT_SECTION("ucg_font_courR24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_tf[6078]  = {
   191,0,4,2,5,5,5,6,6,19,32,0,250,19,250,21,
   252,3,28,7,50,32,6,0,192,144,6,33,17,165,98,144,
   150,204,228,155,80,191,7,46,6,138,5,0,34,29,75,81,
@@ -24360,7 +24360,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_tf[6078] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 18/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_tn[422] UCG_FONT_SECTION("ucg_font_courR24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_tn[422]  = {
   18,0,4,2,4,5,4,5,6,17,26,0,252,19,250,21,
   252,0,0,0,0,32,6,0,48,210,0,42,26,219,24,211,
   21,109,21,10,13,20,137,65,102,160,27,38,114,10,149,70,
@@ -24394,7 +24394,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_tn[422] UCG_FONT_SECTION("ucg_font_cou
   Glyphs: 95/873
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_courR24_tr[2750] UCG_FONT_SECTION("ucg_font_courR24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_courR24_tr[2750]  = {
   95,0,4,2,5,5,5,6,6,19,28,0,250,19,250,21,
   252,3,28,7,50,32,6,0,192,144,6,33,17,165,98,144,
   150,204,228,155,80,191,7,46,6,138,5,0,34,29,75,81,
@@ -24573,7 +24573,7 @@ const ucg_fntpgm_uint8_t ucg_font_courR24_tr[2750] UCG_FONT_SECTION("ucg_font_co
   Glyphs: 192/8453
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_cu12_67_75[3705] UCG_FONT_SECTION("ucg_font_cu12_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_cu12_67_75[3705]  = {
   192,0,4,3,5,5,4,4,6,17,19,1,254,11,252,12,
   253,3,87,5,196,0,32,112,37,198,115,48,21,164,36,44,
   42,34,46,76,46,76,46,76,46,76,46,44,34,44,42,38,
@@ -24812,7 +24812,7 @@ const ucg_fntpgm_uint8_t ucg_font_cu12_67_75[3705] UCG_FONT_SECTION("ucg_font_cu
   Glyphs: 48/8453
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_cu12_75[936] UCG_FONT_SECTION("ucg_font_cu12_75") = {
+const ucg_fntpgm_uint8_t ucg_font_cu12_75[936]  = {
   48,0,4,3,5,4,3,3,6,17,15,1,254,11,252,12,
   253,2,74,0,0,32,9,107,93,23,254,255,15,4,33,11,
   107,93,23,14,42,245,151,7,5,34,16,107,93,87,110,226,
@@ -24878,7 +24878,7 @@ const ucg_fntpgm_uint8_t ucg_font_cu12_75[936] UCG_FONT_SECTION("ucg_font_cu12_7
   Glyphs: 191/8453
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_cu12_hf[3907] UCG_FONT_SECTION("ucg_font_cu12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_cu12_hf[3907]  = {
   191,1,4,2,5,5,1,3,6,17,20,0,252,11,252,12,
   253,2,92,5,63,32,7,133,70,249,124,10,33,12,133,70,
   249,48,141,223,99,236,113,0,34,17,135,198,249,4,145,76,
@@ -25130,7 +25130,7 @@ const ucg_fntpgm_uint8_t ucg_font_cu12_hf[3907] UCG_FONT_SECTION("ucg_font_cu12_
   Glyphs: 191/8453
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_cu12_mf[4559] UCG_FONT_SECTION("ucg_font_cu12_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_cu12_mf[4559]  = {
   191,2,5,2,5,5,1,3,6,17,20,0,252,11,252,12,
   253,2,176,5,250,32,8,145,70,252,249,207,3,33,14,145,
   70,252,233,232,249,125,34,122,250,68,1,34,19,145,70,252,
@@ -25422,7 +25422,7 @@ const ucg_fntpgm_uint8_t ucg_font_cu12_mf[4559] UCG_FONT_SECTION("ucg_font_cu12_
   Glyphs: 191/8453
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_cu12_tf[3356] UCG_FONT_SECTION("ucg_font_cu12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_cu12_tf[3356]  = {
   191,0,3,2,5,5,3,5,6,17,20,0,252,11,252,12,
   253,1,210,4,98,32,6,0,16,150,0,33,9,130,21,150,
   248,32,15,1,34,8,164,248,158,136,60,5,35,30,234,181,
@@ -25639,7 +25639,7 @@ const ucg_fntpgm_uint8_t ucg_font_cu12_tf[3356] UCG_FONT_SECTION("ucg_font_cu12_
   Glyphs: 154/154
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_cursor_tf[4198] UCG_FONT_SECTION("ucg_font_cursor_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_cursor_tf[4198]  = {
   154,0,4,4,5,5,5,5,6,31,31,241,240,8,247,5,
   249,3,185,7,121,32,26,206,41,20,195,192,99,137,74,20,
   41,163,10,157,65,115,168,212,20,41,81,40,217,193,1,33,
@@ -25909,7 +25909,7 @@ const ucg_fntpgm_uint8_t ucg_font_cursor_tf[4198] UCG_FONT_SECTION("ucg_font_cur
   Glyphs: 14/18
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_cursor_tr[390] UCG_FONT_SECTION("ucg_font_cursor_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_cursor_tr[390]  = {
   14,0,4,4,5,5,5,5,6,23,23,242,240,0,0,0,
   0,0,0,0,0,34,27,206,13,17,179,80,130,229,78,33,
   82,88,208,220,8,113,67,132,141,9,54,40,212,224,192,0,
@@ -25941,7 +25941,7 @@ const ucg_fntpgm_uint8_t ucg_font_cursor_tr[390] UCG_FONT_SECTION("ucg_font_curs
   Glyphs: 176/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hf[2174] UCG_FONT_SECTION("ucg_font_fixed_v0_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hf[2174]  = {
   176,1,3,2,3,4,1,2,4,7,9,0,254,7,254,7,
   0,1,93,2,232,32,6,204,240,121,1,33,10,206,184,210,
   118,48,205,41,0,34,9,206,120,106,73,206,39,0,35,14,
@@ -26084,7 +26084,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hf[2174] UCG_FONT_SECTION("ucg_font_f
   Glyphs: 18/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hn[202] UCG_FONT_SECTION("ucg_font_fixed_v0_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hn[202]  = {
   18,1,3,2,3,3,1,1,4,5,7,0,0,7,254,7,
   0,0,0,0,0,32,5,252,124,14,42,12,254,174,44,41,
   141,225,148,212,50,0,43,11,254,126,36,205,6,45,205,33,
@@ -26104,7 +26104,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hn[202] UCG_FONT_SECTION("ucg_font_fi
   Glyphs: 95/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hr[1127] UCG_FONT_SECTION("ucg_font_fixed_v0_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hr[1127]  = {
   95,1,3,2,3,4,1,2,4,7,9,0,254,7,254,7,
   0,1,93,2,232,32,6,204,240,121,1,33,10,206,184,210,
   118,48,205,41,0,34,9,206,120,106,73,206,39,0,35,14,
@@ -26182,7 +26182,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_hr[1127] UCG_FONT_SECTION("ucg_font_f
   Glyphs: 95/181
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_mr[1270] UCG_FONT_SECTION("ucg_font_fixed_v0_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_mr[1270]  = {
   95,3,4,2,4,5,1,2,5,8,16,0,254,7,254,7,
   0,1,170,3,83,32,7,8,131,159,63,4,33,12,8,131,
   159,117,174,61,32,151,135,1,34,10,8,131,159,113,34,149,
@@ -26269,7 +26269,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_mr[1270] UCG_FONT_SECTION("ucg_font_f
   Glyphs: 176/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tf[1810] UCG_FONT_SECTION("ucg_font_fixed_v0_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tf[1810]  = {
   176,0,3,2,3,4,3,4,4,7,9,0,254,7,254,7,
   0,1,48,2,106,32,5,0,34,3,33,7,57,163,99,72,
   4,34,7,147,182,35,81,2,35,11,45,166,167,50,40,149,
@@ -26390,7 +26390,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tf[1810] UCG_FONT_SECTION("ucg_font_f
   Glyphs: 18/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tn[182] UCG_FONT_SECTION("ucg_font_fixed_v0_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tn[182]  = {
   18,0,3,2,3,3,2,3,4,5,7,0,0,7,254,7,
   0,0,0,0,0,32,4,128,100,42,11,189,116,85,42,91,
   182,52,69,0,43,10,173,117,133,209,32,133,17,0,44,6,
@@ -26409,7 +26409,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tn[182] UCG_FONT_SECTION("ucg_font_fi
   Glyphs: 95/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tr[935] UCG_FONT_SECTION("ucg_font_fixed_v0_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tr[935]  = {
   95,0,3,2,3,4,3,4,4,7,9,0,254,7,254,7,
   0,1,48,2,106,32,5,0,34,3,33,7,57,163,99,72,
   4,34,7,147,182,35,81,2,35,11,45,166,167,50,40,149,
@@ -26475,7 +26475,7 @@ const ucg_fntpgm_uint8_t ucg_font_fixed_v0_tr[935] UCG_FONT_SECTION("ucg_font_fi
   Glyphs: 96/256
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_freedoomr10_tr[812] UCG_FONT_SECTION("ucg_font_freedoomr10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_freedoomr10_tr[812]  = {
   96,0,3,3,3,4,4,5,5,7,11,0,1,12,1,12,
   2,0,244,2,122,32,5,0,140,23,33,5,0,140,23,34,
   5,0,140,23,35,5,0,140,23,36,5,0,140,23,37,5,
@@ -26533,7 +26533,7 @@ const ucg_fntpgm_uint8_t ucg_font_freedoomr10_tr[812] UCG_FONT_SECTION("ucg_font
   Glyphs: 17/17
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_freedoomr25_tn[233] UCG_FONT_SECTION("ucg_font_freedoomr25_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_freedoomr25_tn[233]  = {
   17,0,5,6,5,5,4,5,6,18,26,0,0,26,0,26,
   0,0,0,0,0,32,6,0,32,92,1,43,16,17,166,157,
   207,192,13,223,17,157,129,27,190,3,0,44,12,7,173,92,
@@ -26555,7 +26555,7 @@ const ucg_fntpgm_uint8_t ucg_font_freedoomr25_tn[233] UCG_FONT_SECTION("ucg_font
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB08_hf[2672] UCG_FONT_SECTION("ucg_font_helvB08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB08_hf[2672]  = {
   191,1,3,2,4,4,1,2,5,11,13,255,254,8,254,8,
   254,1,147,3,115,32,6,211,153,231,17,33,11,212,161,135,
   37,167,44,7,116,8,34,12,213,169,39,37,81,18,37,57,
@@ -26730,7 +26730,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB08_hf[2672] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB08_hr[1236] UCG_FONT_SECTION("ucg_font_helvB08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB08_hr[1236]  = {
   95,1,3,2,4,4,1,2,5,11,11,255,254,8,254,8,
   254,1,137,3,97,32,6,179,153,231,10,33,11,180,161,149,
   156,178,28,208,33,0,34,11,181,169,78,162,36,74,114,94,
@@ -26815,7 +26815,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB08_hr[1236] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB08_tf[2252] UCG_FONT_SECTION("ucg_font_helvB08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB08_tf[2252]  = {
   191,0,3,3,4,4,2,4,5,11,13,255,254,8,254,8,
   254,1,100,2,207,32,5,0,230,4,33,8,130,35,197,65,
   18,19,34,8,51,119,69,68,37,0,35,16,119,161,85,36,
@@ -26963,7 +26963,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB08_tf[2252] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB08_tr[1054] UCG_FONT_SECTION("ucg_font_helvB08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB08_tr[1054]  = {
   95,0,3,3,4,4,2,4,5,11,11,255,254,8,254,8,
   254,1,100,2,207,32,5,0,230,4,33,8,130,35,197,65,
   18,19,34,8,51,119,69,68,37,0,35,16,119,161,85,36,
@@ -27036,7 +27036,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB08_tr[1054] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB10_hf[3674] UCG_FONT_SECTION("ucg_font_helvB10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB10_hf[3674]  = {
   191,1,3,2,4,5,1,3,5,14,17,0,253,11,253,11,
   253,2,46,4,194,32,7,20,135,158,127,5,33,13,20,135,
   30,150,124,202,114,64,210,97,0,34,12,23,231,158,197,164,
@@ -27273,7 +27273,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB10_hf[3674] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB10_hr[1693] UCG_FONT_SECTION("ucg_font_helvB10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB10_hr[1693]  = {
   95,1,3,2,4,4,1,3,5,14,15,0,253,11,253,11,
   253,2,31,4,162,32,7,244,67,207,31,1,33,12,244,67,
   43,249,148,229,128,164,195,0,34,11,247,115,143,152,20,169,
@@ -27386,7 +27386,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB10_hr[1693] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB10_tf[2901] UCG_FONT_SECTION("ucg_font_helvB10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB10_tf[2901]  = {
   191,0,3,3,4,4,3,5,5,14,17,0,253,11,253,11,
   253,1,178,3,162,32,5,0,140,20,33,9,178,133,20,7,
   75,140,0,34,9,53,197,23,18,202,40,2,35,23,169,132,
@@ -27575,7 +27575,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB10_tf[2901] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB10_tr[1339] UCG_FONT_SECTION("ucg_font_helvB10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB10_tr[1339]  = {
   95,0,3,3,4,4,3,5,5,14,15,0,253,11,253,11,
   253,1,178,3,162,32,5,0,140,20,33,9,178,133,20,7,
   75,140,0,34,9,53,197,23,18,202,40,2,35,23,169,132,
@@ -27666,7 +27666,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB10_tr[1339] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB12_hf[4362] UCG_FONT_SECTION("ucg_font_helvB12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB12_hf[4362]  = {
   191,1,4,3,5,5,1,3,6,15,20,255,252,12,252,12,
   253,2,138,5,126,32,8,133,70,249,248,20,0,33,15,134,
   134,249,176,66,122,20,149,86,72,30,22,0,34,17,136,6,
@@ -27946,7 +27946,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB12_hf[4362] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB12_hr[1968] UCG_FONT_SECTION("ucg_font_helvB12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB12_hr[1968]  = {
   95,1,4,3,5,5,1,3,6,14,17,0,252,12,252,12,
   253,2,115,5,75,32,7,37,70,249,120,10,33,14,38,134,
   137,66,122,20,149,86,72,30,22,0,34,16,40,6,154,18,
@@ -28077,7 +28077,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB12_hr[1968] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB12_tf[3333] UCG_FONT_SECTION("ucg_font_helvB12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB12_tf[3333]  = {
   191,0,3,3,4,5,3,5,6,15,20,255,252,12,252,12,
   253,1,235,4,45,32,5,0,24,75,33,9,194,12,77,28,
   44,105,4,34,10,69,138,81,72,88,36,161,0,35,27,201,
@@ -28293,7 +28293,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB12_tf[3333] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB12_tr[1522] UCG_FONT_SECTION("ucg_font_helvB12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB12_tr[1522]  = {
   95,0,3,3,4,5,3,5,6,14,17,0,252,12,252,12,
   253,1,235,4,45,32,5,0,24,75,33,9,194,12,77,28,
   44,105,4,34,10,69,138,81,72,88,36,161,0,35,27,201,
@@ -28396,7 +28396,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB12_tr[1522] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB14_hf[4971] UCG_FONT_SECTION("ucg_font_helvB14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB14_hf[4971]  = {
   191,1,4,3,5,5,1,4,6,18,23,255,251,14,252,14,
   252,2,215,6,55,32,8,229,158,242,241,83,0,33,15,229,
   158,242,193,70,246,19,25,193,145,245,176,0,34,18,231,158,
@@ -28714,7 +28714,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB14_hf[4971] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB14_hr[2164] UCG_FONT_SECTION("ucg_font_helvB14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB14_hr[2164]  = {
   95,1,4,3,5,5,1,3,6,18,18,255,252,14,252,14,
   252,2,170,5,212,32,7,69,70,249,248,0,33,14,69,70,
   25,35,251,137,140,224,200,122,48,0,34,16,71,198,25,74,
@@ -28857,7 +28857,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB14_hr[2164] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB14_tf[3863] UCG_FONT_SECTION("ucg_font_helvB14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB14_tf[3863]  = {
   191,0,3,3,5,5,3,5,6,18,23,255,251,14,252,14,
   252,2,40,4,221,32,6,0,48,150,0,33,10,195,21,150,
   248,80,17,30,4,34,10,165,52,159,144,112,25,69,0,35,
@@ -29106,7 +29106,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB14_tf[3863] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB14_tr[1763] UCG_FONT_SECTION("ucg_font_helvB14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB14_tr[1763]  = {
   95,0,3,3,5,5,3,5,6,18,18,255,252,14,252,14,
   252,2,40,4,221,32,6,0,48,150,0,33,10,195,21,150,
   248,80,17,30,4,34,10,165,52,159,144,112,25,69,0,35,
@@ -29224,7 +29224,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB14_tr[1763] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB18_hf[6220] UCG_FONT_SECTION("ucg_font_helvB18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB18_hf[6220]  = {
   191,1,4,3,5,5,1,4,6,24,29,255,251,19,251,19,
   251,3,131,7,222,32,8,166,31,243,241,191,4,33,16,167,
   159,243,209,13,237,63,146,82,15,180,61,58,0,34,21,169,
@@ -29620,7 +29620,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB18_hf[6220] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB18_hr[2790] UCG_FONT_SECTION("ucg_font_helvB18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB18_hr[2790]  = {
   95,1,4,3,5,5,1,4,6,23,24,0,251,19,251,19,
   251,3,106,7,157,32,8,6,31,243,241,47,1,33,15,7,
   159,83,134,246,31,73,169,7,218,30,29,0,34,19,9,159,
@@ -29802,7 +29802,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB18_hr[2790] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB18_tf[4948] UCG_FONT_SECTION("ucg_font_helvB18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB18_tf[4948]  = {
   191,0,4,3,5,5,3,6,6,24,29,255,251,19,251,19,
   251,2,241,6,48,32,6,0,48,52,1,33,10,99,26,60,
   225,47,212,29,8,34,11,197,184,77,65,130,23,35,17,0,
@@ -30119,7 +30119,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB18_tf[4948] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB18_tr[2245] UCG_FONT_SECTION("ucg_font_helvB18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB18_tr[2245]  = {
   95,0,4,3,5,5,3,5,6,23,24,0,251,19,251,19,
   251,2,234,6,37,32,6,0,48,154,0,33,10,99,26,158,
   240,23,234,14,4,34,11,197,184,167,32,193,139,145,8,0,
@@ -30267,7 +30267,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB18_tr[2245] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_hf[8873] UCG_FONT_SECTION("ucg_font_helvB24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_hf[8873]  = {
   191,1,5,4,6,6,1,4,7,32,38,255,249,25,249,25,
   250,4,251,11,80,32,9,137,57,146,31,254,23,0,33,19,
   139,57,150,31,58,197,212,127,103,160,249,122,49,117,31,146,
@@ -30829,7 +30829,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_hf[8873] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 18/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_hn[608] UCG_FONT_SECTION("ucg_font_helvB24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_hn[608]  = {
   18,1,4,4,5,5,1,4,6,17,31,0,250,25,249,25,
   250,0,0,0,0,32,9,233,151,244,225,255,191,4,42,29,
   237,151,246,193,136,21,24,68,72,160,17,34,198,40,66,71,
@@ -30875,7 +30875,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_hn[608] UCG_FONT_SECTION("ucg_font_hel
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_hr[3981] UCG_FONT_SECTION("ucg_font_helvB24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_hr[3981]  = {
   95,1,5,4,6,6,1,4,7,30,32,0,249,25,249,25,
   250,4,215,10,249,32,9,9,56,146,31,254,37,0,33,18,
   11,56,150,163,152,250,239,12,52,95,47,166,238,67,18,0,
@@ -31131,7 +31131,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_hr[3981] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_tf[6638] UCG_FONT_SECTION("ucg_font_helvB24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_tf[6638]  = {
   191,0,4,4,5,6,4,6,7,32,38,255,249,25,249,25,
   250,3,211,8,83,32,6,0,192,48,9,33,14,37,91,112,
   9,63,80,49,100,190,125,160,0,34,16,43,81,24,10,100,
@@ -31553,7 +31553,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_tf[6638] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 18/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_tn[453] UCG_FONT_SECTION("ucg_font_helvB24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_tn[453]  = {
   18,0,4,4,5,5,3,5,6,17,31,0,250,25,249,25,
   250,0,0,0,0,32,6,0,48,166,0,42,24,106,181,183,
   36,80,84,16,33,33,70,136,104,129,136,148,25,36,211,4,
@@ -31589,7 +31589,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_tn[453] UCG_FONT_SECTION("ucg_font_hel
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvB24_tr[2979] UCG_FONT_SECTION("ucg_font_helvB24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvB24_tr[2979]  = {
   95,0,4,4,5,6,3,6,7,30,32,0,249,25,249,25,
   250,3,206,8,75,32,6,0,96,152,4,33,13,37,59,184,
   132,31,168,24,50,223,62,80,34,15,43,49,12,5,50,248,
@@ -31783,7 +31783,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvB24_tr[2979] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR08_hf[2730] UCG_FONT_SECTION("ucg_font_helvR08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR08_hf[2730]  = {
   191,1,3,2,4,4,1,2,5,11,13,255,254,8,254,8,
   254,1,154,3,110,32,6,211,153,231,17,33,9,211,153,199,
   162,94,115,0,34,9,212,161,135,147,118,142,0,35,17,214,
@@ -31961,7 +31961,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR08_hf[2730] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR08_hr[1271] UCG_FONT_SECTION("ucg_font_helvR08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR08_hr[1271]  = {
   95,1,3,2,4,4,1,2,5,11,11,255,254,8,254,8,
   254,1,144,3,96,32,6,179,153,231,10,33,8,179,153,140,
   122,205,1,34,8,180,161,77,218,57,2,35,17,182,177,39,
@@ -32048,7 +32048,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR08_hr[1271] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR08_tf[2187] UCG_FONT_SECTION("ucg_font_helvR08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR08_tf[2187]  = {
   191,0,3,2,4,4,2,4,5,11,13,255,254,8,254,8,
   254,1,85,2,191,32,5,0,230,4,33,6,129,227,196,37,
   34,7,35,59,69,162,4,35,16,118,162,85,146,37,209,32,
@@ -32192,7 +32192,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR08_tf[2187] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR08_tr[1035] UCG_FONT_SECTION("ucg_font_helvR08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR08_tr[1035]  = {
   95,0,3,2,4,4,2,4,5,11,11,255,254,8,254,8,
   254,1,85,2,191,32,5,0,230,4,33,6,129,227,196,37,
   34,7,35,59,69,162,4,35,16,118,162,85,146,37,209,32,
@@ -32264,7 +32264,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR08_tr[1035] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR10_hf[3688] UCG_FONT_SECTION("ucg_font_helvR10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR10_hf[3688]  = {
   191,1,4,2,4,5,1,3,5,14,17,255,253,11,253,11,
   253,2,31,4,167,32,7,20,135,62,135,0,33,10,20,135,
   122,166,223,101,210,0,34,12,21,167,62,162,36,17,73,228,
@@ -32502,7 +32502,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR10_hf[3688] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR10_hr[1672] UCG_FONT_SECTION("ucg_font_helvR10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR10_hr[1672]  = {
   95,1,4,2,4,4,1,3,5,14,15,255,253,11,253,11,
   253,2,12,4,121,32,6,244,67,159,3,33,10,244,67,45,
   211,239,50,105,0,34,12,245,83,45,17,73,68,18,121,182,
@@ -32614,7 +32614,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR10_hr[1672] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR10_tf[2852] UCG_FONT_SECTION("ucg_font_helvR10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR10_tf[2852]  = {
   191,0,3,2,4,4,3,5,5,14,17,255,253,11,253,11,
   253,1,158,3,157,32,5,0,140,20,33,7,177,134,20,7,
   69,34,7,51,197,21,137,37,35,21,167,132,120,73,152,132,
@@ -32800,7 +32800,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR10_tf[2852] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR10_tr[1312] UCG_FONT_SECTION("ucg_font_helvR10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR10_tr[1312]  = {
   95,0,3,2,4,4,3,5,5,14,15,255,253,11,253,11,
   253,1,158,3,157,32,5,0,140,20,33,7,177,134,20,7,
   69,34,7,51,197,21,137,37,35,21,167,132,120,73,152,132,
@@ -32890,7 +32890,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR10_tr[1312] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR12_hf[4151] UCG_FONT_SECTION("ucg_font_helvR12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR12_hf[4151]  = {
   191,1,4,2,5,5,1,3,6,15,20,255,252,12,252,12,
   252,2,90,5,39,32,7,133,70,249,124,10,33,12,133,70,
   249,184,80,127,25,202,227,0,34,10,134,134,249,208,72,191,
@@ -33157,7 +33157,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR12_hf[4151] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR12_hr[1853] UCG_FONT_SECTION("ucg_font_helvR12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR12_hr[1853]  = {
   95,1,4,2,5,5,1,3,6,15,17,255,252,12,252,12,
   252,2,68,4,244,32,7,37,70,249,60,5,33,11,37,70,
   121,161,254,50,148,199,1,34,10,38,134,121,145,126,207,53,
@@ -33280,7 +33280,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR12_hr[1853] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR12_tf[3316] UCG_FONT_SECTION("ucg_font_helvR12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR12_tf[3316]  = {
   191,0,4,2,4,5,3,5,6,15,20,255,252,12,252,12,
   252,1,235,4,37,32,5,0,24,75,33,7,193,12,75,120,
   33,34,8,68,138,77,136,56,9,35,26,184,8,211,137,132,
@@ -33495,7 +33495,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR12_tf[3316] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR12_tr[1521] UCG_FONT_SECTION("ucg_font_helvR12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR12_tr[1521]  = {
   95,0,4,2,4,5,3,5,6,15,17,255,252,12,252,12,
   252,1,235,4,37,32,5,0,24,75,33,7,193,12,75,120,
   33,34,8,68,138,77,136,56,9,35,26,184,8,211,137,132,
@@ -33598,7 +33598,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR12_tr[1521] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR14_hf[4813] UCG_FONT_SECTION("ucg_font_helvR14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR14_hf[4813]  = {
   191,1,4,3,5,5,1,3,6,18,22,255,252,14,252,14,
   252,2,169,6,5,32,8,197,70,249,248,21,0,33,16,198,
   134,249,176,66,250,81,84,60,136,144,60,44,0,34,12,197,
@@ -33906,7 +33906,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR14_hf[4813] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR14_hr[2140] UCG_FONT_SECTION("ucg_font_helvR14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR14_hr[2140]  = {
   95,1,4,3,5,5,1,3,6,18,18,255,252,14,252,14,
   252,2,140,5,190,32,7,69,70,249,248,0,33,15,70,134,
   41,66,250,81,84,60,136,144,60,44,0,34,11,69,70,9,
@@ -34047,7 +34047,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR14_hr[2140] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR14_tf[3775] UCG_FONT_SECTION("ucg_font_helvR14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR14_tf[3775]  = {
   191,0,4,3,5,5,3,5,6,18,22,255,252,14,252,14,
   252,2,49,4,187,32,6,0,48,150,0,33,10,194,25,154,
   240,96,34,138,0,34,9,165,48,151,32,193,11,1,35,32,
@@ -34290,7 +34290,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR14_tf[3775] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR14_tr[1736] UCG_FONT_SECTION("ucg_font_helvR14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR14_tr[1736]  = {
   95,0,4,3,5,5,3,5,6,18,18,255,252,14,252,14,
   252,2,49,4,187,32,6,0,48,150,0,33,10,194,25,154,
   240,96,34,138,0,34,9,165,48,151,32,193,11,1,35,32,
@@ -34406,7 +34406,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR14_tr[1736] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR18_hf[6285] UCG_FONT_SECTION("ucg_font_helvR18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR18_hf[6285]  = {
   191,1,4,3,5,5,1,4,6,25,29,255,251,19,251,19,
   251,3,120,7,207,32,8,166,31,243,241,191,4,33,17,166,
   31,243,145,8,233,127,20,21,15,34,164,30,9,0,34,13,
@@ -34806,7 +34806,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR18_hf[6285] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR18_hr[2856] UCG_FONT_SECTION("ucg_font_helvR18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR18_hr[2856]  = {
   95,1,4,3,5,5,1,4,6,24,25,0,251,19,251,19,
   251,3,103,7,180,32,7,38,31,243,241,31,33,16,38,31,
   19,133,244,63,138,138,7,17,82,143,4,0,34,12,40,31,
@@ -34992,7 +34992,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR18_hr[2856] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR18_tf[4895] UCG_FONT_SECTION("ucg_font_helvR18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR18_tf[4895]  = {
   191,0,4,3,5,5,3,6,6,25,29,255,251,19,251,19,
   251,2,232,6,32,32,6,0,48,52,1,33,10,98,26,52,
   225,3,138,40,3,34,11,198,180,69,65,132,39,18,49,1,
@@ -35305,7 +35305,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR18_tf[4895] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR18_tr[2233] UCG_FONT_SECTION("ucg_font_helvR18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR18_tr[2233]  = {
   95,0,4,3,5,5,3,5,6,24,25,0,251,19,251,19,
   251,2,224,6,18,32,6,0,48,154,0,33,10,98,26,154,
   240,1,69,148,1,34,11,198,180,163,32,194,19,137,152,0,
@@ -35452,7 +35452,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR18_tr[2233] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_hf[8895] UCG_FONT_SECTION("ucg_font_helvR24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_hf[8895]  = {
   191,1,5,3,6,6,1,4,7,31,38,255,249,25,249,24,
   249,5,18,11,70,32,9,137,57,146,31,255,11,0,33,18,
   137,57,146,31,246,152,253,255,157,64,145,199,108,31,13,0,
@@ -36015,7 +36015,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_hf[8895] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 18/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_hn[635] UCG_FONT_SECTION("ucg_font_helvR24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_hn[635]  = {
   18,1,5,4,5,5,1,4,6,18,31,0,251,25,249,24,
   249,0,0,0,0,32,7,233,159,244,195,63,42,30,237,159,
   182,136,37,80,16,66,4,50,130,8,131,32,99,16,65,198,
@@ -36062,7 +36062,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_hn[635] UCG_FONT_SECTION("ucg_font_hel
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_hr[4087] UCG_FONT_SECTION("ucg_font_helvR24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_hr[4087]  = {
   95,1,5,3,6,6,1,4,7,31,34,255,249,25,249,24,
   249,5,11,11,47,32,9,137,56,146,31,255,54,0,33,17,
   137,56,146,118,204,254,255,78,160,200,99,182,143,6,0,34,
@@ -36325,7 +36325,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_hr[4087] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_tf[6904] UCG_FONT_SECTION("ucg_font_helvR24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_tf[6904]  = {
   191,0,4,3,5,6,4,6,7,31,38,255,249,25,249,24,
   249,3,240,8,229,32,6,0,192,48,9,33,13,35,99,48,
   9,255,129,68,72,220,65,1,34,14,8,209,151,9,35,126,
@@ -36764,7 +36764,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_tf[6904] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 18/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_tn[486] UCG_FONT_SECTION("ucg_font_helvR24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_tn[486]  = {
   18,0,4,4,5,5,4,5,6,18,31,0,251,25,249,24,
   249,0,0,0,0,32,6,0,96,76,1,42,27,106,229,111,
   73,160,168,32,66,66,140,16,49,2,141,41,82,102,134,140,
@@ -36802,7 +36802,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_tn[486] UCG_FONT_SECTION("ucg_font_hel
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_helvR24_tr[3166] UCG_FONT_SECTION("ucg_font_helvR24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_helvR24_tr[3166]  = {
   95,0,4,3,5,6,4,6,7,31,34,255,249,25,249,24,
   249,3,240,8,229,32,6,0,192,48,9,33,13,35,99,48,
   9,255,129,68,72,220,65,1,34,14,8,209,151,9,35,126,
@@ -37007,7 +37007,7 @@ const ucg_fntpgm_uint8_t ucg_font_helvR24_tr[3166] UCG_FONT_SECTION("ucg_font_he
   Glyphs: 164/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hf[2187] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hf[2187]  = {
   164,1,3,2,4,4,1,1,5,9,11,0,255,7,255,7,
   0,1,116,3,15,32,6,180,209,243,9,33,8,178,73,39,
   173,25,0,34,8,180,209,163,73,239,12,35,17,182,217,83,
@@ -37151,7 +37151,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hf[2187] UCG_FONT_SECTION(
   Glyphs: 18/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hn[218] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hn[218]  = {
   18,1,3,2,4,4,1,1,5,7,8,0,255,7,255,7,
   0,0,0,0,0,32,6,132,209,115,4,42,15,136,225,67,
   89,152,100,195,144,37,97,150,19,1,43,11,134,217,35,105,
@@ -37172,7 +37172,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hn[218] UCG_FONT_SECTION("
   Glyphs: 93/181
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hr[1107] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hr[1107]  = {
   93,1,3,2,4,4,1,1,5,7,8,0,255,7,255,7,
   0,1,95,2,228,32,6,132,209,115,4,33,8,130,73,36,
   173,25,0,34,7,132,81,36,189,51,35,16,134,217,212,146,
@@ -37249,7 +37249,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_hr[1107] UCG_FONT_SECTION(
   Glyphs: 164/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tf[1749] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tf[1749]  = {
   164,0,3,2,4,4,2,4,5,9,11,0,255,7,255,7,
   0,1,58,2,112,32,5,0,34,5,33,7,113,162,196,16,
   5,34,7,51,50,69,98,9,35,14,117,162,77,41,73,6,
@@ -37366,7 +37366,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tf[1749] UCG_FONT_SECTION(
   Glyphs: 18/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tn[185] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tn[185]  = {
   18,0,3,2,3,3,1,3,5,7,8,0,255,7,255,7,
   0,0,0,0,0,32,4,64,82,42,12,239,226,100,149,104,
   24,162,36,171,0,43,10,237,90,133,209,32,133,17,0,44,
@@ -37385,7 +37385,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tn[185] UCG_FONT_SECTION("
   Glyphs: 93/181
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tr[902] UCG_FONT_SECTION("ucg_font_lucasfont_alternate_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tr[902]  = {
   93,0,3,2,3,3,1,4,5,7,8,0,255,7,255,7,
   0,1,46,2,91,32,5,64,164,0,33,7,121,148,24,162,
   0,34,7,91,166,72,44,1,35,14,125,180,41,37,201,160,
@@ -37449,7 +37449,7 @@ const ucg_fntpgm_uint8_t ucg_font_lucasfont_alternate_tr[902] UCG_FONT_SECTION("
   Glyphs: 24/24
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_m2icon_5[223] UCG_FONT_SECTION("ucg_font_m2icon_5") = {
+const ucg_fntpgm_uint8_t ucg_font_m2icon_5[223]  = {
   24,0,3,4,4,3,1,1,5,9,6,0,255,5,255,5,
   255,0,0,0,153,65,8,215,243,70,80,69,17,66,8,212,
   113,74,132,132,10,67,9,197,45,68,68,134,70,36,68,10,
@@ -37470,7 +37470,7 @@ const ucg_fntpgm_uint8_t ucg_font_m2icon_5[223] UCG_FONT_SECTION("ucg_font_m2ico
   Glyphs: 24/24
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_m2icon_7[280] UCG_FONT_SECTION("ucg_font_m2icon_7") = {
+const ucg_fntpgm_uint8_t ucg_font_m2icon_7[280]  = {
   24,0,3,3,4,4,1,2,5,12,8,0,255,7,255,7,
   255,0,0,0,190,65,15,121,213,164,28,230,0,57,64,14,
   144,3,14,3,66,10,117,181,154,72,40,50,53,3,67,9,
@@ -37495,7 +37495,7 @@ const ucg_fntpgm_uint8_t ucg_font_m2icon_7[280] UCG_FONT_SECTION("ucg_font_m2ico
   Glyphs: 24/24
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_m2icon_9[345] UCG_FONT_SECTION("ucg_font_m2icon_9") = {
+const ucg_fntpgm_uint8_t ucg_font_m2icon_9[345]  = {
   24,0,4,4,4,4,1,2,5,13,11,0,254,8,254,8,
   254,0,0,0,238,65,9,138,221,84,98,161,28,46,66,14,
   134,189,66,34,10,33,33,74,8,146,232,0,67,12,86,191,
@@ -37524,7 +37524,7 @@ const ucg_fntpgm_uint8_t ucg_font_m2icon_9[345] UCG_FONT_SECTION("ucg_font_m2ico
   Glyphs: 96/128
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_micro_mf[776] UCG_FONT_SECTION("ucg_font_micro_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_micro_mf[776]  = {
   96,2,3,2,3,3,1,1,4,3,5,0,0,5,0,5,
   0,1,0,2,0,32,6,236,124,50,0,33,7,236,12,201,
   44,1,34,7,236,140,164,29,6,35,9,236,140,36,89,42,
@@ -37580,7 +37580,7 @@ const ucg_fntpgm_uint8_t ucg_font_micro_mf[776] UCG_FONT_SECTION("ucg_font_micro
   Glyphs: 96/128
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_micro_tf[705] UCG_FONT_SECTION("ucg_font_micro_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_micro_tf[705]  = {
   96,0,2,2,2,3,2,4,4,3,5,0,0,5,0,5,
   0,0,231,1,209,32,4,192,102,33,6,86,100,78,1,34,
   6,203,101,146,10,35,8,87,100,210,80,67,5,36,7,87,
@@ -37632,7 +37632,7 @@ const ucg_fntpgm_uint8_t ucg_font_micro_tf[705] UCG_FONT_SECTION("ucg_font_micro
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB08_hf[2894] UCG_FONT_SECTION("ucg_font_ncenB08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB08_hf[2894]  = {
   191,1,3,2,4,4,1,2,5,12,13,255,254,8,254,8,
   254,1,163,3,185,32,6,211,153,231,17,33,11,211,153,135,
   20,75,148,42,58,0,34,12,214,177,167,38,89,146,37,57,
@@ -37820,7 +37820,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB08_hf[2894] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB08_hr[1349] UCG_FONT_SECTION("ucg_font_ncenB08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB08_hr[1349]  = {
   95,1,3,2,4,4,1,2,5,12,11,255,254,8,254,8,
   254,1,155,3,167,32,6,179,153,231,10,33,10,179,153,83,
   44,81,170,232,0,34,12,182,177,7,146,44,201,146,156,79,
@@ -37912,7 +37912,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB08_hr[1349] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB08_tf[2510] UCG_FONT_SECTION("ucg_font_ncenB08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB08_tf[2510]  = {
   191,0,3,3,4,4,3,4,5,12,13,255,254,8,254,8,
   254,1,118,3,69,32,5,0,204,9,33,8,130,196,137,75,
   140,0,34,8,51,109,139,136,74,0,35,18,135,68,188,72,
@@ -38076,7 +38076,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB08_tf[2510] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB08_tr[1184] UCG_FONT_SECTION("ucg_font_ncenB08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB08_tr[1184]  = {
   95,0,3,3,4,4,3,4,5,12,11,255,254,8,254,8,
   254,1,118,3,69,32,5,0,204,9,33,8,130,196,137,75,
   140,0,34,8,51,109,139,136,74,0,35,18,135,68,188,72,
@@ -38158,7 +38158,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB08_tr[1184] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB10_hf[4053] UCG_FONT_SECTION("ucg_font_ncenB10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB10_hf[4053]  = {
   191,1,3,2,5,5,1,3,6,16,18,254,253,11,253,11,
   254,2,76,5,85,32,8,68,14,121,254,19,0,33,13,68,
   14,121,154,228,41,203,1,201,14,3,34,14,69,78,121,134,
@@ -38419,7 +38419,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB10_hf[4053] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB10_hr[1842] UCG_FONT_SECTION("ucg_font_ncenB10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB10_hr[1842]  = {
   95,1,4,2,4,4,1,3,5,16,15,254,253,11,253,11,
   254,2,59,5,25,32,6,244,67,159,3,33,11,244,67,75,
   226,73,38,39,177,6,34,14,245,83,45,17,73,68,18,145,
@@ -38542,7 +38542,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB10_hr[1842] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB10_tf[3477] UCG_FONT_SECTION("ucg_font_ncenB10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB10_tf[3477]  = {
   191,0,3,2,4,4,3,5,5,16,18,254,253,11,253,11,
   254,1,213,4,106,32,5,0,140,20,33,9,178,133,20,15,
   74,54,12,34,8,67,189,21,137,75,0,35,21,167,132,120,
@@ -38767,7 +38767,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB10_tf[3477] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB10_tr[1611] UCG_FONT_SECTION("ucg_font_ncenB10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB10_tr[1611]  = {
   95,0,3,3,4,4,3,5,5,16,15,254,253,11,253,11,
   254,1,194,4,103,32,5,0,140,20,33,9,178,133,20,7,
   74,204,0,34,8,67,189,21,17,45,1,35,22,167,132,120,
@@ -38875,7 +38875,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB10_tr[1611] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB12_hf[4484] UCG_FONT_SECTION("ucg_font_ncenB12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB12_hf[4484]  = {
   191,1,4,3,5,5,1,3,6,18,19,254,253,12,253,12,
   254,2,174,5,232,32,7,100,14,249,120,1,33,17,101,78,
   249,112,49,35,219,4,69,198,140,204,196,131,0,34,13,102,
@@ -39163,7 +39163,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB12_hf[4484] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB12_hr[2104] UCG_FONT_SECTION("ucg_font_ncenB12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB12_hr[2104]  = {
   95,1,4,3,5,5,1,3,6,18,17,254,253,12,253,12,
   254,2,168,5,214,32,7,36,14,249,56,4,33,16,37,78,
   201,49,35,219,4,69,198,140,204,196,131,0,34,12,38,142,
@@ -39302,7 +39302,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB12_hr[2104] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB12_tf[3945] UCG_FONT_SECTION("ucg_font_ncenB12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB12_tf[3945]  = {
   191,0,3,3,5,5,4,5,6,18,19,254,253,12,253,12,
   254,2,56,5,17,32,6,0,100,36,1,33,13,131,37,44,
   19,57,84,66,209,136,37,2,34,12,165,224,53,33,97,25,
@@ -39556,7 +39556,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB12_tf[3945] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB12_tr[1830] UCG_FONT_SECTION("ucg_font_ncenB12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB12_tr[1830]  = {
   95,0,3,3,5,4,4,5,6,18,17,254,253,12,253,12,
   254,2,55,5,13,32,6,0,50,146,0,33,13,131,19,150,
   137,28,42,161,104,196,18,1,34,12,165,240,154,144,176,140,
@@ -39678,7 +39678,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB12_tr[1830] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB14_hf[5177] UCG_FONT_SECTION("ucg_font_ncenB14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB14_hf[5177]  = {
   191,1,4,3,5,5,1,3,6,23,23,253,252,14,252,14,
   254,3,5,6,189,32,8,229,70,249,248,41,0,33,18,230,
   134,249,72,100,72,120,35,164,84,134,132,70,30,22,0,34,
@@ -40009,7 +40009,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB14_hf[5177] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB14_hr[2386] UCG_FONT_SECTION("ucg_font_ncenB14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB14_hr[2386]  = {
   95,1,4,3,5,5,1,3,6,22,20,253,252,14,252,14,
   254,2,243,6,150,32,8,133,70,249,248,20,0,33,16,134,
   134,233,50,36,188,17,82,42,67,66,35,15,11,34,19,136,
@@ -40166,7 +40166,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB14_hr[2386] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB14_tf[4543] UCG_FONT_SECTION("ucg_font_ncenB14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB14_tf[4543]  = {
   191,0,4,3,5,5,4,5,6,23,23,253,252,14,252,14,
   254,2,136,5,215,32,6,0,96,44,1,33,17,196,37,52,
   67,226,224,192,66,68,153,196,65,132,4,0,34,9,165,100,
@@ -40457,7 +40457,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB14_tf[4543] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB14_tr[2121] UCG_FONT_SECTION("ucg_font_ncenB14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB14_tr[2121]  = {
   95,0,4,3,5,5,4,5,6,22,20,253,252,14,252,14,
   254,2,136,5,215,32,6,0,96,44,1,33,17,196,37,52,
   67,226,224,192,66,68,153,196,65,132,4,0,34,9,165,100,
@@ -40597,7 +40597,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB14_tr[2121] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB18_hf[6458] UCG_FONT_SECTION("ucg_font_ncenB18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB18_hf[6458]  = {
   191,1,4,3,5,5,1,4,6,29,29,253,251,18,251,18,
   253,3,156,8,107,32,9,167,159,243,241,255,16,0,33,21,
   167,159,243,145,207,148,180,25,218,171,176,120,160,153,146,154,
@@ -41008,7 +41008,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB18_hf[6458] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB18_hr[2963] UCG_FONT_SECTION("ucg_font_ncenB18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB18_hr[2963]  = {
   95,1,4,3,5,5,1,4,6,29,25,253,251,18,251,18,
   253,3,139,8,66,32,8,39,159,243,241,63,5,33,21,39,
   159,243,33,102,74,218,12,237,85,88,60,208,76,73,205,60,
@@ -41201,7 +41201,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB18_hr[2963] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB18_tf[5963] UCG_FONT_SECTION("ucg_font_ncenB18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB18_tf[5963]  = {
   191,0,4,3,5,5,4,5,6,29,29,253,251,18,251,18,
   253,3,70,7,161,32,6,0,96,60,1,33,19,69,38,60,
   99,226,224,32,98,100,111,130,162,39,14,38,38,0,34,11,
@@ -41581,7 +41581,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB18_tf[5963] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB18_tr[2737] UCG_FONT_SECTION("ucg_font_ncenB18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB18_tr[2737]  = {
   95,0,4,3,5,5,4,5,6,29,25,253,251,18,251,18,
   253,3,70,7,161,32,6,0,96,60,1,33,19,69,38,60,
   99,226,224,32,98,100,111,130,162,39,14,38,38,0,34,11,
@@ -41760,7 +41760,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB18_tr[2737] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_hf[9410] UCG_FONT_SECTION("ucg_font_ncenB24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_hf[9410]  = {
   191,1,5,4,6,6,1,4,7,35,40,253,249,25,249,24,
   253,5,109,12,94,32,9,9,58,146,31,254,55,1,33,25,
   10,58,148,31,170,164,24,98,175,16,67,59,2,201,219,164,
@@ -42356,7 +42356,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_hf[9410] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 18/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_hn[684] UCG_FONT_SECTION("ucg_font_ncenB24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_hn[684]  = {
   18,1,5,4,5,5,1,4,6,19,30,255,251,25,249,24,
   253,0,0,0,0,32,8,201,159,244,195,159,5,42,41,209,
   159,248,8,55,169,33,132,24,101,8,33,70,33,65,4,114,
@@ -42406,7 +42406,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_hn[684] UCG_FONT_SECTION("ucg_font_nce
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_hr[4265] UCG_FONT_SECTION("ucg_font_ncenB24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_hr[4265]  = {
   95,1,5,4,6,6,1,4,7,35,33,253,249,25,249,24,
   253,5,80,12,13,32,9,73,56,146,31,254,73,0,33,23,
   74,56,148,141,20,67,236,21,98,104,71,32,121,155,20,67,
@@ -42680,7 +42680,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_hr[4265] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_tf[8407] UCG_FONT_SECTION("ucg_font_ncenB24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_tf[8407]  = {
   191,0,4,4,6,6,5,6,7,35,40,253,249,25,249,24,
   253,4,102,10,245,32,6,0,16,195,36,33,23,70,38,65,
   101,144,120,240,192,4,17,218,8,146,247,0,72,60,72,65,
@@ -43213,7 +43213,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_tf[8407] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 18/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_tn[541] UCG_FONT_SECTION("ucg_font_ncenB24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_tn[541]  = {
   18,0,4,4,5,5,3,5,6,19,30,255,251,25,249,24,
   253,0,0,0,0,32,6,0,52,166,0,42,31,236,89,199,
   37,114,170,33,66,140,8,57,33,130,8,50,82,42,72,136,
@@ -43254,7 +43254,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_tn[541] UCG_FONT_SECTION("ucg_font_nce
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenB24_tr[3915] UCG_FONT_SECTION("ucg_font_ncenB24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenB24_tr[3915]  = {
   95,0,4,4,6,6,5,6,7,35,33,253,249,25,249,24,
   253,4,102,10,245,32,6,0,16,195,36,33,23,70,38,65,
   101,144,120,240,192,4,17,218,8,146,247,0,72,60,72,65,
@@ -43506,7 +43506,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenB24_tr[3915] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR08_hf[2739] UCG_FONT_SECTION("ucg_font_ncenR08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR08_hf[2739]  = {
   191,1,3,2,4,4,1,2,5,12,13,255,254,8,254,8,
   255,1,179,3,162,32,6,211,153,231,17,33,11,212,161,135,
   179,238,64,150,99,0,34,12,214,177,167,38,89,146,37,57,
@@ -43685,7 +43685,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR08_hf[2739] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR08_hr[1277] UCG_FONT_SECTION("ucg_font_ncenR08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR08_hr[1277]  = {
   95,1,3,2,4,4,1,2,5,12,11,255,254,8,254,8,
   255,1,161,3,129,32,6,179,153,231,10,33,10,180,161,205,
   186,3,89,142,1,34,12,182,177,7,146,44,201,146,156,79,
@@ -43772,7 +43772,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR08_hr[1277] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR08_tf[2324] UCG_FONT_SECTION("ucg_font_ncenR08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR08_tf[2324]  = {
   191,0,3,2,4,4,3,4,5,12,13,255,254,8,254,8,
   255,1,91,2,253,32,5,0,204,9,33,7,129,69,138,65,
   17,34,7,51,109,139,196,18,35,18,135,68,188,36,76,162,
@@ -43925,7 +43925,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR08_tf[2324] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR08_tr[1102] UCG_FONT_SECTION("ucg_font_ncenR08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR08_tr[1102]  = {
   95,0,3,2,4,4,3,4,5,12,11,255,254,8,254,8,
   255,1,91,2,253,32,5,0,204,9,33,7,129,69,138,65,
   17,34,7,51,109,139,196,18,35,18,135,68,188,36,76,162,
@@ -44001,7 +44001,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR08_tr[1102] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR10_hf[3957] UCG_FONT_SECTION("ucg_font_ncenR10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR10_hf[3957]  = {
   191,1,4,2,5,5,1,3,6,17,17,255,253,11,253,11,
   254,2,72,5,56,32,7,36,14,249,28,2,33,10,35,206,
   168,145,126,21,137,2,34,14,37,78,249,136,146,68,36,17,
@@ -44256,7 +44256,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR10_hf[3957] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR10_hr[1817] UCG_FONT_SECTION("ucg_font_ncenR10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR10_hr[1817]  = {
   95,1,4,2,5,4,1,3,6,17,15,255,253,11,253,11,
   254,2,49,5,9,32,6,228,135,124,14,33,10,227,103,164,
   72,191,138,68,1,34,14,229,167,180,68,36,17,73,68,18,
@@ -44377,7 +44377,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR10_hr[1817] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR10_tf[3341] UCG_FONT_SECTION("ucg_font_ncenR10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR10_tf[3341]  = {
   191,0,3,2,5,4,4,5,6,17,17,255,253,11,253,11,
   254,1,198,4,98,32,6,0,48,146,0,33,8,97,19,142,
   56,40,2,34,8,131,242,150,72,92,2,35,23,104,17,162,
@@ -44593,7 +44593,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR10_tf[3341] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR10_tr[1577] UCG_FONT_SECTION("ucg_font_ncenR10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR10_tr[1577]  = {
   95,0,3,2,5,4,4,5,6,17,15,255,253,11,253,11,
   254,1,198,4,98,32,6,0,48,146,0,33,8,97,19,142,
   56,40,2,34,8,131,242,150,72,92,2,35,23,104,17,162,
@@ -44699,7 +44699,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR10_tr[1577] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR12_hf[4243] UCG_FONT_SECTION("ucg_font_ncenR12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR12_hf[4243]  = {
   191,1,4,2,5,5,1,3,6,17,19,255,253,12,253,12,
   254,2,127,5,162,32,7,100,14,249,188,0,33,13,101,78,
   249,48,141,55,161,150,26,61,4,34,10,102,142,249,208,72,
@@ -44972,7 +44972,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR12_hf[4243] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR12_hr[1960] UCG_FONT_SECTION("ucg_font_ncenR12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR12_hr[1960]  = {
   95,1,4,2,5,5,1,3,6,16,16,255,253,12,253,12,
   254,2,108,5,117,32,7,4,14,249,28,1,33,13,5,78,
   105,26,111,66,45,53,122,8,0,34,10,6,142,121,145,126,
@@ -45102,7 +45102,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR12_hr[1960] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR12_tf[3748] UCG_FONT_SECTION("ucg_font_ncenR12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR12_tf[3748]  = {
   191,0,3,2,5,5,4,5,6,17,19,255,253,12,253,12,
   254,2,30,4,242,32,6,0,100,36,1,33,10,130,37,44,
   241,160,180,13,1,34,8,132,36,54,17,57,5,35,25,136,
@@ -45344,7 +45344,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR12_tf[3748] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR12_tr[1754] UCG_FONT_SECTION("ucg_font_ncenR12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR12_tr[1754]  = {
   95,0,3,2,4,4,4,5,6,16,16,255,253,12,253,12,
   254,2,20,4,225,32,5,0,25,73,33,10,194,9,75,60,
   40,109,67,0,34,8,68,137,77,68,78,1,35,24,200,8,
@@ -45461,7 +45461,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR12_tr[1754] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR14_hf[4917] UCG_FONT_SECTION("ucg_font_ncenR14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR14_hf[4917]  = {
   191,1,4,2,5,5,1,3,6,22,23,253,252,14,252,14,
   253,2,188,6,80,32,7,229,70,249,252,20,33,14,229,70,
   249,88,141,223,132,202,53,122,28,0,34,17,231,198,249,100,
@@ -45776,7 +45776,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR14_hf[4917] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR14_hr[2253] UCG_FONT_SECTION("ucg_font_ncenR14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR14_hr[2253]  = {
   95,1,4,2,5,5,1,3,6,22,19,253,252,14,252,14,
   253,2,166,6,38,32,7,101,70,249,124,5,33,13,101,70,
   105,26,191,9,149,107,244,56,0,34,16,103,198,137,145,76,
@@ -45924,7 +45924,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR14_hr[2253] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR14_tf[4431] UCG_FONT_SECTION("ucg_font_ncenR14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR14_tf[4431]  = {
   191,0,4,3,5,5,4,5,6,22,23,253,252,14,252,14,
   253,2,94,5,172,32,6,0,96,44,1,33,10,194,37,44,
   225,65,68,42,2,34,9,164,100,62,33,68,39,1,35,33,
@@ -46208,7 +46208,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR14_tf[4431] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR14_tr[2067] UCG_FONT_SECTION("ucg_font_ncenR14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR14_tr[2067]  = {
   95,0,4,3,5,5,4,5,6,22,19,253,252,14,252,14,
   253,2,94,5,172,32,6,0,96,44,1,33,10,194,37,44,
   225,65,68,42,2,34,9,164,100,62,33,68,39,1,35,33,
@@ -46345,7 +46345,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR14_tr[2067] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR18_hf[6358] UCG_FONT_SECTION("ucg_font_ncenR18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR18_hf[6358]  = {
   191,1,4,2,5,5,1,4,6,27,29,254,251,18,251,18,
   253,3,141,8,66,32,8,167,159,243,249,127,8,33,15,167,
   159,243,25,164,70,255,171,88,241,232,158,14,34,19,170,31,
@@ -46750,7 +46750,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR18_hf[6358] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR18_hr[2950] UCG_FONT_SECTION("ucg_font_ncenR18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR18_hr[2950]  = {
   95,1,4,3,5,5,1,4,6,27,25,254,251,18,251,18,
   253,3,132,8,51,32,8,39,159,243,241,63,5,33,16,39,
   159,243,65,162,134,246,175,194,18,15,173,71,7,34,21,42,
@@ -46942,7 +46942,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR18_hr[2950] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR18_tf[5620] UCG_FONT_SECTION("ucg_font_ncenR18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR18_tf[5620]  = {
   191,0,4,3,5,5,4,5,6,27,29,254,251,18,251,18,
   253,3,10,7,50,32,6,0,96,60,1,33,14,67,42,60,
   35,226,224,3,137,144,68,7,2,34,9,198,40,87,65,132,
@@ -47301,7 +47301,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR18_tf[5620] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR18_tr[2600] UCG_FONT_SECTION("ucg_font_ncenR18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR18_tr[2600]  = {
   95,0,4,3,5,5,4,5,6,27,25,254,251,18,251,18,
   253,3,10,7,50,32,6,0,96,60,1,33,14,67,42,60,
   35,226,224,3,137,144,68,7,2,34,9,198,40,87,65,132,
@@ -47471,7 +47471,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR18_tr[2600] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_hf[9116] UCG_FONT_SECTION("ucg_font_ncenR24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_hf[9116]  = {
   191,1,5,3,6,6,1,4,7,33,39,254,249,25,249,25,
   252,5,30,12,40,32,9,201,57,146,31,255,83,0,33,22,
   202,57,148,31,49,57,100,248,142,32,253,247,225,200,33,67,
@@ -48048,7 +48048,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_hf[9116] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 18/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_hn[658] UCG_FONT_SECTION("ucg_font_ncenR24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_hn[658]  = {
   18,1,5,3,5,5,1,4,6,19,31,255,250,25,249,25,
   252,0,0,0,0,32,7,233,151,244,227,31,42,33,241,151,
   248,200,83,74,134,136,41,35,68,140,57,48,201,86,169,3,
@@ -48097,7 +48097,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_hn[658] UCG_FONT_SECTION("ucg_font_nce
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_hr[4207] UCG_FONT_SECTION("ucg_font_ncenR24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_hr[4207]  = {
   95,1,5,3,5,6,1,4,6,33,34,254,249,25,249,25,
   252,5,3,11,246,32,8,73,28,233,199,191,13,33,20,74,
   28,42,150,67,134,239,8,210,127,31,142,28,50,116,228,35,
@@ -48367,7 +48367,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_hr[4207] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_tf[8031] UCG_FONT_SECTION("ucg_font_ncenR24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_tf[8031]  = {
   191,0,4,3,5,6,5,6,7,33,39,254,249,25,249,25,
   252,4,28,10,159,32,6,0,136,97,18,33,18,36,155,160,
   50,36,14,30,76,136,232,63,151,56,136,144,0,34,18,9,
@@ -48876,7 +48876,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_tf[8031] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 18/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_tn[529] UCG_FONT_SECTION("ucg_font_ncenR24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_tn[529]  = {
   18,0,4,4,5,5,3,5,6,19,31,255,250,25,249,25,
   252,0,0,0,0,32,6,0,52,166,0,42,27,204,121,199,
   37,84,42,49,66,140,8,25,161,200,88,169,36,67,132,148,
@@ -48917,7 +48917,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_tn[529] UCG_FONT_SECTION("ucg_font_nce
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_ncenR24_tr[3736] UCG_FONT_SECTION("ucg_font_ncenR24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_ncenR24_tr[3736]  = {
   95,0,4,3,5,5,5,6,6,33,34,254,249,25,249,25,
   252,4,23,10,151,32,6,0,196,48,5,33,18,36,79,80,
   13,137,131,7,19,34,250,207,37,14,34,36,0,34,18,9,
@@ -49158,7 +49158,7 @@ const ucg_fntpgm_uint8_t ucg_font_ncenR24_tr[3736] UCG_FONT_SECTION("ucg_font_nc
   Glyphs: 189/194
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_hf[2227] UCG_FONT_SECTION("ucg_font_orgv01_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_hf[2227]  = {
   189,1,4,3,4,4,1,2,5,11,11,0,254,5,255,5,
   0,1,81,2,209,32,7,180,161,143,28,0,33,9,178,145,
   24,145,38,10,0,34,9,180,161,15,145,30,20,0,35,14,
@@ -49305,7 +49305,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_hf[2227] UCG_FONT_SECTION("ucg_font_org
   Glyphs: 18/194
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_hn[176] UCG_FONT_SECTION("ucg_font_orgv01_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_hn[176]  = {
   18,1,3,3,3,3,1,1,4,5,6,0,255,5,255,5,
   0,0,0,0,0,32,6,116,124,108,0,42,9,116,204,72,
   40,37,14,2,43,8,116,220,208,40,14,3,44,7,114,122,
@@ -49324,7 +49324,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_hn[176] UCG_FONT_SECTION("ucg_font_orgv
   Glyphs: 95/194
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_hr[915] UCG_FONT_SECTION("ucg_font_orgv01_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_hr[915]  = {
   95,1,3,3,3,3,1,1,4,5,6,0,255,5,255,5,
   0,1,26,2,96,32,6,116,124,108,0,33,8,114,138,72,
   90,12,0,34,7,116,140,72,28,3,35,12,118,158,164,82,
@@ -49389,7 +49389,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_hr[915] UCG_FONT_SECTION("ucg_font_orgv
   Glyphs: 189/194
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_tf[1597] UCG_FONT_SECTION("ucg_font_orgv01_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_tf[1597]  = {
   189,0,3,3,4,4,2,4,5,11,11,0,254,5,255,5,
   0,0,248,2,10,32,5,0,34,5,33,7,81,162,196,36,
   0,34,7,19,50,69,36,0,35,10,85,162,77,74,37,165,
@@ -49496,7 +49496,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_tf[1597] UCG_FONT_SECTION("ucg_font_org
   Glyphs: 18/194
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_tn[136] UCG_FONT_SECTION("ucg_font_orgv01_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_tn[136]  = {
   18,0,3,3,3,3,1,3,4,5,6,0,255,5,255,5,
   0,0,0,0,0,32,4,64,50,42,6,219,50,34,57,43,
   8,219,114,34,147,8,0,44,5,209,41,4,45,5,76,55,
@@ -49512,7 +49512,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_tn[136] UCG_FONT_SECTION("ucg_font_orgv
   Glyphs: 95/194
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_orgv01_tr[739] UCG_FONT_SECTION("ucg_font_orgv01_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_orgv01_tr[739]  = {
   95,0,3,3,3,3,1,4,4,5,6,0,255,5,255,5,
   0,0,228,1,231,32,4,64,100,33,6,105,84,76,2,34,
   6,75,102,68,2,35,10,109,244,164,84,82,42,41,0,36,
@@ -49566,7 +49566,7 @@ const ucg_fntpgm_uint8_t ucg_font_orgv01_tr[739] UCG_FONT_SECTION("ucg_font_orgv
   Glyphs: 103/115
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_hf[902] UCG_FONT_SECTION("ucg_font_p01type_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_hf[902]  = {
   103,1,3,2,3,3,1,2,4,5,6,0,254,4,254,4,
   255,1,0,2,22,32,6,116,248,108,0,33,7,115,54,81,
   53,4,34,7,116,24,73,59,13,35,12,118,60,165,65,74,
@@ -49630,7 +49630,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_hf[902] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 18/115
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_hn[158] UCG_FONT_SECTION("ucg_font_p01type_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_hn[158]  = {
   18,1,3,2,3,3,1,1,4,4,5,0,255,4,254,4,
   255,0,0,0,0,32,6,108,124,50,0,42,8,108,204,36,
   170,164,0,43,7,108,220,104,138,1,44,7,107,123,44,137,
@@ -49647,7 +49647,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_hn[158] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 92/115
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_hr[808] UCG_FONT_SECTION("ucg_font_p01type_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_hr[808]  = {
   92,1,3,2,3,3,1,2,4,5,6,0,254,4,254,4,
   255,1,0,2,22,32,6,116,248,108,0,33,7,115,54,81,
   53,4,34,7,116,24,73,59,13,35,12,118,60,165,65,74,
@@ -49705,7 +49705,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_hr[808] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 103/115
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_tf[759] UCG_FONT_SECTION("ucg_font_p01type_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_tf[759]  = {
   103,0,2,2,3,3,2,3,4,5,6,0,254,4,254,4,
   255,0,221,1,201,32,4,128,100,33,6,233,91,86,0,34,
   6,147,102,146,10,35,10,173,243,170,161,170,161,42,0,37,
@@ -49760,7 +49760,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_tf[759] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 18/115
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_tn[136] UCG_FONT_SECTION("ucg_font_p01type_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_tn[136]  = {
   18,0,2,2,3,3,1,2,4,4,5,0,255,4,254,4,
   255,0,0,0,0,32,4,64,25,42,6,91,153,212,1,43,
   7,91,185,180,18,0,44,5,210,54,5,45,5,203,153,1,
@@ -49776,7 +49776,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_tn[136] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 92/115
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_p01type_tr[682] UCG_FONT_SECTION("ucg_font_p01type_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_p01type_tr[682]  = {
   92,0,2,2,3,3,2,3,4,5,6,0,254,4,254,4,
   255,0,221,1,201,32,4,128,100,33,6,233,91,86,0,34,
   6,147,102,146,10,35,10,173,243,170,161,170,161,42,0,37,
@@ -49826,7 +49826,7 @@ const ucg_fntpgm_uint8_t ucg_font_p01type_tr[682] UCG_FONT_SECTION("ucg_font_p01
   Glyphs: 95/99
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hf[875] UCG_FONT_SECTION("ucg_font_pixelle_micro_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hf[875]  = {
   95,1,3,2,3,4,1,2,4,6,8,255,254,5,254,6,
   255,1,33,2,65,32,6,193,228,17,0,33,7,194,168,146,
   90,10,34,7,196,48,147,118,6,35,13,198,248,129,36,26,
@@ -49888,7 +49888,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hf[875] UCG_FONT_SECTION("ucg_fo
   Glyphs: 18/99
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hn[165] UCG_FONT_SECTION("ucg_font_pixelle_micro_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hn[165]  = {
   18,1,3,2,3,3,1,1,4,3,7,0,255,5,254,6,
   255,0,0,0,0,32,5,121,121,0,42,9,124,124,40,154,
   42,41,0,43,8,124,124,56,154,98,0,44,7,122,122,44,
@@ -49906,7 +49906,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hn[165] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/99
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hr[875] UCG_FONT_SECTION("ucg_font_pixelle_micro_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hr[875]  = {
   95,1,3,2,3,4,1,2,4,6,8,255,254,5,254,6,
   255,1,33,2,65,32,6,193,228,17,0,33,7,194,168,146,
   90,10,34,7,196,48,147,118,6,35,13,198,248,129,36,26,
@@ -49968,7 +49968,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_hr[875] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/99
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tf[704] UCG_FONT_SECTION("ucg_font_pixelle_micro_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tf[704]  = {
   95,0,2,2,3,3,1,4,4,6,8,255,254,5,254,6,
   255,0,228,1,209,32,4,64,76,33,6,105,84,86,0,34,
   6,211,101,146,10,35,10,109,244,170,161,170,161,42,0,36,
@@ -50020,7 +50020,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tf[704] UCG_FONT_SECTION("ucg_fo
   Glyphs: 18/99
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tn[137] UCG_FONT_SECTION("ucg_font_pixelle_micro_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tn[137]  = {
   18,0,2,2,2,3,1,2,4,3,7,0,255,5,254,6,
   255,0,0,0,0,32,4,160,9,42,6,179,92,90,13,43,
   6,175,92,90,9,44,5,105,138,0,45,5,231,204,0,46,
@@ -50036,7 +50036,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tn[137] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/99
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tr[704] UCG_FONT_SECTION("ucg_font_pixelle_micro_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tr[704]  = {
   95,0,2,2,3,3,1,4,4,6,8,255,254,5,254,6,
   255,0,228,1,209,32,4,64,76,33,6,105,84,86,0,34,
   6,211,101,146,10,35,10,109,244,170,161,170,161,42,0,36,
@@ -50088,7 +50088,7 @@ const ucg_fntpgm_uint8_t ucg_font_pixelle_micro_tr[704] UCG_FONT_SECTION("ucg_fo
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont10_8f[3030] UCG_FONT_SECTION("ucg_font_profont10_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont10_8f[3030]  = {
   224,3,4,2,4,5,1,2,5,8,16,0,254,6,254,7,
   255,1,160,3,105,32,7,8,131,159,63,4,33,11,8,131,
   159,179,92,123,64,30,6,34,10,8,131,159,113,34,149,200,
@@ -50285,7 +50285,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont10_8f[3030] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont10_8r[1296] UCG_FONT_SECTION("ucg_font_profont10_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont10_8r[1296]  = {
   96,3,4,2,4,5,1,2,5,8,16,0,254,6,254,7,
   255,1,160,3,105,32,7,8,131,159,63,4,33,11,8,131,
   159,179,92,123,64,30,6,34,10,8,131,159,113,34,149,200,
@@ -50374,7 +50374,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont10_8r[1296] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont10_mf[2478] UCG_FONT_SECTION("ucg_font_profont10_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont10_mf[2478]  = {
   224,2,4,2,3,4,1,2,4,5,10,0,254,6,254,7,
   255,1,76,2,191,32,6,213,244,179,2,33,8,213,52,135,
   90,134,1,34,10,213,180,37,34,137,60,25,0,35,13,213,
@@ -50536,7 +50536,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont10_mf[2478] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont10_mr[1037] UCG_FONT_SECTION("ucg_font_profont10_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont10_mr[1037]  = {
   96,2,3,2,3,4,1,2,4,5,9,0,254,6,254,7,
   255,1,77,2,179,32,6,205,244,249,6,33,10,205,244,129,
   176,29,202,81,0,34,9,205,116,74,73,206,11,0,35,12,
@@ -50608,7 +50608,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont10_mr[1037] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont11_8f[3070] UCG_FONT_SECTION("ucg_font_profont11_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont11_8f[3070]  = {
   224,3,4,2,4,5,1,2,5,8,16,0,254,7,254,8,
   255,1,177,3,98,32,7,8,131,159,63,4,33,11,8,131,
   159,117,174,123,64,30,6,34,12,8,131,159,81,34,149,72,
@@ -50807,7 +50807,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont11_8f[3070] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont11_8r[1292] UCG_FONT_SECTION("ucg_font_profont11_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont11_8r[1292]  = {
   96,3,4,2,4,5,1,2,5,8,16,0,254,7,254,8,
   255,1,177,3,98,32,7,8,131,159,63,4,33,11,8,131,
   159,117,174,123,64,30,6,34,12,8,131,159,81,34,149,72,
@@ -50895,7 +50895,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont11_8r[1292] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont11_mf[2837] UCG_FONT_SECTION("ucg_font_profont11_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont11_mf[2837]  = {
   224,2,3,2,3,4,1,2,4,6,11,0,254,7,254,8,
   255,1,123,3,34,32,7,222,248,249,55,0,33,10,222,248,
   9,105,119,48,167,0,34,12,222,248,129,36,75,178,36,231,
@@ -51080,7 +51080,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont11_mf[2837] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont11_mr[1195] UCG_FONT_SECTION("ucg_font_profont11_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont11_mr[1195]  = {
   96,2,3,2,3,4,1,2,4,6,11,0,254,7,254,8,
   255,1,123,3,34,32,7,222,248,249,55,0,33,10,222,248,
   9,105,119,48,167,0,34,12,222,248,129,36,75,178,36,231,
@@ -51162,7 +51162,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont11_mr[1195] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont12_8f[3125] UCG_FONT_SECTION("ucg_font_profont12_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont12_8f[3125]  = {
   224,3,4,2,4,5,1,2,5,8,16,0,254,8,254,9,
   255,1,186,3,108,32,7,8,131,159,63,4,33,11,8,131,
   159,85,174,247,128,60,12,34,13,8,131,159,54,145,74,164,
@@ -51365,7 +51365,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont12_8f[3125] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont12_8r[1304] UCG_FONT_SECTION("ucg_font_profont12_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont12_8r[1304]  = {
   96,3,4,2,4,5,1,2,5,8,16,0,254,8,254,9,
   255,1,186,3,108,32,7,8,131,159,63,4,33,11,8,131,
   159,85,174,247,128,60,12,34,13,8,131,159,54,145,74,164,
@@ -51454,7 +51454,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont12_8r[1304] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont12_mf[2920] UCG_FONT_SECTION("ucg_font_profont12_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont12_mf[2920]  = {
   224,2,3,2,3,4,1,2,4,6,12,0,254,8,254,9,
   255,1,133,3,67,32,7,230,248,249,79,0,33,10,230,248,
   9,105,239,96,78,1,34,12,230,248,129,36,75,178,36,231,
@@ -51644,7 +51644,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont12_mf[2920] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont12_mr[1204] UCG_FONT_SECTION("ucg_font_profont12_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont12_mr[1204]  = {
   96,2,3,2,3,4,1,2,4,6,11,0,254,8,254,9,
   255,1,127,3,44,32,7,222,248,249,55,0,33,10,222,248,
   145,180,119,48,167,0,34,10,222,120,106,73,150,228,252,2,
@@ -51727,7 +51727,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont12_mr[1204] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont15_8f[3778] UCG_FONT_SECTION("ucg_font_profont15_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont15_8f[3778]  = {
   224,3,4,2,4,5,1,3,5,8,16,0,253,9,253,11,
   254,1,248,4,59,32,7,8,7,63,127,8,33,12,8,7,
   63,85,174,239,1,121,52,0,34,14,8,7,63,164,40,18,
@@ -51971,7 +51971,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont15_8f[3778] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont15_8r[1590] UCG_FONT_SECTION("ucg_font_profont15_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont15_8r[1590]  = {
   96,3,4,2,4,5,1,3,5,8,16,0,253,9,253,11,
   254,1,248,4,59,32,7,8,7,63,127,8,33,12,8,7,
   63,85,174,239,1,121,52,0,34,14,8,7,63,164,40,18,
@@ -52078,7 +52078,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont15_8r[1590] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont15_mf[3464] UCG_FONT_SECTION("ucg_font_profont15_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont15_mf[3464]  = {
   224,2,3,2,3,4,1,3,4,7,15,0,253,9,253,11,
   254,1,216,3,215,32,7,255,249,243,255,3,33,11,255,249,
   179,197,125,135,115,54,0,34,14,255,249,35,81,22,101,81,
@@ -52302,7 +52302,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont15_mf[3464] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont15_mr[1452] UCG_FONT_SECTION("ucg_font_profont15_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont15_mr[1452]  = {
   96,2,3,2,3,4,1,3,4,7,15,0,253,9,253,11,
   254,1,216,3,215,32,7,255,249,243,255,3,33,11,255,249,
   179,197,125,135,115,54,0,34,14,255,249,35,81,22,101,81,
@@ -52400,7 +52400,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont15_mr[1452] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont17_8f[5109] UCG_FONT_SECTION("ucg_font_profont17_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont17_8f[5109]  = {
   224,3,4,3,5,5,1,3,6,16,24,0,253,11,253,13,
   254,2,157,5,153,32,10,16,15,252,248,255,255,151,0,33,
   15,16,15,252,248,175,197,245,123,4,226,242,152,3,34,20,
@@ -52727,7 +52727,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont17_8f[5109] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont17_8r[2104] UCG_FONT_SECTION("ucg_font_profont17_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont17_8r[2104]  = {
   96,3,4,3,5,5,1,3,6,16,24,0,253,11,253,13,
   254,2,157,5,153,32,10,16,15,252,248,255,255,151,0,33,
   15,16,15,252,248,175,197,245,123,4,226,242,152,3,34,20,
@@ -52866,7 +52866,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont17_8r[2104] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont17_mf[4648] UCG_FONT_SECTION("ucg_font_profont17_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont17_mf[4648]  = {
   224,2,4,3,4,5,1,3,5,9,17,0,253,11,253,13,
   254,2,81,5,23,32,8,30,199,63,254,127,13,33,14,30,
   199,63,6,194,250,61,172,176,60,102,0,34,19,30,199,63,
@@ -53164,7 +53164,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont17_mf[4648] UCG_FONT_SECTION("ucg_font_
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont17_mr[1913] UCG_FONT_SECTION("ucg_font_profont17_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont17_mr[1913]  = {
   96,2,4,3,4,5,1,3,5,9,17,0,253,11,253,13,
   254,2,81,5,23,32,8,30,199,63,254,127,13,33,14,30,
   199,63,6,194,250,61,172,176,60,102,0,34,19,30,199,63,
@@ -53291,7 +53291,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont17_mr[1913] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_8f[5312] UCG_FONT_SECTION("ucg_font_profont22_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_8f[5312]  = {
   224,3,4,3,5,5,1,3,6,16,24,0,252,14,252,16,
   254,2,236,5,191,32,10,16,7,252,248,255,255,151,0,33,
   15,16,7,252,248,84,92,255,30,11,113,121,156,3,34,22,
@@ -53631,7 +53631,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_8f[5312] UCG_FONT_SECTION("ucg_font_
   Glyphs: 18/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_8n[421] UCG_FONT_SECTION("ucg_font_profont22_8n") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_8n[421]  = {
   18,3,4,4,5,5,1,3,6,16,24,0,252,14,252,16,
   254,0,0,0,0,32,10,16,7,252,240,255,255,47,1,42,
   24,16,7,252,240,169,112,161,66,36,83,104,212,160,50,33,
@@ -53665,7 +53665,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_8n[421] UCG_FONT_SECTION("ucg_font_p
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_8r[2158] UCG_FONT_SECTION("ucg_font_profont22_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_8r[2158]  = {
   96,3,4,4,5,5,1,3,6,16,24,0,252,14,252,16,
   254,2,243,5,184,32,10,16,7,252,240,255,255,47,1,33,
   16,16,7,252,240,169,112,249,247,176,16,46,30,206,1,34,
@@ -53807,7 +53807,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_8r[2158] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_mf[5517] UCG_FONT_SECTION("ucg_font_profont22_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_mf[5517]  = {
   224,2,4,3,4,5,1,3,5,12,22,0,252,14,252,16,
   254,2,212,6,29,32,9,108,131,63,254,255,37,0,33,14,
   108,131,63,118,162,250,247,136,68,229,177,4,34,21,108,131,
@@ -54159,7 +54159,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_mf[5517] UCG_FONT_SECTION("ucg_font_
   Glyphs: 18/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_mn[425] UCG_FONT_SECTION("ucg_font_profont22_mn") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_mn[425]  = {
   18,2,4,3,4,5,1,3,5,11,20,0,252,14,252,16,
   254,0,0,0,0,32,8,76,131,63,254,255,0,42,22,76,
   131,63,180,168,152,136,146,131,33,51,163,131,17,205,68,229,
@@ -54193,7 +54193,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_mn[425] UCG_FONT_SECTION("ucg_font_p
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont22_mr[2288] UCG_FONT_SECTION("ucg_font_profont22_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont22_mr[2288]  = {
   96,2,4,3,4,5,1,3,5,12,22,0,252,14,252,16,
   254,2,212,6,29,32,9,108,131,63,254,255,37,0,33,14,
   108,131,63,118,162,250,247,136,68,229,177,4,34,21,108,131,
@@ -54344,7 +54344,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont22_mr[2288] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_8f[7335] UCG_FONT_SECTION("ucg_font_profont29_8f") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_8f[7335]  = {
   224,3,4,4,5,6,1,4,6,16,32,0,251,19,251,22,
   253,3,166,7,251,32,12,16,60,240,195,255,255,255,127,2,
   0,33,16,16,60,240,195,95,207,255,247,48,24,61,61,188,
@@ -54810,7 +54810,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_8f[7335] UCG_FONT_SECTION("ucg_font_
   Glyphs: 18/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_8n[532] UCG_FONT_SECTION("ucg_font_profont29_8n") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_8n[532]  = {
   18,3,4,4,5,6,1,4,6,16,32,0,251,19,251,22,
   253,0,0,0,0,32,12,16,60,240,195,255,255,255,127,2,
   0,42,30,16,60,240,195,63,31,61,82,200,16,65,36,16,
@@ -54851,7 +54851,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_8n[532] UCG_FONT_SECTION("ucg_font_p
   Glyphs: 96/256
   BBX Build Mode: 3
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_8r[3017] UCG_FONT_SECTION("ucg_font_profont29_8r") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_8r[3017]  = {
   96,3,4,4,5,6,1,4,6,16,32,0,251,19,251,22,
   253,3,166,7,251,32,12,16,60,240,195,255,255,255,127,2,
   0,33,16,16,60,240,195,95,207,255,247,48,24,61,61,188,
@@ -55047,7 +55047,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_8r[3017] UCG_FONT_SECTION("ucg_font_
   Glyphs: 224/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_mf[7202] UCG_FONT_SECTION("ucg_font_profont29_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_mf[7202]  = {
   224,2,4,4,5,5,1,4,6,16,29,0,251,19,251,22,
   253,3,154,7,236,32,11,176,31,248,225,255,255,255,115,0,
   33,17,176,31,248,225,233,232,249,127,15,131,209,211,195,107,
@@ -55505,7 +55505,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_mf[7202] UCG_FONT_SECTION("ucg_font_
   Glyphs: 18/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_mn[514] UCG_FONT_SECTION("ucg_font_profont29_mn") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_mn[514]  = {
   18,2,4,4,5,5,1,4,6,15,26,0,251,19,251,22,
   253,0,0,0,0,32,11,80,31,248,225,255,255,127,11,0,
   42,29,80,31,248,97,56,122,164,144,33,130,72,32,90,119,
@@ -55545,7 +55545,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_mn[514] UCG_FONT_SECTION("ucg_font_p
   Glyphs: 96/256
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_profont29_mr[2994] UCG_FONT_SECTION("ucg_font_profont29_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_profont29_mr[2994]  = {
   96,2,4,4,5,5,1,4,6,16,29,0,251,19,251,22,
   253,3,154,7,236,32,11,176,31,248,225,255,255,255,115,0,
   33,17,176,31,248,225,233,232,249,127,15,131,209,211,195,107,
@@ -55740,7 +55740,7 @@ const ucg_fntpgm_uint8_t ucg_font_profont29_mr[2994] UCG_FONT_SECTION("ucg_font_
   Glyphs: 113/119
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hf[1224] UCG_FONT_SECTION("ucg_font_robot_de_niro_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hf[1224]  = {
   113,1,3,2,4,4,1,1,5,8,10,255,0,8,1,9,
   2,1,51,2,142,32,6,162,203,147,1,33,9,163,79,43,
   81,154,131,0,34,8,164,211,35,221,25,1,35,14,166,219,
@@ -55824,7 +55824,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hf[1224] UCG_FONT_SECTION("ucg_f
   Glyphs: 18/119
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hn[172] UCG_FONT_SECTION("ucg_font_robot_de_niro_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hn[172]  = {
   18,1,3,2,3,4,1,1,4,4,9,0,0,8,1,9,
   2,0,0,0,0,32,6,202,245,68,0,42,9,204,25,73,
   84,201,25,1,43,9,204,249,80,52,229,68,0,44,8,203,
@@ -55842,7 +55842,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hn[172] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/119
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hr[980] UCG_FONT_SECTION("ucg_font_robot_de_niro_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hr[980]  = {
   95,1,3,2,3,4,1,1,4,7,10,255,0,8,1,9,
   2,1,47,2,131,32,6,210,245,100,0,33,9,211,215,74,
   148,230,32,0,34,8,212,249,72,119,70,0,35,14,214,253,
@@ -55911,7 +55911,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_hr[980] UCG_FONT_SECTION("ucg_fo
   Glyphs: 113/119
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tf[970] UCG_FONT_SECTION("ucg_font_robot_de_niro_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tf[970]  = {
   113,0,2,2,3,4,1,4,5,8,10,255,0,8,1,9,
   2,0,245,1,251,32,5,128,40,1,33,8,170,59,89,25,
   36,0,34,6,147,78,73,42,35,10,173,107,171,134,170,134,
@@ -55979,7 +55979,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tf[970] UCG_FONT_SECTION("ucg_fo
   Glyphs: 18/119
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tn[142] UCG_FONT_SECTION("ucg_font_robot_de_niro_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tn[142]  = {
   18,0,2,2,3,3,1,4,4,4,9,0,0,8,1,9,
   2,0,0,0,0,32,4,64,84,42,6,91,103,82,7,43,
   7,91,230,210,74,0,44,6,82,221,20,0,45,5,203,102,
@@ -55995,7 +55995,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tn[142] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/119
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tr[757] UCG_FONT_SECTION("ucg_font_robot_de_niro_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tr[757]  = {
   95,0,2,2,3,3,1,4,4,7,10,255,0,8,1,9,
   2,0,238,1,236,32,4,64,84,33,7,234,93,86,6,9,
   34,6,83,103,146,10,35,10,237,245,170,161,170,161,42,0,
@@ -56050,7 +56050,7 @@ const ucg_fntpgm_uint8_t ucg_font_robot_de_niro_tr[757] UCG_FONT_SECTION("ucg_fo
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb08_tf[2116] UCG_FONT_SECTION("ucg_font_symb08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb08_tf[2116]  = {
   188,0,3,2,4,4,3,5,5,11,15,255,252,7,254,7,
   254,1,77,2,203,32,5,0,140,19,33,7,113,133,19,131,
   18,34,15,119,132,23,105,146,69,131,150,132,73,26,103,0,
@@ -56190,7 +56190,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb08_tf[2116] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb08_tr[1072] UCG_FONT_SECTION("ucg_font_symb08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb08_tr[1072]  = {
   95,0,3,2,4,4,2,5,5,9,13,0,253,7,254,7,
   254,1,71,2,191,32,5,0,198,9,33,7,113,195,137,65,
   9,34,15,119,194,139,52,201,162,65,75,194,36,141,51,0,
@@ -56265,7 +56265,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb08_tr[1072] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb10_tf[2785] UCG_FONT_SECTION("ucg_font_symb10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb10_tf[2785]  = {
   188,0,3,2,4,4,4,5,5,16,15,255,253,10,253,10,
   253,1,166,3,191,32,5,0,24,41,33,8,161,10,43,14,
   137,0,34,22,169,8,51,114,32,73,163,52,27,196,44,204,
@@ -56447,7 +56447,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb10_tf[2785] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb10_tr[1424] UCG_FONT_SECTION("ucg_font_symb10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb10_tr[1424]  = {
   95,0,3,2,4,4,4,5,5,15,15,0,253,10,253,10,
   253,1,166,3,191,32,5,0,24,41,33,8,161,10,43,14,
   137,0,34,22,169,8,51,114,32,73,163,52,27,196,44,204,
@@ -56544,7 +56544,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb10_tr[1424] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb12_tf[3393] UCG_FONT_SECTION("ucg_font_symb12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb12_tf[3393]  = {
   188,0,4,2,5,5,4,5,6,20,17,253,252,11,252,12,
   254,2,15,4,152,32,6,0,96,36,1,33,14,99,37,44,
   35,49,184,136,84,37,22,9,0,34,25,139,33,92,33,169,
@@ -56764,7 +56764,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb12_tf[3393] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb12_tr[1741] UCG_FONT_SECTION("ucg_font_symb12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb12_tr[1741]  = {
   95,0,3,2,4,5,4,5,5,18,17,255,252,11,252,12,
   254,1,239,4,120,32,5,0,48,82,33,12,179,18,214,36,
   195,37,170,38,75,2,34,27,203,16,110,228,144,14,37,57,
@@ -56880,7 +56880,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb12_tr[1741] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb14_tf[3732] UCG_FONT_SECTION("ucg_font_symb14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb14_tf[3732]  = {
   188,0,4,3,5,5,5,5,6,20,19,255,251,13,252,13,
   252,2,50,5,17,32,6,0,192,88,2,33,9,162,73,104,
   194,139,68,4,34,29,173,65,216,130,36,165,132,156,136,156,
@@ -57121,7 +57121,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb14_tf[3732] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb14_tr[1947] UCG_FONT_SECTION("ucg_font_symb14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb14_tr[1947]  = {
   95,0,3,3,4,5,5,5,6,20,19,255,251,13,252,13,
   252,2,22,5,26,32,6,0,96,44,1,33,8,210,36,52,
   241,146,72,34,33,221,32,108,33,7,209,65,18,57,64,36,
@@ -57250,7 +57250,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb14_tr[1947] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb18_tf[4703] UCG_FONT_SECTION("ucg_font_symb18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb18_tf[4703]  = {
   188,0,4,3,5,5,5,6,6,27,24,255,251,17,251,17,
   251,2,177,6,82,32,6,0,192,208,4,33,14,35,74,240,
   140,136,131,23,33,153,74,72,0,34,35,47,70,48,6,89,
@@ -57551,7 +57551,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb18_tf[4703] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb18_tr[2509] UCG_FONT_SECTION("ucg_font_symb18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb18_tr[2509]  = {
   95,0,4,3,5,5,5,6,6,26,24,0,251,17,251,17,
   251,2,177,6,82,32,6,0,192,208,4,33,14,35,74,240,
   140,136,131,23,33,153,74,72,0,34,35,47,70,48,6,89,
@@ -57715,7 +57715,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb18_tr[2509] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 188/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb24_tf[6986] UCG_FONT_SECTION("ucg_font_symb24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_symb24_tf[6986]  = {
   188,0,4,3,6,6,5,6,7,40,34,251,249,23,249,23,
   250,3,178,9,151,32,6,0,0,67,36,33,18,196,69,193,
   101,72,28,28,88,136,232,159,75,28,68,72,0,34,54,20,
@@ -58159,7 +58159,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb24_tf[6986] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 95/189
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_symb24_tr[3690] UCG_FONT_SECTION("ucg_font_symb24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_symb24_tr[3690]  = {
   95,0,4,3,5,6,5,6,6,37,34,254,249,23,249,23,
   250,3,172,9,137,32,6,0,128,33,10,33,18,228,162,224,
   26,18,7,7,22,34,250,231,18,7,17,18,0,34,53,20,
@@ -58397,7 +58397,7 @@ const ucg_fntpgm_uint8_t ucg_font_symb24_tr[3690] UCG_FONT_SECTION("ucg_font_sym
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB08_hf[2697] UCG_FONT_SECTION("ucg_font_timB08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB08_hf[2697]  = {
   191,1,3,2,4,4,1,3,5,11,13,255,253,7,253,7,
   253,1,166,3,128,32,6,210,35,207,10,33,10,212,67,15,
   75,206,146,14,3,34,12,213,83,79,74,162,36,74,114,94,
@@ -58573,7 +58573,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB08_hf[2697] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB08_hr[1264] UCG_FONT_SECTION("ucg_font_timB08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB08_hr[1264]  = {
   95,1,3,2,4,4,1,3,5,11,11,255,253,7,253,7,
   253,1,150,3,99,32,6,178,35,207,2,33,9,180,67,43,
   57,75,58,12,34,11,181,83,157,68,73,148,228,188,0,35,
@@ -58660,7 +58660,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB08_hr[1264] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB08_tf[2300] UCG_FONT_SECTION("ucg_font_timB08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB08_tf[2300]  = {
   191,0,3,3,4,4,2,4,5,11,13,255,253,7,253,7,
   253,1,88,2,223,32,5,0,166,4,33,7,114,35,197,33,
   68,34,8,51,115,69,68,37,0,35,14,117,162,77,82,36,
@@ -58811,7 +58811,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB08_tf[2300] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB08_tr[1073] UCG_FONT_SECTION("ucg_font_timB08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB08_tr[1073]  = {
   95,0,2,2,4,4,2,4,5,11,11,255,253,7,253,7,
   253,1,72,2,227,32,5,0,166,4,33,7,114,35,229,144,
   35,34,7,51,115,37,89,1,35,13,117,162,173,76,105,168,
@@ -58886,7 +58886,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB08_tr[1073] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB10_hf[3671] UCG_FONT_SECTION("ucg_font_timB10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB10_hf[3671]  = {
   191,1,3,2,5,5,1,3,6,15,17,255,253,10,253,10,
   253,2,42,4,219,32,7,35,206,120,126,2,33,11,36,14,
   121,154,228,103,73,135,1,34,14,39,206,121,46,38,69,82,
@@ -59123,7 +59123,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB10_hf[3671] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB10_hr[1674] UCG_FONT_SECTION("ucg_font_timB10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB10_hr[1674]  = {
   95,1,3,2,5,4,1,3,6,15,14,255,253,10,253,10,
   253,2,22,4,174,32,6,195,103,60,31,33,10,196,135,172,
   228,103,73,135,1,34,13,199,231,60,98,82,36,69,139,114,
@@ -59235,7 +59235,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB10_hr[1674] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB10_tf[3043] UCG_FONT_SECTION("ucg_font_timB10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB10_tf[3043]  = {
   191,0,3,3,4,4,2,5,5,15,17,255,253,10,253,10,
   253,1,167,3,212,32,5,0,198,9,33,7,162,67,138,39,
   2,34,9,69,219,11,9,139,36,20,35,22,167,193,187,72,
@@ -59433,7 +59433,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB10_tf[3043] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB10_tr[1403] UCG_FONT_SECTION("ucg_font_timB10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB10_tr[1403]  = {
   95,0,3,3,4,4,2,5,5,15,14,255,253,10,253,10,
   253,1,167,3,212,32,5,0,198,9,33,7,162,67,138,39,
   2,34,9,69,219,11,9,139,36,20,35,22,167,193,187,72,
@@ -59528,7 +59528,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB10_tr[1403] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB12_hf[4091] UCG_FONT_SECTION("ucg_font_timB12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB12_hf[4091]  = {
   191,1,3,2,5,5,1,3,6,19,20,254,252,11,252,11,
   253,2,97,5,86,32,8,133,70,121,254,63,1,33,13,134,
   134,121,142,62,166,57,77,212,89,1,34,17,137,70,122,62,
@@ -59791,7 +59791,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB12_hf[4091] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB12_hr[1885] UCG_FONT_SECTION("ucg_font_timB12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB12_hr[1885]  = {
   95,1,4,2,5,5,1,3,6,19,16,254,252,11,252,11,
   253,2,79,5,16,32,7,5,70,249,188,2,33,13,6,134,
   137,34,143,82,121,136,72,143,5,34,16,9,70,170,10,145,
@@ -59916,7 +59916,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB12_hr[1885] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB12_tf[3467] UCG_FONT_SECTION("ucg_font_timB12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB12_tf[3467]  = {
   191,0,3,2,5,5,3,5,6,19,20,254,252,11,252,11,
   253,2,3,4,137,32,6,0,48,150,0,33,9,98,25,154,
   120,80,210,33,34,13,165,212,166,80,134,100,72,166,36,74,
@@ -60140,7 +60140,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB12_tf[3467] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB12_tr[1620] UCG_FONT_SECTION("ucg_font_timB12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB12_tr[1620]  = {
   95,0,3,3,5,4,3,5,6,19,16,254,252,11,252,11,
   253,1,238,4,111,32,5,0,24,75,33,9,98,13,77,28,
   40,81,2,34,12,165,106,83,72,88,70,145,80,4,0,35,
@@ -60249,7 +60249,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB12_tr[1620] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB14_hf[4646] UCG_FONT_SECTION("ucg_font_timB14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB14_hf[4646]  = {
   191,1,4,3,5,5,1,3,6,21,21,254,252,13,252,13,
   252,2,186,5,246,32,7,165,70,249,248,1,33,16,166,134,
   249,176,65,51,123,20,21,58,179,30,22,0,34,21,170,134,
@@ -60547,7 +60547,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB14_hf[4646] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB14_hr[2099] UCG_FONT_SECTION("ucg_font_timB14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB14_hr[2099]  = {
   95,1,4,3,5,5,1,3,6,21,18,254,252,13,252,13,
   252,2,158,5,197,32,7,69,70,249,248,0,33,15,70,134,
   137,65,51,123,20,21,58,179,30,22,0,34,20,74,134,202,
@@ -60686,7 +60686,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB14_hr[2099] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB14_tf[3981] UCG_FONT_SECTION("ucg_font_timB14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB14_tf[3981]  = {
   191,0,4,3,5,5,3,5,6,21,21,254,252,13,252,13,
   252,2,72,5,27,32,6,0,48,150,0,33,13,163,21,154,
   17,113,112,64,17,18,116,32,34,13,198,248,170,32,194,201,
@@ -60942,7 +60942,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB14_tf[3981] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB14_tr[1848] UCG_FONT_SECTION("ucg_font_timB14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB14_tr[1848]  = {
   95,0,3,3,5,5,3,5,6,21,18,254,252,13,252,13,
   252,2,51,5,46,32,6,0,48,150,0,33,12,163,21,154,
   137,28,14,148,80,240,32,34,12,198,248,170,16,113,154,69,
@@ -61065,7 +61065,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB14_tr[1848] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB18_hf[5999] UCG_FONT_SECTION("ucg_font_timB18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB18_hf[5999]  = {
   191,1,4,3,5,5,1,4,6,25,29,255,250,17,251,17,
   252,3,144,8,0,32,8,166,23,243,241,191,4,33,19,168,
   23,244,49,147,34,226,149,152,238,225,164,136,168,228,49,3,
@@ -61447,7 +61447,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB18_hf[5999] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB18_hr[2752] UCG_FONT_SECTION("ucg_font_timB18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB18_hr[2752]  = {
   95,1,4,3,5,5,1,4,6,25,23,255,251,17,251,17,
   252,3,121,7,200,32,8,230,30,243,241,111,0,33,18,232,
   30,116,165,136,120,37,166,123,56,41,34,42,121,212,0,34,
@@ -61627,7 +61627,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB18_hr[2752] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB18_tf[5413] UCG_FONT_SECTION("ucg_font_timB18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB18_tf[5413]  = {
   191,0,4,3,5,5,3,5,6,25,29,255,250,17,251,17,
   252,3,27,6,252,32,6,0,48,154,0,33,17,36,26,162,
   33,113,112,96,33,162,83,137,131,8,9,0,34,14,8,57,
@@ -61973,7 +61973,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB18_tf[5413] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB18_tr[2519] UCG_FONT_SECTION("ucg_font_timB18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB18_tr[2519]  = {
   95,0,4,3,5,5,3,5,6,25,23,255,251,17,251,17,
   252,3,27,6,252,32,6,0,48,154,0,33,17,36,26,162,
   33,113,112,96,33,162,83,137,131,8,9,0,34,14,8,57,
@@ -62138,7 +62138,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB18_tr[2519] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_hf[8548] UCG_FONT_SECTION("ucg_font_timB24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_hf[8548]  = {
   191,1,5,3,6,6,1,4,7,34,37,254,249,23,249,23,
   250,4,244,11,34,32,9,72,57,144,31,255,34,0,33,24,
   75,57,150,31,205,57,101,250,206,160,45,133,202,62,172,57,
@@ -62680,7 +62680,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_hf[8548] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 18/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_hn[586] UCG_FONT_SECTION("ucg_font_timB24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_hn[586]  = {
   18,1,4,4,5,5,1,4,6,17,31,0,250,23,249,23,
   250,0,0,0,0,32,9,232,23,244,225,255,15,1,42,37,
   241,151,248,161,21,62,229,144,137,136,4,33,69,34,4,201,
@@ -62724,7 +62724,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_hn[586] UCG_FONT_SECTION("ucg_font_timB
   Glyphs: 95/756
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_hr[3905] UCG_FONT_SECTION("ucg_font_timB24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_hr[3905]  = {
   95,1,4,3,6,6,1,4,7,34,33,254,249,23,249,23,
   250,4,218,11,53,32,9,72,56,144,143,255,127,9,33,22,
   75,56,150,143,110,174,172,239,6,183,12,205,30,241,92,89,
@@ -62976,7 +62976,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_hr[3905] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_tf[7549] UCG_FONT_SECTION("ucg_font_timB24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_tf[7549]  = {
   191,0,4,3,6,5,4,6,7,34,37,254,249,23,249,23,
   250,4,26,9,161,32,6,0,192,16,9,33,22,197,93,112,
   25,19,7,31,72,140,108,19,148,61,204,196,193,65,196,4,
@@ -63455,7 +63455,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_tf[7549] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 18/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_tn[491] UCG_FONT_SECTION("ucg_font_timB24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_tn[491]  = {
   18,0,4,4,5,5,3,5,6,17,31,0,250,23,249,23,
   250,0,0,0,0,32,6,0,48,162,0,42,31,205,53,199,
   38,116,170,33,67,142,4,33,65,34,4,169,130,165,72,132,
@@ -63493,7 +63493,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_tn[491] UCG_FONT_SECTION("ucg_font_timB
   Glyphs: 95/756
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timB24_tr[3439] UCG_FONT_SECTION("ucg_font_timB24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timB24_tr[3439]  = {
   95,0,4,3,6,5,4,6,7,34,33,254,249,23,249,23,
   250,4,26,9,161,32,6,0,192,16,9,33,22,197,93,112,
   25,19,7,31,72,140,108,19,148,61,204,196,193,65,196,4,
@@ -63715,7 +63715,7 @@ const ucg_fntpgm_uint8_t ucg_font_timB24_tr[3439] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR08_hf[2566] UCG_FONT_SECTION("ucg_font_timR08_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR08_hf[2566]  = {
   191,1,3,2,4,4,1,3,5,11,13,255,253,7,254,7,
   254,1,136,3,71,32,6,210,35,207,10,33,9,211,51,143,
   69,93,115,12,34,9,212,67,143,38,237,92,1,35,16,213,
@@ -63883,7 +63883,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR08_hf[2566] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR08_hr[1191] UCG_FONT_SECTION("ucg_font_timR08_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR08_hr[1191]  = {
   95,1,3,2,4,4,1,3,5,11,11,255,253,7,254,7,
   254,1,124,3,44,32,6,178,35,207,2,33,9,179,51,25,
   117,205,49,0,34,8,180,67,153,180,115,5,35,15,181,83,
@@ -63965,7 +63965,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR08_hr[1191] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR08_tf[2166] UCG_FONT_SECTION("ucg_font_timR08_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR08_tf[2166]  = {
   191,0,3,2,4,4,2,4,5,11,13,255,253,7,254,7,
   254,1,72,2,191,32,5,0,166,4,33,7,113,227,196,160,
   4,34,7,35,54,69,162,4,35,14,117,98,77,41,73,6,
@@ -64108,7 +64108,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR08_tf[2166] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR08_tr[1026] UCG_FONT_SECTION("ucg_font_timR08_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR08_tr[1026]  = {
   95,0,3,2,4,4,2,4,5,11,11,255,253,7,254,7,
   254,1,72,2,191,32,5,0,166,4,33,7,113,227,196,160,
   4,34,7,35,54,69,162,4,35,14,117,98,77,41,73,6,
@@ -64180,7 +64180,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR08_tr[1026] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR10_hf[3470] UCG_FONT_SECTION("ucg_font_timR10_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR10_hf[3470]  = {
   191,1,3,2,4,5,1,3,5,14,17,255,253,10,253,10,
   253,2,13,4,127,32,7,19,103,158,159,0,33,12,21,167,
   158,37,236,59,20,230,52,0,34,13,22,199,158,49,201,146,
@@ -64404,7 +64404,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR10_hf[3470] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR10_hr[1583] UCG_FONT_SECTION("ucg_font_timR10_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR10_hr[1583]  = {
   95,1,3,2,4,4,1,3,5,13,14,0,253,10,253,10,
   253,1,250,4,86,32,6,227,51,207,7,33,11,229,83,15,
   132,125,135,194,156,6,34,12,230,99,15,36,89,146,37,57,
@@ -64510,7 +64510,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR10_hr[1583] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR10_tf[2970] UCG_FONT_SECTION("ucg_font_timR10_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR10_tf[2970]  = {
   191,0,3,2,4,4,3,5,5,14,17,255,253,10,253,10,
   253,1,162,3,177,32,5,0,140,19,33,7,161,134,21,135,
   68,34,7,51,189,22,137,37,35,21,167,132,119,73,152,68,
@@ -64703,7 +64703,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR10_tf[2970] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR10_tr[1365] UCG_FONT_SECTION("ucg_font_timR10_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR10_tr[1365]  = {
   95,0,3,2,4,4,3,5,5,13,14,0,253,10,253,10,
   253,1,162,3,177,32,5,0,140,19,33,7,161,134,21,135,
   68,34,7,51,189,22,137,37,35,21,167,132,119,73,152,68,
@@ -64796,7 +64796,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR10_tr[1365] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR12_hf[3997] UCG_FONT_SECTION("ucg_font_timR12_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR12_hf[3997]  = {
   191,1,4,2,5,5,1,3,6,16,19,255,252,11,252,11,
   253,2,82,5,24,32,7,100,6,249,188,0,33,12,101,70,
   249,184,80,159,135,242,56,0,34,13,103,198,249,240,72,38,
@@ -65053,7 +65053,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR12_hf[3997] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR12_hr[1832] UCG_FONT_SECTION("ucg_font_timR12_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR12_hr[1832]  = {
   95,1,4,2,5,5,1,3,6,16,16,255,252,11,252,11,
   253,2,62,4,234,32,7,4,6,249,28,1,33,11,5,70,
   121,161,62,15,229,113,0,34,12,7,198,137,145,76,36,19,
@@ -65175,7 +65175,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR12_hr[1832] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR12_tf[3452] UCG_FONT_SECTION("ucg_font_timR12_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR12_tf[3452]  = {
   191,0,3,2,4,5,3,5,6,16,19,255,252,11,252,11,
   253,1,218,4,109,32,5,0,24,73,33,8,177,12,75,28,
   34,1,34,8,52,138,79,68,166,0,35,23,184,8,209,69,
@@ -65398,7 +65398,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR12_tf[3452] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR12_tr[1586] UCG_FONT_SECTION("ucg_font_timR12_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR12_tr[1586]  = {
   95,0,3,2,4,4,3,5,6,16,16,255,252,11,252,11,
   253,1,212,4,96,32,5,0,140,36,33,8,177,134,37,14,
   145,0,34,8,52,197,39,34,83,0,35,23,184,132,232,162,
@@ -65505,7 +65505,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR12_tr[1586] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR14_hf[4528] UCG_FONT_SECTION("ucg_font_timR14_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR14_hf[4528]  = {
   191,1,4,2,5,5,1,3,6,20,22,254,252,13,252,13,
   252,2,171,5,229,32,7,197,70,249,252,10,33,13,196,6,
   249,48,137,111,154,74,244,16,0,34,12,200,6,250,180,18,
@@ -65796,7 +65796,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR14_hf[4528] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR14_hr[2077] UCG_FONT_SECTION("ucg_font_timR14_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR14_hr[2077]  = {
   95,1,4,2,5,5,1,3,6,19,18,255,252,13,252,13,
   252,2,150,5,190,32,6,69,70,249,124,33,12,68,6,89,
   18,223,52,149,232,33,0,34,11,72,6,154,18,159,100,242,
@@ -65933,7 +65933,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR14_hr[2077] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR14_tf[4023] UCG_FONT_SECTION("ucg_font_timR14_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR14_tf[4023]  = {
   191,0,3,2,5,5,3,5,6,20,22,254,252,13,252,13,
   252,2,47,5,47,32,6,0,48,150,0,33,9,162,21,146,
   248,210,56,4,34,11,134,52,163,144,134,104,136,182,4,35,
@@ -66192,7 +66192,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR14_tf[4023] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR14_tr[1868] UCG_FONT_SECTION("ucg_font_timR14_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR14_tr[1868]  = {
   95,0,3,2,5,5,3,5,6,19,18,255,252,13,252,13,
   252,2,47,5,47,32,6,0,48,150,0,33,9,162,21,146,
   248,210,56,4,34,11,134,52,163,144,134,104,136,182,4,35,
@@ -66316,7 +66316,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR14_tr[1868] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR18_hf[5896] UCG_FONT_SECTION("ucg_font_timR18_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR18_hf[5896]  = {
   191,1,4,2,5,5,1,4,6,25,29,254,250,17,250,17,
   251,3,78,7,138,32,8,166,23,243,249,95,2,33,16,168,
   23,244,217,197,86,127,150,107,79,32,211,51,3,34,18,170,
@@ -66692,7 +66692,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR18_hf[5896] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR18_hr[2716] UCG_FONT_SECTION("ucg_font_timR18_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR18_hr[2716]  = {
   95,1,4,2,5,5,1,4,6,25,25,254,250,17,250,17,
   251,3,65,7,104,32,7,38,23,243,249,15,33,16,40,23,
   244,81,177,213,159,229,218,19,200,244,204,0,34,18,42,23,
@@ -66869,7 +66869,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR18_hr[2716] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR18_tf[5175] UCG_FONT_SECTION("ucg_font_timR18_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR18_tf[5175]  = {
   191,0,4,3,5,5,3,5,6,25,29,254,250,17,250,17,
   251,2,203,6,134,32,6,0,48,154,0,33,14,35,30,162,
   17,113,240,34,36,83,9,9,0,34,11,166,148,171,32,194,
@@ -67200,7 +67200,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR18_tf[5175] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR18_tr[2407] UCG_FONT_SECTION("ucg_font_timR18_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR18_tr[2407]  = {
   95,0,4,3,5,5,3,5,6,25,25,254,250,17,250,17,
   251,2,203,6,134,32,6,0,48,154,0,33,14,35,30,162,
   17,113,240,34,36,83,9,9,0,34,11,166,148,171,32,194,
@@ -67358,7 +67358,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR18_tr[2407] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_hf[8423] UCG_FONT_SECTION("ucg_font_timR24_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_hf[8423]  = {
   191,1,5,3,6,6,1,4,7,34,37,254,249,23,249,23,
   251,4,195,10,221,32,9,72,57,144,31,255,34,0,33,22,
   75,57,150,31,77,65,116,120,72,146,254,251,0,4,209,33,
@@ -67892,7 +67892,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_hf[8423] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 18/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_hn[563] UCG_FONT_SECTION("ucg_font_timR24_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_hn[563]  = {
   18,1,4,3,5,5,1,3,6,17,26,0,253,23,249,23,
   251,0,0,0,0,32,8,72,15,250,248,127,13,42,32,81,
   79,124,226,228,162,50,170,40,36,200,38,36,70,73,39,36,
@@ -67935,7 +67935,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_hn[563] UCG_FONT_SECTION("ucg_font_timR
   Glyphs: 95/913
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_hr[3829] UCG_FONT_SECTION("ucg_font_timR24_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_hr[3829]  = {
   95,1,5,3,6,6,1,4,7,34,32,254,249,23,249,23,
   251,4,180,10,187,32,9,8,56,144,31,127,8,0,33,21,
   11,56,150,90,16,29,30,146,164,255,62,0,65,116,8,201,
@@ -68182,7 +68182,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_hr[3829] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 191/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_tf[7356] UCG_FONT_SECTION("ucg_font_timR24_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_tf[7356]  = {
   191,0,4,3,5,5,4,6,7,34,37,254,249,23,249,23,
   251,3,211,9,142,32,6,0,96,136,4,33,18,228,46,184,
   12,137,131,3,11,17,253,167,18,7,17,18,0,34,16,233,
@@ -68649,7 +68649,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_tf[7356] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 18/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_tn[476] UCG_FONT_SECTION("ucg_font_timR24_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_tn[476]  = {
   18,0,4,3,5,5,4,5,6,17,26,0,253,23,249,23,
   251,0,0,0,0,32,6,0,96,68,1,42,29,172,169,142,
   75,146,82,74,70,198,66,130,98,66,98,138,106,66,98,130,
@@ -68686,7 +68686,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_tn[476] UCG_FONT_SECTION("ucg_font_timR
   Glyphs: 95/913
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_timR24_tr[3352] UCG_FONT_SECTION("ucg_font_timR24_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_timR24_tr[3352]  = {
   95,0,4,3,5,5,4,6,7,34,32,254,249,23,249,23,
   251,3,211,9,142,32,6,0,96,136,4,33,18,228,46,184,
   12,137,131,3,11,17,253,167,18,7,17,18,0,34,16,233,
@@ -68903,7 +68903,7 @@ const ucg_fntpgm_uint8_t ucg_font_timR24_tr[3352] UCG_FONT_SECTION("ucg_font_tim
   Glyphs: 176/178
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_hf[2923] UCG_FONT_SECTION("ucg_font_tpssb_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_hf[2923]  = {
   176,1,3,2,4,5,1,3,5,11,17,0,252,9,252,9,
   0,1,228,3,248,32,7,20,131,158,127,5,33,11,20,131,
   158,38,249,44,233,52,0,34,11,23,227,158,139,73,209,249,
@@ -69093,7 +69093,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_hf[2923] UCG_FONT_SECTION("ucg_font_tpss
   Glyphs: 18/178
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_hn[246] UCG_FONT_SECTION("ucg_font_tpssb_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_hn[246]  = {
   18,1,3,2,4,4,1,1,5,7,10,0,255,9,252,9,
   0,0,0,0,0,32,6,164,209,243,10,42,14,167,221,99,
   97,82,91,211,45,41,230,52,0,43,13,168,225,83,101,113,
@@ -69116,7 +69116,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_hn[246] UCG_FONT_SECTION("ucg_font_tpssb
   Glyphs: 95/178
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_hr[1477] UCG_FONT_SECTION("ucg_font_tpssb_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_hr[1477]  = {
   95,1,3,2,4,5,1,3,5,11,16,0,252,9,252,9,
   0,1,223,3,235,32,7,4,131,158,127,1,33,11,4,131,
   30,150,124,150,116,26,0,34,11,7,227,158,197,164,232,252,
@@ -69216,7 +69216,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_hr[1477] UCG_FONT_SECTION("ucg_font_tpss
   Glyphs: 176/178
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_tf[2093] UCG_FONT_SECTION("ucg_font_tpssb_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_tf[2093]  = {
   176,0,3,3,4,4,2,5,5,11,17,0,252,9,252,9,
   0,1,110,2,208,32,5,0,66,10,33,8,146,67,138,67,
   137,0,34,8,37,223,11,9,69,0,35,11,85,195,155,148,
@@ -69354,7 +69354,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_tf[2093] UCG_FONT_SECTION("ucg_font_tpss
   Glyphs: 18/178
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_tn[203] UCG_FONT_SECTION("ucg_font_tpssb_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_tn[203]  = {
   18,0,3,3,3,4,2,3,5,7,10,0,255,9,252,9,
   0,0,0,0,0,32,5,0,73,1,42,12,189,123,149,146,
   50,139,77,50,133,0,43,11,182,139,37,20,29,74,66,17,
@@ -69374,7 +69374,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_tn[203] UCG_FONT_SECTION("ucg_font_tpssb
   Glyphs: 95/178
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpssb_tr[1080] UCG_FONT_SECTION("ucg_font_tpssb_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_tpssb_tr[1080]  = {
   95,0,3,3,4,4,2,5,5,11,16,0,252,9,252,9,
   0,1,110,2,208,32,5,0,66,10,33,8,146,67,138,67,
   137,0,34,8,37,223,11,9,69,0,35,11,85,195,155,148,
@@ -69449,7 +69449,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpssb_tr[1080] UCG_FONT_SECTION("ucg_font_tpss
   Glyphs: 179/633
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_hf[2832] UCG_FONT_SECTION("ucg_font_tpss_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_hf[2832]  = {
   179,1,3,2,4,5,1,3,5,11,17,255,252,9,252,9,
   0,1,213,3,202,32,7,20,131,158,127,5,33,10,19,99,
   30,142,122,141,114,24,34,10,21,163,158,33,137,146,156,63,
@@ -69634,7 +69634,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_hf[2832] UCG_FONT_SECTION("ucg_font_tpss_
   Glyphs: 18/633
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_hn[232] UCG_FONT_SECTION("ucg_font_tpss_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_hn[232]  = {
   18,1,3,2,3,4,1,1,4,6,10,0,255,9,252,9,
   0,0,0,0,0,32,6,212,248,188,2,42,13,215,254,88,
   152,212,214,116,75,138,57,13,43,11,215,254,108,113,56,136,
@@ -69656,7 +69656,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_hn[232] UCG_FONT_SECTION("ucg_font_tpss_h
   Glyphs: 95/633
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_hr[1430] UCG_FONT_SECTION("ucg_font_tpss_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_hr[1430]  = {
   95,1,3,2,4,5,1,3,5,10,16,0,252,9,252,9,
   0,1,207,3,199,32,7,4,131,158,127,1,33,10,3,99,
   30,139,122,141,114,24,34,10,5,163,158,148,68,73,206,31,
@@ -69753,7 +69753,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_hr[1430] UCG_FONT_SECTION("ucg_font_tpss_
   Glyphs: 179/633
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_tf[1997] UCG_FONT_SECTION("ucg_font_tpss_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_tf[1997]  = {
   179,0,3,2,4,4,2,5,5,11,17,255,252,9,252,9,
   0,1,88,2,175,32,5,0,66,10,33,7,145,195,137,139,
   0,34,7,35,223,138,68,9,35,11,85,195,155,202,160,84,
@@ -69885,7 +69885,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_tf[1997] UCG_FONT_SECTION("ucg_font_tpss_
   Glyphs: 18/633
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_tn[194] UCG_FONT_SECTION("ucg_font_tpss_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_tn[194]  = {
   18,0,3,2,3,4,2,3,4,6,10,0,255,9,252,9,
   0,0,0,0,0,32,5,0,201,0,42,11,189,251,170,84,
   182,108,105,138,0,43,10,173,251,10,163,65,10,35,0,44,
@@ -69905,7 +69905,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_tn[194] UCG_FONT_SECTION("ucg_font_tpss_t
   Glyphs: 95/633
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_tpss_tr[1033] UCG_FONT_SECTION("ucg_font_tpss_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_tpss_tr[1033]  = {
   95,0,3,2,4,4,2,5,5,10,16,0,252,9,252,9,
   0,1,88,2,175,32,5,0,66,10,33,7,145,195,137,139,
   0,34,7,35,223,138,68,9,35,11,85,195,155,202,160,84,
@@ -69977,7 +69977,7 @@ const ucg_fntpgm_uint8_t ucg_font_tpss_tr[1033] UCG_FONT_SECTION("ucg_font_tpss_
   Glyphs: 106/111
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_hf[992] UCG_FONT_SECTION("ucg_font_trixel_square_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_hf[992]  = {
   106,1,4,2,3,4,1,2,4,5,9,0,254,5,254,5,
   0,1,39,2,78,32,5,201,100,2,33,8,202,40,37,106,
   82,0,34,8,204,48,38,218,195,0,35,15,206,248,131,18,
@@ -70047,7 +70047,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_hf[992] UCG_FONT_SECTION("ucg_fo
   Glyphs: 18/111
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_hn[160] UCG_FONT_SECTION("ucg_font_trixel_square_hn") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_hn[160]  = {
   18,1,3,2,3,3,1,1,4,3,6,0,255,5,254,5,
   0,0,0,0,0,32,5,113,105,0,42,9,116,140,36,170,
   228,48,0,43,8,116,124,40,154,98,0,44,6,114,122,164,
@@ -70065,7 +70065,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_hn[160] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/111
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_hr[872] UCG_FONT_SECTION("ucg_font_trixel_square_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_hr[872]  = {
   95,1,4,2,3,4,1,2,4,5,8,0,254,5,254,5,
   0,1,34,2,73,32,5,193,36,2,33,8,194,168,36,106,
   82,0,34,8,196,48,37,218,195,0,35,14,198,120,39,34,
@@ -70127,7 +70127,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_hr[872] UCG_FONT_SECTION("ucg_fo
   Glyphs: 106/111
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_tf[766] UCG_FONT_SECTION("ucg_font_trixel_square_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_tf[766]  = {
   106,0,2,3,3,3,1,3,4,5,9,0,254,5,254,5,
   0,0,219,1,197,32,4,64,38,33,6,105,42,83,0,34,
   6,211,51,145,20,35,9,237,121,169,42,85,165,0,36,8,
@@ -70182,7 +70182,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_tf[766] UCG_FONT_SECTION("ucg_fo
   Glyphs: 18/111
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_tn[133] UCG_FONT_SECTION("ucg_font_trixel_square_tn") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_tn[133]  = {
   18,0,2,3,2,3,1,3,4,3,6,0,255,5,254,5,
   0,0,0,0,0,32,4,32,19,42,6,175,153,40,7,43,
   7,47,185,104,138,0,44,5,233,20,1,45,5,103,153,1,
@@ -70198,7 +70198,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_tn[133] UCG_FONT_SECTION("ucg_fo
   Glyphs: 95/111
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_trixel_square_tr[678] UCG_FONT_SECTION("ucg_font_trixel_square_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_trixel_square_tr[678]  = {
   95,0,2,3,3,3,1,3,4,5,8,0,254,5,254,5,
   0,0,219,1,197,32,4,64,38,33,6,105,42,83,0,34,
   6,211,51,145,20,35,9,237,121,169,42,85,165,0,36,8,
@@ -70248,7 +70248,7 @@ const ucg_fntpgm_uint8_t ucg_font_trixel_square_tr[678] UCG_FONT_SECTION("ucg_fo
   Glyphs: 224/224
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hf[2085] UCG_FONT_SECTION("ucg_font_u8glib_4_hf") = {
+const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hf[2085]  = {
   224,1,3,2,4,3,1,1,5,8,7,0,255,4,255,5,
   255,1,13,2,62,32,5,242,228,9,33,7,242,36,147,44,
   3,34,8,244,40,147,118,26,0,35,13,246,236,225,36,26,
@@ -70386,7 +70386,7 @@ const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hf[2085] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 96/224
   BBX Build Mode: 1
 */
-const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hr[804] UCG_FONT_SECTION("ucg_font_u8glib_4_hr") = {
+const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hr[804]  = {
   96,1,3,2,3,3,1,1,4,5,6,0,255,4,255,5,
   255,0,253,2,17,32,5,114,122,20,33,7,114,170,36,203,
   0,34,7,116,140,164,157,6,35,13,118,126,32,137,6,41,
@@ -70444,7 +70444,7 @@ const ucg_fntpgm_uint8_t ucg_font_u8glib_4_hr[804] UCG_FONT_SECTION("ucg_font_u8
   Glyphs: 224/224
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tf[1830] UCG_FONT_SECTION("ucg_font_u8glib_4_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tf[1830]  = {
   224,0,2,2,4,3,2,4,5,8,7,0,255,4,255,5,
   255,0,230,1,220,32,5,0,81,2,33,6,65,81,162,2,
   34,7,35,151,146,84,0,35,10,85,207,86,13,85,13,85,
@@ -70566,7 +70566,7 @@ const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tf[1830] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 96/224
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tr[673] UCG_FONT_SECTION("ucg_font_u8glib_4_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tr[673]  = {
   96,0,2,2,3,3,1,3,4,5,6,0,255,4,255,5,
   255,0,213,1,186,32,4,64,42,33,5,97,42,42,34,6,
   211,51,73,5,35,10,237,121,213,80,213,80,21,0,36,11,
@@ -70616,7 +70616,7 @@ const ucg_fntpgm_uint8_t ucg_font_u8glib_4_tr[673] UCG_FONT_SECTION("ucg_font_u8
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_0_8[4406] UCG_FONT_SECTION("ucg_font_unifont_0_8") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_0_8[4406]  = {
   0,0,3,2,5,5,4,5,6,16,16,0,254,10,254,11,
   255,5,211,7,108,0,35,16,162,131,145,244,59,73,231,164,
   147,42,81,146,13,73,41,73,19,37,74,178,41,146,134,156,
@@ -70899,7 +70899,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_0_8[4406] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_12_13[3782] UCG_FONT_SECTION("ucg_font_unifont_12_13") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_12_13[3782]  = {
   0,0,3,2,5,5,5,5,6,16,16,0,254,14,254,14,
   254,4,24,5,115,0,27,16,66,7,167,95,116,78,58,39,
   157,147,206,73,71,115,66,164,131,233,240,162,115,82,250,5,
@@ -71143,7 +71143,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_12_13[3782] UCG_FONT_SECTION("ucg_font
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_18_19[6756] UCG_FONT_SECTION("ucg_font_unifont_18_19") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_18_19[6756]  = {
   0,0,4,3,5,5,5,5,6,16,16,0,254,14,254,14,
   254,6,233,9,26,0,14,136,208,12,207,80,140,68,132,196,
   136,12,0,1,14,136,208,12,67,136,80,132,146,24,153,17,
@@ -71573,7 +71573,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_18_19[6756] UCG_FONT_SECTION("ucg_font
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_2_3[3977] UCG_FONT_SECTION("ucg_font_unifont_2_3") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_2_3[3977]  = {
   0,0,3,2,4,4,4,2,5,8,16,0,254,14,254,14,
   254,3,225,5,222,0,15,214,41,206,144,83,180,168,37,20,
   135,65,116,12,1,16,182,41,206,144,19,134,36,76,147,97,
@@ -71829,7 +71829,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_2_3[3977] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_4_5[3417] UCG_FONT_SECTION("ucg_font_unifont_4_5") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_4_5[3417]  = {
   0,0,3,2,4,4,4,5,5,8,16,0,254,14,254,14,
   254,4,19,6,11,0,22,231,8,49,36,173,78,19,163,44,
   42,38,97,50,44,97,18,38,97,18,6,1,20,199,8,49,
@@ -72050,7 +72050,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_4_5[3417] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_67_75[3619] UCG_FONT_SECTION("ucg_font_unifont_67_75") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_67_75[3619]  = {
   0,0,3,3,4,5,4,5,6,16,16,0,254,14,254,14,
   254,4,7,5,252,0,22,166,18,162,137,72,34,74,17,81,
   68,20,17,69,68,17,81,68,37,69,2,1,17,166,18,162,
@@ -72284,7 +72284,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_67_75[3619] UCG_FONT_SECTION("ucg_font
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_72_73[8411] UCG_FONT_SECTION("ucg_font_unifont_72_73") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_72_73[8411]  = {
   0,0,3,2,5,4,4,4,6,16,16,0,254,14,254,14,
   254,6,142,10,132,0,20,142,178,97,68,73,148,100,74,41,
   201,18,37,74,178,40,146,134,0,1,21,174,146,225,76,82,
@@ -72817,7 +72817,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_72_73[8411] UCG_FONT_SECTION("ucg_font
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_78_79[6737] UCG_FONT_SECTION("ucg_font_unifont_78_79") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_78_79[6737]  = {
   0,0,4,3,5,5,4,4,6,16,16,0,254,14,254,14,
   254,8,29,11,145,0,28,110,97,194,49,24,81,101,33,68,
   113,65,115,48,88,117,48,115,65,34,33,68,81,69,49,24,
@@ -73246,7 +73246,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_78_79[6737] UCG_FONT_SECTION("ucg_font
   Glyphs: 256/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_8_9[4092] UCG_FONT_SECTION("ucg_font_unifont_8_9") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_8_9[4092]  = {
   0,0,3,2,4,4,3,5,6,15,16,0,254,14,254,14,
   254,3,193,5,175,0,15,214,133,104,100,29,56,164,213,65,
   73,91,135,1,1,16,230,133,104,162,118,120,24,210,234,160,
@@ -73509,7 +73509,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_8_9[4092] UCG_FONT_SECTION("ucg_font_u
   Glyphs: 191/57086
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_mf[4216] UCG_FONT_SECTION("ucg_font_unifont_mf") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_mf[4216]  = {
   191,2,5,2,5,5,1,2,6,16,16,0,254,10,254,11,
   255,2,89,5,6,32,8,16,6,254,252,33,0,33,14,16,
   6,254,100,242,250,62,64,94,62,24,0,34,15,16,6,254,
@@ -73780,7 +73780,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_mf[4216] UCG_FONT_SECTION("ucg_font_un
   Glyphs: 95/57086
   BBX Build Mode: 2
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_mr[1680] UCG_FONT_SECTION("ucg_font_unifont_mr") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_mr[1680]  = {
   95,2,4,2,4,5,1,2,5,8,16,0,254,10,254,11,
   255,2,10,4,92,32,7,8,131,159,63,4,33,12,8,131,
   159,44,215,247,128,92,30,4,34,9,8,131,31,211,223,243,
@@ -73893,7 +73893,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_mr[1680] UCG_FONT_SECTION("ucg_font_un
   Glyphs: 191/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_tf[2656] UCG_FONT_SECTION("ucg_font_unifont_tf") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_tf[2656]  = {
   191,0,3,2,5,5,4,5,6,16,16,0,254,10,254,11,
   255,1,151,3,48,32,6,0,160,71,1,33,8,65,49,68,
   113,72,4,34,8,133,40,70,145,185,5,35,15,70,37,68,
@@ -74067,7 +74067,7 @@ const ucg_fntpgm_uint8_t ucg_font_unifont_tf[2656] UCG_FONT_SECTION("ucg_font_un
   Glyphs: 95/57086
   BBX Build Mode: 0
 */
-const ucg_fntpgm_uint8_t ucg_font_unifont_tr[1178] UCG_FONT_SECTION("ucg_font_unifont_tr") = {
+const ucg_fntpgm_uint8_t ucg_font_unifont_tr[1178]  = {
   95,0,3,2,3,4,4,5,5,8,16,0,254,10,254,11,
   255,1,134,3,16,32,5,0,244,24,33,7,81,134,24,135,
   68,34,8,37,197,24,153,91,0,35,15,214,132,88,61,13,
