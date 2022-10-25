@@ -6,6 +6,7 @@
 //
 
 #include "ucg.h"
+#include <string.h>
 
 ucg_int_t ucg_GetWidth(ucg_t *ucg) {
     return ucg->dimension.w;
@@ -21,4 +22,10 @@ ucg_int_t ucg_GetFontAscent(ucg_t *ucg) {
 
 ucg_int_t ucg_GetFontDescent(ucg_t *ucg) {
     return ucg->font_ref_descent;
+}
+
+
+
+void move(void *dst, void *src, size_t size) {
+    memmove(dst, src, size);
 }

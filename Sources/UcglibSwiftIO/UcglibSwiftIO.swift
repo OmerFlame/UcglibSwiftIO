@@ -12,9 +12,15 @@ func makeUnafeMutablePointer<T>(_ p: UnsafeMutablePointer<T>) -> UnsafeMutablePo
     return p
 }
 
+extension UnsafeMutablePointer {
+    mutating func advance(by count: Int) {
+        self += count
+    }
+}
+
 fileprivate var pin_list = [DigitalOut?](repeating: nil, count: Int(UCG_PIN_COUNT))
 
-fileprivate var spi: SPI!
+fileprivate var SPIHandler: SPI!
 fileprivate var clockSpeed = 5000000
 
 public class Ucglib {
@@ -198,7 +204,7 @@ public class Ucglib {
     
     public func setClockSpeedHertz(_ speed: Int) {
         clockSpeed = speed
-        spi?.setSpeed(clockSpeed)
+        SPIHandler?.setSpeed(clockSpeed)
     }
     
     public func setClipRange(x: ucg_int_t, y: ucg_int_t, w: ucg_int_t, h: ucg_int_t) {
@@ -295,7 +301,8 @@ public class Ucglib4WireSWSPI: Ucglib {
     }
     
     public func begin(isTransparent: UInt8) {
-        
+        ucg_Init(&ucg, dev_cb, ext_cb, ucg_com_arduino_generic_SW_SPI)
+        ucg_SetFontMode(&ucg, isTransparent)
     }
 }
 
@@ -314,7 +321,7 @@ public class Ucglib3WireILI9325SWSPI: Ucglib {
     }
     
     public func begin(isTransparent: UInt8) {
-        ucg_Init(&ucg, dev_cb, ext_cb, ucg_com_arduino_illi9325_SW_SPI)
+        ucg_Init(&ucg, dev_cb, ext_cb, ucg_com_arduino_ili9325_SW_SPI)
         ucg_SetFontMode(&ucg, isTransparent)
     }
 }
@@ -340,7 +347,7 @@ public class Ucglib3Wire9bitSWSPI: Ucglib {
 }
 
 public class Ucglib4WireHWSPI: Ucglib {
-    public init(dev: ucg_dev_fnptr, ext: ucg_dev_fnptr, cd: IdName, cs: IdName?, reset: IdName?) {
+    public init(spi: SPI, dev: ucg_dev_fnptr, ext: ucg_dev_fnptr, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init()
         
         dev_cb = dev
@@ -349,6 +356,8 @@ public class Ucglib4WireHWSPI: Ucglib {
         pin_list[Int(UCG_PIN_RST)] = reset != nil ? DigitalOut(reset!) : nil
         pin_list[Int(UCG_PIN_CS)] = cs != nil ? DigitalOut(cs!) : nil
         pin_list[Int(UCG_PIN_CD)] = DigitalOut(cd)
+        
+        SPIHandler = spi
     }
     
     public func begin(isTransparent: UInt8) {
@@ -358,7 +367,7 @@ public class Ucglib4WireHWSPI: Ucglib {
 }
 
 public class Ucglib3Wire9bitHWSPI: Ucglib {
-    public init(dev: ucg_dev_fnptr, ext: ucg_dev_fnptr, cs: IdName?, reset: IdName?) {
+    public init(spi: SPI, dev: ucg_dev_fnptr, ext: ucg_dev_fnptr, cs: IdName?, reset: IdName?) {
         super.init()
         
         dev_cb = dev
@@ -369,7 +378,8 @@ public class Ucglib3Wire9bitHWSPI: Ucglib {
     }
     
     public func begin(isTransparent: UInt8) {
-        
+        ucg_Init(&ucg, dev_cb, ext_cb, ucg_com_arduino_3wire_9bit_HW_SPI)
+        ucg_SetFontMode(&ucg, isTransparent)
     }
 }
 
@@ -396,13 +406,15 @@ public class Ucglib8Bit: Ucglib {
     }
     
     public func begin(isTransparent: UInt8) {
-        
+        ucg_Init(&ucg, dev_cb, ext_cb, ucg_com_arduino_generic_8bit)
+        ucg_SetFontMode(&ucg, isTransparent)
     }
 }
 
 public class Ucglib_ST7735_18x128x160_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_st7735_18x128x160, ext: ucg_ext_st7735_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_st7735_18x128x160, ext: ucg_ext_st7735_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -413,8 +425,9 @@ public class Ucglib_ST7735_18x128x160_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_ILI9341_18x240x320_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ili9341_18x240x320, ext: ucg_ext_ili9341_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ili9341_18x240x320, ext: ucg_ext_ili9341_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -425,8 +438,9 @@ public class Ucglib_ILI9341_18x240x320_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_HX8352C_18x240x400_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_hx8352c_18x240x400, ext: ucg_ext_hx8352c_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_hx8352c_18x240x400, ext: ucg_ext_hx8352c_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -437,8 +451,9 @@ public class Ucglib_HX8352C_18x240x400_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_ILI9486_18x320x480_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ili9486_18x320x480, ext: ucg_ext_ili9486_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ili9486_18x320x480, ext: ucg_ext_ili9486_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -449,8 +464,9 @@ public class Ucglib_ILI9486_18x320x480_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_ILI9163_18x128x128_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ili9163_18x128x128, ext: ucg_ext_ili9163_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ili9163_18x128x128, ext: ucg_ext_ili9163_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -461,8 +477,9 @@ public class Ucglib_ILI9163_18x128x128_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_SSD1351_18x128x128_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ssd1351_18x128x128_ilsoft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ssd1351_18x128x128_ilsoft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -473,8 +490,9 @@ public class Ucglib_SSD1351_18x128x128_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_SSD1351_18x128x128_FT_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ssd1351_18x128x128_ft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ssd1351_18x128x128_ft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -485,8 +503,9 @@ public class Ucglib_SSD1351_18x128x128_FT_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_PCF8833_16x132x132_HWSPI: Ucglib3Wire9bitHWSPI {
-    public init(cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_pcf8833_16x132x132, ext: ucg_ext_pcf8833_16, cs: cs, reset: reset)
+    public init(spi: SPI, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_pcf8833_16x132x132, ext: ucg_ext_pcf8833_16, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -503,8 +522,9 @@ public class Ucglib_LD50T6160_18x160x128_6Bit: Ucglib8Bit {
 }
 
 public class Ucglib_SSD1331_18x96x64_UNIVISION_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_ssd1331_18x96x64_univision, ext: ucg_ext_ssd1331_18, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_ssd1331_18x96x64_univision, ext: ucg_ext_ssd1331_18, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -515,8 +535,9 @@ public class Ucglib_SSD1331_18x96x64_UNIVISION_SWSPI: Ucglib4WireSWSPI {
 }
 
 public class Ucglib_SEPS225_16x128x128_UNIVISION_HWSPI: Ucglib4WireHWSPI {
-    public init(cd: IdName, cs: IdName?, reset: IdName?) {
-        super.init(dev: ucg_dev_seps225_16x128x128_univision, ext: ucg_ext_seps225_16, cd: cd, cs: cs, reset: reset)
+    public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
+        super.init(spi: spi, dev: ucg_dev_seps225_16x128x128_univision, ext: ucg_ext_seps225_16, cd: cd, cs: cs, reset: reset)
+        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -526,6 +547,7 @@ public class Ucglib_SEPS225_16x128x128_UNIVISION_SWSPI: Ucglib4WireSWSPI {
     }
 }
 
+// MARK: - 8-bit SW SPI
 
 func ucg_com_arduino_send_generic_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, data: UInt8) {
     var data = data
@@ -668,8 +690,117 @@ func ucg_com_arduino_generic_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int1
     return 1
 }
 
-func ucg_com_arduino_illi9325_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
+// MARK: - 8-bit SW SPI for ILI9325 (mode IM3=0, IM2=1, IM1=0, IM0=0)
+
+func ucg_com_arduino_ili9325_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
     switch Int32(msg) {
+    case UCG_COM_MSG_POWER_UP:
+        pin_list[Int(UCG_PIN_CD)]!.write(true)
+        pin_list[Int(UCG_PIN_SDA)]!.write(true)
+        pin_list[Int(UCG_PIN_SCL)]!.write(false)
+        pin_list[Int(UCG_PIN_CS)]?.write(true)
+        pin_list[Int(UCG_PIN_RST)]?.write(true)
+        break
+        
+    case UCG_COM_MSG_POWER_DOWN:
+        break
+        
+    case UCG_COM_MSG_DELAY:
+        wait(us: Int(arg))
+        break
+        
+    case UCG_COM_MSG_CHANGE_RESET_LINE:
+        pin_list[Int(UCG_PIN_RST)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CS_LINE:
+        pin_list[Int(UCG_PIN_CS)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CD_LINE:
+        pin_list[Int(UCG_PIN_CS)]?.write(true)
+        pin_list[Int(UCG_PIN_CS)]?.write(false)
+        
+        if (ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD)) != 0 {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: 0x072)
+        } else {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: 0x070)
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_BYTE:
+        ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: UInt8(arg))
+        break
+        
+    case UCG_COM_MSG_REPEAT_1_BYTE:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_2_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.pointee)
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.advanced(by: 1).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_3_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.pointee)
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.advanced(by: 1).pointee)
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.advanced(by: 2).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_STR:
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.pointee)
+            
+            arg -= 1
+            data = data.advanced(by: 1)
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_CD_DATA_SEQUENCE:
+        var arg = arg
+        var data = data!
+        var csPin = pin_list[Int(UCG_PIN_CS)]
+        
+        while arg > 0 {
+            if data.pointee != 0 {
+                if data.pointee == 1 {
+                    csPin?.write(true)
+                    csPin?.write(false)
+                    
+                    ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: 0x070)
+                } else {
+                    csPin?.write(true)
+                    csPin?.write(false)
+                    
+                    ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: 0x072)
+                }
+            }
+            
+            data = data.advanced(by: 1)
+            ucg_com_arduino_send_generic_SW_SPI(ucg: ucg, data: data.pointee)
+            data = data.advanced(by: 1)
+            arg -= 1
+        }
+        break
+        
     default:
         break
     }
@@ -677,12 +808,136 @@ func ucg_com_arduino_illi9325_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int
     return 1
 }
 
+// MARK: - 9-bit SW SPI
+
 func ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, firstBit: UInt8, data: UInt8) {
+    let sdaPin = pin_list[Int(UCG_PIN_SDA)]!
+    let sclPin = pin_list[Int(UCG_PIN_SCL)]!
     
+    var i: UInt8! = 8
+    var data = data
+    
+    if firstBit != 0 {
+        sdaPin.write(true)
+    } else {
+        sdaPin.write(false)
+    }
+    
+    sclPin.write(true)
+    sclPin.write(false)
+    
+    repeat {
+        if (data & 128) != 0 {
+            sdaPin.write(true)
+        } else {
+            sdaPin.write(false)
+        }
+        
+        sclPin.write(true)
+        
+        i -= 1
+        
+        sclPin.write(false)
+        
+        data <<= 1
+    } while i > 0
 }
 
 public func ucg_com_arduino_3wire_9bit_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
     switch Int32(msg) {
+    case UCG_COM_MSG_POWER_UP:
+        pin_list[Int(UCG_PIN_SDA)]!.write(true)
+        pin_list[Int(UCG_PIN_SCL)]!.write(false)
+        pin_list[Int(UCG_PIN_CS)]?.write(true)
+        pin_list[Int(UCG_PIN_RST)]?.write(true)
+        break
+        
+    case UCG_COM_MSG_POWER_DOWN:
+        break
+        
+    case UCG_COM_MSG_DELAY:
+        wait(us: Int(arg))
+        break
+        
+    case UCG_COM_MSG_CHANGE_RESET_LINE:
+        pin_list[Int(UCG_PIN_RST)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CS_LINE:
+        pin_list[Int(UCG_PIN_CS)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CD_LINE:
+        // Ignored since there is no CD line in this configuration
+        break
+        
+    case UCG_COM_MSG_SEND_BYTE:
+        ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+        break
+        
+    case UCG_COM_MSG_REPEAT_1_BYTE:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_2_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 1).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_3_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 1).pointee)
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 2).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_STR:
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            
+            arg -= 1
+            data = data.advanced(by: 1)
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_CD_DATA_SEQUENCE:
+        var lastCD = ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD)
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            if data.pointee != 0 {
+                if data.pointee == 1 {
+                    lastCD = 0
+                } else {
+                    lastCD = 1
+                }
+            }
+            
+            data = data.advanced(by: 1)
+            ucg_com_arduino_send_3wire_9bit_SW_SPI(ucg: ucg, firstBit: lastCD, data: data.pointee)
+            data = data.advanced(by: 1)
+            arg -= 1
+        }
+        break
+        
     default:
         break
     }
@@ -690,21 +945,333 @@ public func ucg_com_arduino_3wire_9bit_SW_SPI(ucg: UnsafeMutablePointer<ucg_t>!,
     return 1
 }
 
-// TODO: - 9-bit HW SPI
+// MARK: - 9-bit HW SPI
 
-// TODO: - 8-bit Parallel
+let UCG_COM_ARDUINO_3WIRE_8BIT_BUF_LEN = 9
+var ucg_com_3wire_9bit_buffer = [UInt8](repeating: 0, count: UCG_COM_ARDUINO_3WIRE_8BIT_BUF_LEN)
+var ucg_com_3wire_9bit_buf_bytepos: UInt8 = 0
+var ucg_com_3wire_9bit_buf_bitpos: UInt8 = 0
+var ucg_com_3wire_9bit_cd_mask: UInt8 = 0
+
+func ucg_com_arduino_init_3wire_9bit_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!) {
+    ucg_com_3wire_9bit_buf_bytepos = 0
+    ucg_com_3wire_9bit_buf_bitpos = 7
+    ucg_com_3wire_9bit_cd_mask = 128
+    
+    for (i, _) in ucg_com_3wire_9bit_buffer.enumerated() {
+        ucg_com_3wire_9bit_buffer[i] = 0
+    }
+}
+
+func ucg_com_arduino_flush_3wire_9bit_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!) {
+    if ucg_com_3wire_9bit_buf_bytepos == 0 && ucg_com_3wire_9bit_buf_bitpos == 7 {
+        return
+    }
+    
+    for (i, _) in ucg_com_3wire_9bit_buffer.enumerated() {
+        SPIHandler.write(ucg_com_3wire_9bit_buffer[i])
+    }
+    
+    ucg_com_arduino_init_3wire_9bit_HW_SPI(ucg: ucg)
+}
+
+func ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, firstBit: UInt8, data: UInt8) {
+    if firstBit != 0 {
+        ucg_com_3wire_9bit_buffer[Int(ucg_com_3wire_9bit_buf_bytepos)] |= ucg_com_3wire_9bit_cd_mask
+    }
+    
+    if ucg_com_3wire_9bit_buf_bitpos > 0 {
+        ucg_com_3wire_9bit_buf_bitpos -= 1
+        ucg_com_3wire_9bit_cd_mask >>= 1
+    } else {
+        ucg_com_3wire_9bit_buf_bitpos = 7
+        ucg_com_3wire_9bit_buf_bytepos += 1
+        ucg_com_3wire_9bit_cd_mask = 128
+    }
+    
+    ucg_com_3wire_9bit_buffer[Int(ucg_com_3wire_9bit_buf_bytepos)] |= data >> (7 - ucg_com_3wire_9bit_buf_bitpos)
+    
+    if ucg_com_3wire_9bit_buf_bitpos == 7 {
+        ucg_com_3wire_9bit_buf_bytepos += 1
+        
+        if ucg_com_3wire_9bit_buf_bytepos >= UCG_COM_ARDUINO_3WIRE_8BIT_BUF_LEN {
+            ucg_com_arduino_flush_3wire_9bit_HW_SPI(ucg: ucg)
+        }
+    } else {
+        ucg_com_3wire_9bit_buf_bytepos += 1
+        ucg_com_3wire_9bit_buffer[Int(ucg_com_3wire_9bit_buf_bytepos)] |= data << (ucg_com_3wire_9bit_buf_bitpos + 1)
+    }
+}
+
+func ucg_com_arduino_3wire_9bit_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
+    switch Int32(msg) {
+    case UCG_COM_MSG_POWER_UP:
+        ucg_com_arduino_init_3wire_9bit_HW_SPI(ucg: ucg)
+        
+        pin_list[Int(UCG_PIN_CS)]?.write(true)
+        pin_list[Int(UCG_PIN_RST)]?.write(true)
+        break
+        
+    case UCG_COM_MSG_POWER_DOWN:
+        break
+        
+    case UCG_COM_MSG_DELAY:
+        ucg_com_arduino_flush_3wire_9bit_HW_SPI(ucg: ucg)
+        wait(us: Int(arg))
+        break
+        
+    case UCG_COM_MSG_CHANGE_RESET_LINE:
+        pin_list[Int(UCG_PIN_RST)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CS_LINE:
+        if arg != 0 {
+            ucg_com_arduino_flush_3wire_9bit_HW_SPI(ucg: ucg)
+        }
+        
+        pin_list[Int(UCG_PIN_CS)]?.write(arg != 0 ? true : false)
+        
+        if arg != 0 {
+            ucg_com_arduino_init_3wire_9bit_HW_SPI(ucg: ucg)
+        }
+        break
+        
+    case UCG_COM_MSG_CHANGE_CD_LINE:
+        // Not used
+        break
+        
+    case UCG_COM_MSG_SEND_BYTE:
+        ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: UInt8(arg))
+        break
+        
+    case UCG_COM_MSG_REPEAT_1_BYTE:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_2_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 1).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_3_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 1).pointee)
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.advanced(by: 2).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_STR:
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD), data: data.pointee)
+            
+            data = data.advanced(by: 1)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_CD_DATA_SEQUENCE:
+        var lastCD = ucg.pointee.com_status & UInt8(UCG_COM_STATUS_MASK_CD)
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            if data.pointee != 0 {
+                if data.pointee == 1 {
+                    lastCD = 0
+                } else {
+                    lastCD = 1
+                }
+            }
+            
+            data = data.advanced(by: 1)
+            ucg_com_arduino_send_3wire_9bit_HW_SPI(ucg: ucg, firstBit: lastCD, data: data.pointee)
+            data = data.advanced(by: 1)
+            arg -= 1
+        }
+        break
+        
+    default:
+        break
+    }
+    
+    return 1
+}
+
+// MARK: - 8-bit Parallel
+
+// **Please read the comment in ucg_com_arduino_init_8bit(ucg:)!!!**
+//var u8g_data_port = [DigitalOut?](repeating: nil, count: 9)
+
+func ucg_com_arduino_init_8bit(ucg: UnsafeMutablePointer<ucg_t>!) {
+    /*
+    Originally, this method was supposed to be used under the precedent that this implementation would map the pins on the virtual bus to registers in memory and would be pulled low/high using simple bitmasks to improve speed.
+     
+    Because this cannot be done (at least now) on SwiftIO, this function does absolutely nothing.
+     
+    However, Due to porting concerns, I am still keeping this function in the code as a stub, in case anything calls it or does something stupid.
+     
+    This was supposed to be the original implementation:
+     
+    u8g_data_port[0] = pin_list[Int(UCG_PIN_D0)]
+    u8g_data_port[1] = pin_list[Int(UCG_PIN_D1)]
+    u8g_data_port[2] = pin_list[Int(UCG_PIN_D2)]
+    u8g_data_port[3] = pin_list[Int(UCG_PIN_D3)]
+    u8g_data_port[4] = pin_list[Int(UCG_PIN_D4)]
+    u8g_data_port[5] = pin_list[Int(UCG_PIN_D5)]
+    
+    u8g_data_port[6] = pin_list[Int(UCG_PIN_D6)]
+    u8g_data_port[7] = pin_list[Int(UCG_PIN_D7)]
+    
+    u8g_data_port[8] = pin_list[Int(UCG_PIN_WR)]*/
+}
+
+func ucg_com_arduino_send_8bit(ucg: UnsafeMutablePointer<ucg_t>!, data: UInt8) {
+    pin_list[Int(UCG_PIN_D0)]?.write(data & 1 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D1)]?.write(data & 2 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D2)]?.write(data & 4 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D3)]?.write(data & 8 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D4)]?.write(data & 16 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D5)]?.write(data & 32 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D6)]?.write(data & 64 != 0 ? true : false)
+    pin_list[Int(UCG_PIN_D7)]?.write(data & 128 != 0 ? true : false)
+    wait(us: 1)
+    pin_list[Int(UCG_PIN_WR)]?.write(false)
+    wait(us: 1)
+    pin_list[Int(UCG_PIN_WR)]?.write(true)
+}
+
+func ucg_com_arduino_generic_8bit(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
+    switch Int32(msg) {
+    case UCG_COM_MSG_POWER_UP:
+        pin_list[Int(UCG_PIN_CD)]?.write(true)
+        pin_list[Int(UCG_PIN_WR)]?.write(true)
+        pin_list[Int(UCG_PIN_CS)]?.write(true)
+        pin_list[Int(UCG_PIN_RST)]?.write(true)
+        
+        ucg_com_arduino_init_8bit(ucg: ucg)
+        break
+        
+    case UCG_COM_MSG_POWER_DOWN:
+        break
+        
+    case UCG_COM_MSG_DELAY:
+        wait(us: Int(arg))
+        break
+        
+    case UCG_COM_MSG_CHANGE_RESET_LINE:
+        pin_list[Int(UCG_PIN_RST)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CS_LINE:
+        pin_list[Int(UCG_PIN_CS)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_CHANGE_CD_LINE:
+        pin_list[Int(UCG_PIN_CD)]?.write(arg != 0 ? true : false)
+        break
+        
+    case UCG_COM_MSG_SEND_BYTE:
+        ucg_com_arduino_send_8bit(ucg: ucg, data: UInt8(arg))
+        break
+        
+    case UCG_COM_MSG_REPEAT_1_BYTE:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_2_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.pointee)
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.advanced(by: 1).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_REPEAT_3_BYTES:
+        var arg = arg
+        
+        while arg > 0 {
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.pointee)
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.advanced(by: 1).pointee)
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.advanced(by: 2).pointee)
+            arg -= 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_STR:
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.pointee)
+            arg -= 1
+            data += 1
+        }
+        break
+        
+    case UCG_COM_MSG_SEND_CD_DATA_SEQUENCE:
+        var arg = arg
+        var data = data!
+        
+        while arg > 0 {
+            if data.pointee != 0 {
+                if data.pointee == 1 {
+                    pin_list[Int(UCG_PIN_CD)]?.write(false)
+                } else {
+                    pin_list[Int(UCG_PIN_CD)]?.write(true)
+                }
+            }
+            
+            data += 1
+            ucg_com_arduino_send_8bit(ucg: ucg, data: data.pointee)
+            data += 1
+            arg -= 1
+        }
+        break
+        
+    default:
+        break
+    }
+    
+    return 1
+}
+
+// MARK: - 8-bit HW SPI
 
 func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16, arg: UInt16, data: UnsafeMutablePointer<UInt8>!) -> Int16 {
     switch Int32(msg) {
     case UCG_COM_MSG_POWER_UP:
         //let csPin = pin_list[Int(UCG_PIN_CS)]
-        let rstPin = pin_list[Int(UCG_PIN_RST)]
+        //let rstPin = pin_list[Int(UCG_PIN_RST)]
         
-        spi = SPI(Id.SPI0, speed: clockSpeed)
+        //SPIHandler = SPI(Id.SPI0, speed: clockSpeed)
         break
         
     case UCG_COM_MSG_POWER_DOWN:
-        spi = nil
+        //spi = nil
         break
         
     case UCG_COM_MSG_DELAY:
@@ -728,14 +1295,14 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
         break
         
     case UCG_COM_MSG_SEND_BYTE:
-        spi?.write(UInt8(arg))
+        SPIHandler?.write(UInt8(arg))
         break
         
     case UCG_COM_MSG_REPEAT_1_BYTE:
         var arg = arg
         
         while arg > 0 {
-            spi.write(data.pointee)
+            SPIHandler.write(data.pointee)
             arg -= 1
         }
         break
@@ -744,7 +1311,7 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
         var arg = arg
         
         while arg > 0 {
-            spi.write([data.pointee, data.advanced(by: 1).pointee])
+            SPIHandler.write([data.pointee, data.advanced(by: 1).pointee])
             arg -= 1
         }
         break
@@ -753,7 +1320,7 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
         var arg = arg
         
         while arg > 0 {
-            spi.write([data.pointee, data.advanced(by: 1).pointee, data.advanced(by: 2).pointee])
+            SPIHandler.write([data.pointee, data.advanced(by: 1).pointee, data.advanced(by: 2).pointee])
             arg -= 1
         }
         break
@@ -763,7 +1330,7 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
         var data = data!
         
         while arg > 0 {
-            spi.write(data.pointee)
+            SPIHandler.write(data.pointee)
             
             arg -= 1
             data = data.advanced(by: 1)
@@ -785,7 +1352,7 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
             }
             
             data = data.advanced(by: 1)
-            spi.write(data.pointee)
+            SPIHandler.write(data.pointee)
             data = data.advanced(by: 1)
             arg -= 1
         }
