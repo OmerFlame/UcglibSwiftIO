@@ -77,6 +77,7 @@ public class Ucglib {
         tdir = dir
     }
     
+    @discardableResult
     public func write(_ c: Character) -> Int {
         var delta: ucg_int_t! = nil
         
@@ -104,6 +105,12 @@ public class Ucglib {
         }
         
         return 1
+    }
+    
+    public func print(_ s: String) {
+        for char in s {
+            write(char)
+        }
     }
     
     public func getUcg() -> UnsafeMutablePointer<ucg_t>! {
