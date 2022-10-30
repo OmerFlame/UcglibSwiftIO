@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/madmachineio/MadBoards.git",
       "state" : {
-        "revision" : "d1bf2c3ef45af02771cb7e47ce25cf75e7e723be",
-        "version" : "0.0.4"
+        "branch" : "main",
+        "revision" : "06e613e927fe737a5fd7620fee1c51051495313b"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/madmachineio/SwiftIO.git",
       "state" : {
-        "revision" : "b9445447b0516303da170cb7cd8c886a5440c092",
-        "version" : "0.0.5"
+        "branch" : "main",
+        "revision" : "964b2997fe9876560bd4828b635bb4c7c051ee9a"
       }
     }
   ],

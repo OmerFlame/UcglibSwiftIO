@@ -1,12 +1,6 @@
 import SwiftIO
 import CUcglibSwiftIO
-
-#if SWIFTIOBOARD
-import SwiftIOBoard
-
-#else
-import SwiftIOFeather
-#endif
+import MadBoard
 
 func makeUnafeMutablePointer<T>(_ p: UnsafeMutablePointer<T>) -> UnsafeMutablePointer<T> {
     return p
@@ -21,7 +15,6 @@ extension UnsafeMutablePointer {
 fileprivate var pin_list = [DigitalOut?](repeating: nil, count: Int(UCG_PIN_COUNT))
 
 fileprivate var SPIHandler: SPI!
-fileprivate var clockSpeed = 5000000
 
 public class Ucglib {
     internal var ucg: ucg_t!
@@ -33,7 +26,7 @@ public class Ucglib {
     private var tdir: UInt8!
     
     internal func `init`() {
-        var i: UInt8! = nil
+        ucg = ucg_t()
         
         ucg_Init(&ucg, ucg_dev_default_cb, ucg_ext_none, ({_, _, _, _ in return 0}))
         
@@ -207,11 +200,6 @@ public class Ucglib {
     
     public func powerUp() {
         ucg_PowerUp(&ucg)
-    }
-    
-    public func setClockSpeedHertz(_ speed: Int) {
-        clockSpeed = speed
-        SPIHandler?.setSpeed(clockSpeed)
     }
     
     public func setClipRange(x: ucg_int_t, y: ucg_int_t, w: ucg_int_t, h: ucg_int_t) {
@@ -421,7 +409,6 @@ public class Ucglib8Bit: Ucglib {
 public class Ucglib_ST7735_18x128x160_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_st7735_18x128x160, ext: ucg_ext_st7735_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -434,7 +421,6 @@ public class Ucglib_ST7735_18x128x160_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_ILI9341_18x240x320_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ili9341_18x240x320, ext: ucg_ext_ili9341_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -447,7 +433,6 @@ public class Ucglib_ILI9341_18x240x320_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_HX8352C_18x240x400_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_hx8352c_18x240x400, ext: ucg_ext_hx8352c_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -460,7 +445,6 @@ public class Ucglib_HX8352C_18x240x400_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_ILI9486_18x320x480_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ili9486_18x320x480, ext: ucg_ext_ili9486_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -473,7 +457,6 @@ public class Ucglib_ILI9486_18x320x480_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_ILI9163_18x128x128_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ili9163_18x128x128, ext: ucg_ext_ili9163_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -486,7 +469,6 @@ public class Ucglib_ILI9163_18x128x128_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_SSD1351_18x128x128_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ssd1351_18x128x128_ilsoft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -499,7 +481,6 @@ public class Ucglib_SSD1351_18x128x128_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_SSD1351_18x128x128_FT_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ssd1351_18x128x128_ft, ext: ucg_ext_ssd1351_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -512,7 +493,6 @@ public class Ucglib_SSD1351_18x128x128_FT_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_PCF8833_16x132x132_HWSPI: Ucglib3Wire9bitHWSPI {
     public init(spi: SPI, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_pcf8833_16x132x132, ext: ucg_ext_pcf8833_16, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -531,7 +511,6 @@ public class Ucglib_LD50T6160_18x160x128_6Bit: Ucglib8Bit {
 public class Ucglib_SSD1331_18x96x64_UNIVISION_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_ssd1331_18x96x64_univision, ext: ucg_ext_ssd1331_18, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
@@ -544,7 +523,6 @@ public class Ucglib_SSD1331_18x96x64_UNIVISION_SWSPI: Ucglib4WireSWSPI {
 public class Ucglib_SEPS225_16x128x128_UNIVISION_HWSPI: Ucglib4WireHWSPI {
     public init(spi: SPI, cd: IdName, cs: IdName?, reset: IdName?) {
         super.init(spi: spi, dev: ucg_dev_seps225_16x128x128_univision, ext: ucg_ext_seps225_16, cd: cd, cs: cs, reset: reset)
-        clockSpeed = spi.getSpeed()
     }
 }
 
