@@ -1266,17 +1266,17 @@ func ucg_com_arduino_4wire_HW_SPI(ucg: UnsafeMutablePointer<ucg_t>!, msg: Int16,
     case UCG_COM_MSG_CHANGE_RESET_LINE:
         let rstPin = pin_list[Int(UCG_PIN_RST)]
         
-        rstPin?.write(msg != 0 ? true : false)
+        rstPin?.write(arg != 0 ? true : false)
         break
         
     case UCG_COM_MSG_CHANGE_CS_LINE:
         let csPin = pin_list[Int(UCG_PIN_CS)]
         
-        csPin?.write(msg != 0 ? true : false)
+        csPin?.write(arg != 0 ? true : false)
         break
         
     case UCG_COM_MSG_CHANGE_CD_LINE:
-        pin_list[Int(UCG_PIN_CD)]!.write(msg != 0 ? true : false)
+        pin_list[Int(UCG_PIN_CD)]!.write(arg != 0 ? true : false)
         break
         
     case UCG_COM_MSG_SEND_BYTE:
