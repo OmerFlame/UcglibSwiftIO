@@ -923,7 +923,7 @@ void tga_save(const char *name);
 ucg_int_t ucg_dev_tga(ucg_t *ucg, ucg_int_t msg, void *data);
 
 
-void move(void *dst, void *src, size_t size);
+void ucg_move(void *dst, void *src, size_t size);
 
 /*================================================*/
 

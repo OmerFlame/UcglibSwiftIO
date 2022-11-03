@@ -26,6 +26,6 @@ ucg_int_t ucg_GetFontDescent(ucg_t *ucg) {
 
 
 
-void move(void *dst, void *src, size_t size) {
+void ucg_move(void *dst, void *src, size_t size) {
     memmove(dst, src, size);
 }

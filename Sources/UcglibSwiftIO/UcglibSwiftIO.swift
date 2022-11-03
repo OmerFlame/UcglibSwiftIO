@@ -150,6 +150,28 @@ public class Ucglib {
         ucg_SetFont(&ucg, font)
     }
     
+    public func setFont(_ fontName: String) {
+        let file = FileDescriptor.open("/SD:/fonts/\(fontName).ufb", .readOnly)
+        
+        var buf = [UInt8]()
+        
+        file.read(into: &buf)
+        
+        file.close()
+        
+        var permanentBufPtr: UnsafePointer<UInt8>!
+        
+        withUnsafePointer(to: buf) { ptr in
+            let permanentBuf = UnsafeMutableBufferPointer<UInt8>.allocate(capacity: buf.count)
+            
+            _ = permanentBuf.initialize(from: buf)
+            
+            permanentBufPtr = UnsafePointer(permanentBuf.baseAddress)
+        }
+        
+        ucg_SetFont(&ucg, permanentBufPtr)
+    }
+    
     public func setFontMode(_ isTransparent: UInt8) {
         ucg_SetFontMode(&ucg, isTransparent)
     }
