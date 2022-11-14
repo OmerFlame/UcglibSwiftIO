@@ -166,28 +166,28 @@ public class Ucglib {
         file.close()
 		
 		if ucg.font != nil {
-			/*let mutBufPtr = UnsafeMutableBufferPointer<UInt8>(mutating: UnsafeBufferPointer(start: ucg.font, count: fontBufsize))
+			//let mutBufPtr = UnsafeMutableBufferPointer<UInt8>(mutating: UnsafeBufferPointer(start: ucg.font, count: fontBufsize))
 			
+			let mutBufPtr = UnsafeMutableBufferPointer<UInt8>(start: UnsafeMutablePointer<UInt8>(mutating: ucg.font), count: fontBufsize)
 			print("DEALLOCATING LAST FONT BUFFER!")
-			mutBufPtr.deallocate()*/
+			mutBufPtr.deallocate()
+			//mutBufPtr.deallocate()
 			
-			let mutPtr = UnsafeMutablePointer<UInt8>(mutating: ucg.font)
+			//let mutPtr = UnsafeMutablePointer<UInt8>(mutating: ucg.font)
 			
-			ucg.font = nil
+			//ucg.font = nil
 			
-			print("DEINITIALIZING+DEALLOCATING LAST FONT BUFFER!")
-			mutPtr?.deallocate()
+			//print("DEINITIALIZING+DEALLOCATING LAST FONT BUFFER!")
+			//mutPtr?.deallocate()
 		}
         
         var permanentBufPtr: UnsafePointer<UInt8>!
         
-        withUnsafePointer(to: buf) { ptr in
-            let permanentBuf = UnsafeMutableBufferPointer<UInt8>.allocate(capacity: buf.count)
-            
-            _ = permanentBuf.initialize(from: buf)
-            
-            permanentBufPtr = UnsafePointer(permanentBuf.baseAddress)
-        }
+		let permanentBuf = UnsafeMutableBufferPointer<UInt8>.allocate(capacity: buf.count)
+		
+		_ = permanentBuf.initialize(from: buf)
+		
+		permanentBufPtr = UnsafePointer(permanentBuf.baseAddress)
         
         ucg_SetFont(&ucg, permanentBufPtr)
 		
