@@ -176,8 +176,7 @@ public class Ucglib {
 			ucg.font = nil
 			
 			print("DEINITIALIZING+DEALLOCATING LAST FONT BUFFER!")
-			mutPtr?.deinitialize(count: fontBufsize).deallocate()
-			
+			mutPtr?.deallocate()
 		}
         
         var permanentBufPtr: UnsafePointer<UInt8>!
