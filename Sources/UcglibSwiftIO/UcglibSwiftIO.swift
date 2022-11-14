@@ -174,7 +174,7 @@ public class Ucglib {
 			let mutPtr = UnsafeMutablePointer<UInt8>(mutating: ucg.font)
 			print("DEALLOCATING LAST FONT BUFFER!")
 			mutPtr?.deinitialize(count: fontBufsize)
-			mutPtr?.deallocate()
+			//mutPtr?.deallocate()
 			//mutBufPtr.deallocate()
 			//mutBufPtr.deallocate()
 			
