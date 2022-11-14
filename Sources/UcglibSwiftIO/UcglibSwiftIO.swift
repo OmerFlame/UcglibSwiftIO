@@ -153,7 +153,11 @@ public class Ucglib {
     public func setFont(_ fontName: String) {
         let file = FileDescriptor.open("/SD:/fonts/\(fontName).ufb", .readOnly)
         
-        var buf = [UInt8]()
+		file.seek(offset: 0, from: .end)
+		let bufSize = file.tell()
+		file.seek(offset: 0, from: .start)
+		
+        var buf = [UInt8](repeating: 0, count: bufSize)
         
         file.read(into: &buf)
         
