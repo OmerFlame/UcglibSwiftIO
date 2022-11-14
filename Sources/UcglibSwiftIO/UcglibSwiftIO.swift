@@ -16,6 +16,8 @@ fileprivate var pin_list = [DigitalOut?](repeating: nil, count: Int(UCG_PIN_COUN
 
 fileprivate var SPIHandler: SPI!
 
+fileprivate var fontBufsize = 0
+
 public class Ucglib {
     internal var ucg: ucg_t!
     internal var dev_cb: ucg_dev_fnptr!
@@ -172,8 +174,17 @@ public class Ucglib {
             
             permanentBufPtr = UnsafePointer(permanentBuf.baseAddress)
         }
+		
+		if ucg.font != nil {
+			let mutBufPtr = UnsafeMutableBufferPointer<UInt8>(mutating: UnsafeBufferPointer(start: ucg.font, count: fontBufsize))
+			
+			print("DEALLOCATING LAST FONT BUFFER!")
+			mutBufPtr.deallocate()
+		}
         
         ucg_SetFont(&ucg, permanentBufPtr)
+		
+		fontBufsize = buf.count
     }
     
     public func setFontMode(_ isTransparent: UInt8) {
